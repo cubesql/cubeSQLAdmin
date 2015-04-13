@@ -1,1 +1,17 @@
-.CubeSQLAdmin.xojo_uistate
+﻿#Windows
+Thumbs.db
+Desktop.ini
+
+#OS X
+.DS_Store
+
+#Xojo
+Builds*
+*.debug
+*.debug.app
+Debug*.exe
+Debug*/Debug*.exe
+Debug*/Debug*\ Libs
+*.rbuistate
+*.obsolete
+*.xojo_uistate

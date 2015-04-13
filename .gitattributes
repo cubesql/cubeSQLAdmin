@@ -1,0 +1,16 @@
+﻿# Set the default behavior
+* text=auto
+
+# Explicitly declare these files to LF
+*.rbvcp text eol=lf
+*.rbbas text eol=lf
+*.rbmnu text eol=lf
+*.rbfrm text eol=lf
+*.rbs text eol=lf
+
+# Denote all files that are truly binary and should not be modified
+*.rbres binary
+*.xojo_uistate binary
+*.png binary
+*.jpg binary
+*.jpeg binary
