@@ -5,6 +5,11 @@ In order to build cubeSQL Admin application, Xojo and the latest cubeSQL Xojo pl
 
 If you fix any issue or improve the application please share your changes!
 
+# Ready to use executables
+In the Executables folder you can find ready to use binaries for all supported platforms.
+
+<img width="1072" alt="screenshot" src="https://user-images.githubusercontent.com/11838145/44573836-066d0900-a788-11e8-9322-60c326a8e9ab.png">
+
 # Contact
 Marco Bambini (marco@sqlabs.com)
 
