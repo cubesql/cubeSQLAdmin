@@ -1,1 +1,46 @@
-#tag MultiImageImage icon_privileges	#tag ImageRepresentation		SaveInfo = APHRcwECAQAAAAGMAAAAAAGMAAIAAAZFdWtsaWQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQkQAAf////8WaWNvbl9wcml2aWxlZ2VzXzE2LnBuZwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAAAAAAAAP////8AAAogY3UAAAAAAAAAAAAAAAAAB0xpc3RCb3gAAAIARy86VXNlcnM6bWFyY286R2l0SHViOmN1YmVTUUxBZG1pbjpJbWFnZXM6TGlzdEJveDppY29uX3ByaXZpbGVnZXNfMTYucG5nAAAOAC4AFgBpAGMAbwBuAF8AcAByAGkAdgBpAGwAZQBnAGUAcwBfADEANgAuAHAAbgBnAA8ADgAGAEUAdQBrAGwAaQBkABIARVVzZXJzL21hcmNvL0dpdEh1Yi9jdWJlU1FMQWRtaW4vSW1hZ2VzL0xpc3RCb3gvaWNvbl9wcml2aWxlZ2VzXzE2LnBuZwAAEwABLwAAFQACAAz//wAAAAAAAAAA		FullPath = /Users/marco/GitHub/cubeSQLAdmin/Images/ListBox/icon_privileges_16.png		PartialPath = Images\ListBox\icon_privileges_16.png		#tag ImageSpecification			Comment = 			Device = 31			HSize = 16.00			Orientation = Any			Platform = 15			PPI = 72			VSize = 16.00		#tag EndImageSpecification	#tag EndImageRepresentation	#tag ImageRepresentation		SaveInfo = APHRcwECAQAAAAGMAAAAAAGMAAIAAAZFdWtsaWQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQkQAAf////8WaWNvbl9wcml2aWxlZ2VzXzMyLnBuZwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAAAAAAAAP////8AAAogY3UAAAAAAAAAAAAAAAAAB0xpc3RCb3gAAAIARy86VXNlcnM6bWFyY286R2l0SHViOmN1YmVTUUxBZG1pbjpJbWFnZXM6TGlzdEJveDppY29uX3ByaXZpbGVnZXNfMzIucG5nAAAOAC4AFgBpAGMAbwBuAF8AcAByAGkAdgBpAGwAZQBnAGUAcwBfADMAMgAuAHAAbgBnAA8ADgAGAEUAdQBrAGwAaQBkABIARVVzZXJzL21hcmNvL0dpdEh1Yi9jdWJlU1FMQWRtaW4vSW1hZ2VzL0xpc3RCb3gvaWNvbl9wcml2aWxlZ2VzXzMyLnBuZwAAEwABLwAAFQACAAz//wAAAAAAAAAA		FullPath = /Users/marco/GitHub/cubeSQLAdmin/Images/ListBox/icon_privileges_32.png		PartialPath = Images\ListBox\icon_privileges_32.png		#tag ImageSpecification			Comment = 			Device = 31			HSize = 16.00			Orientation = Any			Platform = 15			PPI = 144			VSize = 16.00		#tag EndImageSpecification	#tag EndImageRepresentation	#tag ImageRepresentation		SaveInfo = APHRcwECAQAAAAGMAAAAAAGMAAIAAAZFdWtsaWQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQkQAAf////8WaWNvbl9wcml2aWxlZ2VzXzQ4LnBuZwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAAAAAAAAP////8AAAogY3UAAAAAAAAAAAAAAAAAB0xpc3RCb3gAAAIARy86VXNlcnM6bWFyY286R2l0SHViOmN1YmVTUUxBZG1pbjpJbWFnZXM6TGlzdEJveDppY29uX3ByaXZpbGVnZXNfNDgucG5nAAAOAC4AFgBpAGMAbwBuAF8AcAByAGkAdgBpAGwAZQBnAGUAcwBfADQAOAAuAHAAbgBnAA8ADgAGAEUAdQBrAGwAaQBkABIARVVzZXJzL21hcmNvL0dpdEh1Yi9jdWJlU1FMQWRtaW4vSW1hZ2VzL0xpc3RCb3gvaWNvbl9wcml2aWxlZ2VzXzQ4LnBuZwAAEwABLwAAFQACAAz//wAAAAAAAAAA		FullPath = /Users/marco/GitHub/cubeSQLAdmin/Images/ListBox/icon_privileges_48.png		PartialPath = Images\ListBox\icon_privileges_48.png		#tag ImageSpecification			Comment = 			Device = 31			HSize = 16.00			Orientation = Any			Platform = 15			PPI = 216			VSize = 16.00		#tag EndImageSpecification	#tag EndImageRepresentationEnd Image#tag EndMultiImage
+#tag MultiImage
+Image icon_privileges
+	#tag ImageRepresentation
+		SaveInfo = APHRcwECAQAAAAGMAAAAAAGMAAIAAAZFdWtsaWQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQkQAAf////8WaWNvbl9wcml2aWxlZ2VzXzE2LnBuZwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAAAAAAAAP////8AAAogY3UAAAAAAAAAAAAAAAAAB0xpc3RCb3gAAAIARy86VXNlcnM6bWFyY286R2l0SHViOmN1YmVTUUxBZG1pbjpJbWFnZXM6TGlzdEJveDppY29uX3ByaXZpbGVnZXNfMTYucG5nAAAOAC4AFgBpAGMAbwBuAF8AcAByAGkAdgBpAGwAZQBnAGUAcwBfADEANgAuAHAAbgBnAA8ADgAGAEUAdQBrAGwAaQBkABIARVVzZXJzL21hcmNvL0dpdEh1Yi9jdWJlU1FMQWRtaW4vSW1hZ2VzL0xpc3RCb3gvaWNvbl9wcml2aWxlZ2VzXzE2LnBuZwAAEwABLwAAFQACAAz//wAAAAAAAAAA
+		FullPath = /Users/marco/GitHub/cubeSQLAdmin/Images/ListBox/icon_privileges_16.png
+		PartialPath = Images\ListBox\icon_privileges_16.png
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = 16.00
+			Orientation = Any
+			Platform = 15
+			PPI = 72
+			VSize = 16.00
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+	#tag ImageRepresentation
+		SaveInfo = APHRcwECAQAAAAGMAAAAAAGMAAIAAAZFdWtsaWQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQkQAAf////8WaWNvbl9wcml2aWxlZ2VzXzMyLnBuZwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAAAAAAAAP////8AAAogY3UAAAAAAAAAAAAAAAAAB0xpc3RCb3gAAAIARy86VXNlcnM6bWFyY286R2l0SHViOmN1YmVTUUxBZG1pbjpJbWFnZXM6TGlzdEJveDppY29uX3ByaXZpbGVnZXNfMzIucG5nAAAOAC4AFgBpAGMAbwBuAF8AcAByAGkAdgBpAGwAZQBnAGUAcwBfADMAMgAuAHAAbgBnAA8ADgAGAEUAdQBrAGwAaQBkABIARVVzZXJzL21hcmNvL0dpdEh1Yi9jdWJlU1FMQWRtaW4vSW1hZ2VzL0xpc3RCb3gvaWNvbl9wcml2aWxlZ2VzXzMyLnBuZwAAEwABLwAAFQACAAz//wAAAAAAAAAA
+		FullPath = /Users/marco/GitHub/cubeSQLAdmin/Images/ListBox/icon_privileges_32.png
+		PartialPath = Images\ListBox\icon_privileges_32.png
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = 16.00
+			Orientation = Any
+			Platform = 15
+			PPI = 144
+			VSize = 16.00
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+	#tag ImageRepresentation
+		SaveInfo = APHRcwECAQAAAAGMAAAAAAGMAAIAAAZFdWtsaWQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQkQAAf////8WaWNvbl9wcml2aWxlZ2VzXzQ4LnBuZwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAAAAAAAAP////8AAAogY3UAAAAAAAAAAAAAAAAAB0xpc3RCb3gAAAIARy86VXNlcnM6bWFyY286R2l0SHViOmN1YmVTUUxBZG1pbjpJbWFnZXM6TGlzdEJveDppY29uX3ByaXZpbGVnZXNfNDgucG5nAAAOAC4AFgBpAGMAbwBuAF8AcAByAGkAdgBpAGwAZQBnAGUAcwBfADQAOAAuAHAAbgBnAA8ADgAGAEUAdQBrAGwAaQBkABIARVVzZXJzL21hcmNvL0dpdEh1Yi9jdWJlU1FMQWRtaW4vSW1hZ2VzL0xpc3RCb3gvaWNvbl9wcml2aWxlZ2VzXzQ4LnBuZwAAEwABLwAAFQACAAz//wAAAAAAAAAA
+		FullPath = /Users/marco/GitHub/cubeSQLAdmin/Images/ListBox/icon_privileges_48.png
+		PartialPath = Images\ListBox\icon_privileges_48.png
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = 16.00
+			Orientation = Any
+			Platform = 15
+			PPI = 216
+			VSize = 16.00
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+End Image
+#tag EndMultiImage

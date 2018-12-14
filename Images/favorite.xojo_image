@@ -1,1 +1,46 @@
-#tag MultiImageImage favorite	#tag ImageRepresentation		SaveInfo = APHRcwECAQAAAAFcAAAAAAFcAAIAAAZFdWtsaWQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQkQAAf////8PZmF2b3JpdGVfMTYucG5nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAAAAAAAAP////8AAAogY3UAAAAAAAAAAAAAAAAABkltYWdlcwACADgvOlVzZXJzOm1hcmNvOkdpdEh1YjpjdWJlU1FMQWRtaW46SW1hZ2VzOmZhdm9yaXRlXzE2LnBuZwAOACAADwBmAGEAdgBvAHIAaQB0AGUAXwAxADYALgBwAG4AZwAPAA4ABgBFAHUAawBsAGkAZAASADZVc2Vycy9tYXJjby9HaXRIdWIvY3ViZVNRTEFkbWluL0ltYWdlcy9mYXZvcml0ZV8xNi5wbmcAEwABLwAAFQACAAz//wAAAAAAAAAA		FullPath = /Users/marco/GitHub/cubeSQLAdmin/Images/favorite_16.png		PartialPath = Images\favorite_16.png		#tag ImageSpecification			Comment = 			Device = 31			HSize = 16.00			Orientation = Any			Platform = 15			PPI = 72			VSize = 16.00		#tag EndImageSpecification	#tag EndImageRepresentation	#tag ImageRepresentation		SaveInfo = APHRcwECAQAAAAFcAAAAAAFcAAIAAAZFdWtsaWQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQkQAAf////8PZmF2b3JpdGVfMzIucG5nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAAAAAAAAP////8AAAogY3UAAAAAAAAAAAAAAAAABkltYWdlcwACADgvOlVzZXJzOm1hcmNvOkdpdEh1YjpjdWJlU1FMQWRtaW46SW1hZ2VzOmZhdm9yaXRlXzMyLnBuZwAOACAADwBmAGEAdgBvAHIAaQB0AGUAXwAzADIALgBwAG4AZwAPAA4ABgBFAHUAawBsAGkAZAASADZVc2Vycy9tYXJjby9HaXRIdWIvY3ViZVNRTEFkbWluL0ltYWdlcy9mYXZvcml0ZV8zMi5wbmcAEwABLwAAFQACAAz//wAAAAAAAAAA		FullPath = /Users/marco/GitHub/cubeSQLAdmin/Images/favorite_32.png		PartialPath = Images\favorite_32.png		#tag ImageSpecification			Comment = 			Device = 31			HSize = 16.00			Orientation = Any			Platform = 15			PPI = 144			VSize = 16.00		#tag EndImageSpecification	#tag EndImageRepresentation	#tag ImageRepresentation		SaveInfo = APHRcwECAQAAAAFcAAAAAAFcAAIAAAZFdWtsaWQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQkQAAf////8PZmF2b3JpdGVfNDgucG5nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAAAAAAAAP////8AAAogY3UAAAAAAAAAAAAAAAAABkltYWdlcwACADgvOlVzZXJzOm1hcmNvOkdpdEh1YjpjdWJlU1FMQWRtaW46SW1hZ2VzOmZhdm9yaXRlXzQ4LnBuZwAOACAADwBmAGEAdgBvAHIAaQB0AGUAXwA0ADgALgBwAG4AZwAPAA4ABgBFAHUAawBsAGkAZAASADZVc2Vycy9tYXJjby9HaXRIdWIvY3ViZVNRTEFkbWluL0ltYWdlcy9mYXZvcml0ZV80OC5wbmcAEwABLwAAFQACAAz//wAAAAAAAAAA		FullPath = /Users/marco/GitHub/cubeSQLAdmin/Images/favorite_48.png		PartialPath = Images\favorite_48.png		#tag ImageSpecification			Comment = 			Device = 31			HSize = 16.00			Orientation = Any			Platform = 15			PPI = 216			VSize = 16.00		#tag EndImageSpecification	#tag EndImageRepresentationEnd Image#tag EndMultiImage
+#tag MultiImage
+Image favorite
+	#tag ImageRepresentation
+		SaveInfo = APHRcwECAQAAAAFcAAAAAAFcAAIAAAZFdWtsaWQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQkQAAf////8PZmF2b3JpdGVfMTYucG5nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAAAAAAAAP////8AAAogY3UAAAAAAAAAAAAAAAAABkltYWdlcwACADgvOlVzZXJzOm1hcmNvOkdpdEh1YjpjdWJlU1FMQWRtaW46SW1hZ2VzOmZhdm9yaXRlXzE2LnBuZwAOACAADwBmAGEAdgBvAHIAaQB0AGUAXwAxADYALgBwAG4AZwAPAA4ABgBFAHUAawBsAGkAZAASADZVc2Vycy9tYXJjby9HaXRIdWIvY3ViZVNRTEFkbWluL0ltYWdlcy9mYXZvcml0ZV8xNi5wbmcAEwABLwAAFQACAAz//wAAAAAAAAAA
+		FullPath = /Users/marco/GitHub/cubeSQLAdmin/Images/favorite_16.png
+		PartialPath = Images\favorite_16.png
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = 16.00
+			Orientation = Any
+			Platform = 15
+			PPI = 72
+			VSize = 16.00
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+	#tag ImageRepresentation
+		SaveInfo = APHRcwECAQAAAAFcAAAAAAFcAAIAAAZFdWtsaWQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQkQAAf////8PZmF2b3JpdGVfMzIucG5nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAAAAAAAAP////8AAAogY3UAAAAAAAAAAAAAAAAABkltYWdlcwACADgvOlVzZXJzOm1hcmNvOkdpdEh1YjpjdWJlU1FMQWRtaW46SW1hZ2VzOmZhdm9yaXRlXzMyLnBuZwAOACAADwBmAGEAdgBvAHIAaQB0AGUAXwAzADIALgBwAG4AZwAPAA4ABgBFAHUAawBsAGkAZAASADZVc2Vycy9tYXJjby9HaXRIdWIvY3ViZVNRTEFkbWluL0ltYWdlcy9mYXZvcml0ZV8zMi5wbmcAEwABLwAAFQACAAz//wAAAAAAAAAA
+		FullPath = /Users/marco/GitHub/cubeSQLAdmin/Images/favorite_32.png
+		PartialPath = Images\favorite_32.png
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = 16.00
+			Orientation = Any
+			Platform = 15
+			PPI = 144
+			VSize = 16.00
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+	#tag ImageRepresentation
+		SaveInfo = APHRcwECAQAAAAFcAAAAAAFcAAIAAAZFdWtsaWQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQkQAAf////8PZmF2b3JpdGVfNDgucG5nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAAAAAAAAP////8AAAogY3UAAAAAAAAAAAAAAAAABkltYWdlcwACADgvOlVzZXJzOm1hcmNvOkdpdEh1YjpjdWJlU1FMQWRtaW46SW1hZ2VzOmZhdm9yaXRlXzQ4LnBuZwAOACAADwBmAGEAdgBvAHIAaQB0AGUAXwA0ADgALgBwAG4AZwAPAA4ABgBFAHUAawBsAGkAZAASADZVc2Vycy9tYXJjby9HaXRIdWIvY3ViZVNRTEFkbWluL0ltYWdlcy9mYXZvcml0ZV80OC5wbmcAEwABLwAAFQACAAz//wAAAAAAAAAA
+		FullPath = /Users/marco/GitHub/cubeSQLAdmin/Images/favorite_48.png
+		PartialPath = Images\favorite_48.png
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = 16.00
+			Orientation = Any
+			Platform = 15
+			PPI = 216
+			VSize = 16.00
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+End Image
+#tag EndMultiImage
