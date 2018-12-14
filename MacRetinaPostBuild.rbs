@@ -1,2 +1,0 @@
-Dim App As String = CurrentBuildLocation + "/""" + CurrentBuildAppName + ".app"""
-Call DoShellCommand("/usr/bin/defaults write " + App + "/Contents/Info ""NSHighResolutionCapable"" YES")
