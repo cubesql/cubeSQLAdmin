@@ -41,19 +41,19 @@ Begin Window ConnectWindow
       Italic          =   False
       Left            =   321
       LockBottom      =   True
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   False
       LockRight       =   True
       LockTop         =   False
-      Scope           =   0
-      TabIndex        =   15
+      Scope           =   2
+      TabIndex        =   17
       TabPanelIndex   =   0
       TabStop         =   True
       TextFont        =   "System"
       TextSize        =   0.0
       TextUnit        =   0
       Top             =   191
-      Transparent     =   True
+      Transparent     =   False
       Underline       =   False
       Visible         =   True
       Width           =   80
@@ -71,12 +71,12 @@ Begin Window ConnectWindow
       Italic          =   False
       Left            =   20
       LockBottom      =   False
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   False
       LockRight       =   False
       LockTop         =   False
       Multiline       =   False
-      Scope           =   0
+      Scope           =   2
       Selectable      =   False
       TabIndex        =   0
       TabPanelIndex   =   0
@@ -88,7 +88,7 @@ Begin Window ConnectWindow
       TextSize        =   0.0
       TextUnit        =   0
       Top             =   14
-      Transparent     =   True
+      Transparent     =   False
       Underline       =   False
       Visible         =   True
       Width           =   80
@@ -106,12 +106,12 @@ Begin Window ConnectWindow
       Italic          =   False
       Left            =   20
       LockBottom      =   False
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   False
       LockRight       =   False
       LockTop         =   False
       Multiline       =   False
-      Scope           =   0
+      Scope           =   2
       Selectable      =   False
       TabIndex        =   3
       TabPanelIndex   =   0
@@ -123,7 +123,7 @@ Begin Window ConnectWindow
       TextSize        =   0.0
       TextUnit        =   0
       Top             =   46
-      Transparent     =   True
+      Transparent     =   False
       Underline       =   False
       Visible         =   True
       Width           =   80
@@ -141,12 +141,12 @@ Begin Window ConnectWindow
       Italic          =   False
       Left            =   20
       LockBottom      =   False
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   False
       LockRight       =   False
       LockTop         =   False
       Multiline       =   False
-      Scope           =   0
+      Scope           =   2
       Selectable      =   False
       TabIndex        =   5
       TabPanelIndex   =   0
@@ -158,12 +158,12 @@ Begin Window ConnectWindow
       TextSize        =   0.0
       TextUnit        =   0
       Top             =   78
-      Transparent     =   True
+      Transparent     =   False
       Underline       =   False
       Visible         =   True
       Width           =   80
    End
-   Begin TextField HostField
+   Begin BetterTextField HostField
       AcceptTabs      =   False
       Alignment       =   0
       AutoDeactivate  =   True
@@ -184,14 +184,14 @@ Begin Window ConnectWindow
       Left            =   112
       LimitText       =   0
       LockBottom      =   False
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   False
       LockRight       =   False
       LockTop         =   False
       Mask            =   ""
       Password        =   False
       ReadOnly        =   False
-      Scope           =   0
+      Scope           =   2
       TabIndex        =   1
       TabPanelIndex   =   0
       TabStop         =   True
@@ -201,13 +201,13 @@ Begin Window ConnectWindow
       TextSize        =   0.0
       TextUnit        =   0
       Top             =   13
-      Transparent     =   True
+      Transparent     =   False
       Underline       =   False
       UseFocusRing    =   False
       Visible         =   True
       Width           =   243
    End
-   Begin TextField UsernameField
+   Begin BetterTextField UsernameField
       AcceptTabs      =   False
       Alignment       =   0
       AutoDeactivate  =   True
@@ -228,14 +228,14 @@ Begin Window ConnectWindow
       Left            =   112
       LimitText       =   0
       LockBottom      =   False
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   False
       LockRight       =   False
       LockTop         =   False
       Mask            =   ""
       Password        =   False
       ReadOnly        =   False
-      Scope           =   0
+      Scope           =   2
       TabIndex        =   4
       TabPanelIndex   =   0
       TabStop         =   True
@@ -245,13 +245,13 @@ Begin Window ConnectWindow
       TextSize        =   0.0
       TextUnit        =   0
       Top             =   44
-      Transparent     =   True
+      Transparent     =   False
       Underline       =   False
       UseFocusRing    =   False
       Visible         =   True
       Width           =   289
    End
-   Begin TextField PasswordField
+   Begin BetterTextField PasswordField
       AcceptTabs      =   False
       Alignment       =   0
       AutoDeactivate  =   True
@@ -272,14 +272,14 @@ Begin Window ConnectWindow
       Left            =   112
       LimitText       =   0
       LockBottom      =   False
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   False
       LockRight       =   False
       LockTop         =   False
       Mask            =   ""
       Password        =   True
       ReadOnly        =   False
-      Scope           =   0
+      Scope           =   2
       TabIndex        =   6
       TabPanelIndex   =   0
       TabStop         =   True
@@ -289,7 +289,7 @@ Begin Window ConnectWindow
       TextSize        =   0.0
       TextUnit        =   0
       Top             =   77
-      Transparent     =   True
+      Transparent     =   False
       Underline       =   False
       UseFocusRing    =   False
       Visible         =   True
@@ -308,12 +308,12 @@ Begin Window ConnectWindow
       Italic          =   False
       Left            =   20
       LockBottom      =   False
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   False
       LockRight       =   False
       LockTop         =   False
       Multiline       =   False
-      Scope           =   0
+      Scope           =   2
       Selectable      =   False
       TabIndex        =   11
       TabPanelIndex   =   0
@@ -325,7 +325,7 @@ Begin Window ConnectWindow
       TextSize        =   0.0
       TextUnit        =   0
       Top             =   143
-      Transparent     =   True
+      Transparent     =   False
       Underline       =   False
       Visible         =   True
       Width           =   80
@@ -345,11 +345,11 @@ Begin Window ConnectWindow
       Left            =   112
       ListIndex       =   0
       LockBottom      =   False
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   False
       LockRight       =   False
       LockTop         =   False
-      Scope           =   0
+      Scope           =   2
       TabIndex        =   12
       TabPanelIndex   =   0
       TabStop         =   True
@@ -357,7 +357,7 @@ Begin Window ConnectWindow
       TextSize        =   0.0
       TextUnit        =   0
       Top             =   143
-      Transparent     =   True
+      Transparent     =   False
       Underline       =   False
       Visible         =   True
       Width           =   101
@@ -371,16 +371,16 @@ Begin Window ConnectWindow
       InitialParent   =   ""
       Left            =   20
       LockBottom      =   True
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   True
       LockRight       =   True
       LockTop         =   False
-      Scope           =   0
-      TabIndex        =   13
+      Scope           =   2
+      TabIndex        =   14
       TabPanelIndex   =   0
       TabStop         =   True
       Top             =   175
-      Transparent     =   True
+      Transparent     =   False
       Visible         =   True
       Width           =   381
    End
@@ -397,12 +397,12 @@ Begin Window ConnectWindow
       Italic          =   False
       Left            =   20
       LockBottom      =   False
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   False
       LockRight       =   False
       LockTop         =   False
       Multiline       =   False
-      Scope           =   0
+      Scope           =   2
       Selectable      =   False
       TabIndex        =   7
       TabPanelIndex   =   0
@@ -414,12 +414,12 @@ Begin Window ConnectWindow
       TextSize        =   0.0
       TextUnit        =   0
       Top             =   110
-      Transparent     =   True
+      Transparent     =   False
       Underline       =   False
       Visible         =   True
       Width           =   80
    End
-   Begin TextField PortField
+   Begin BetterTextField PortField
       AcceptTabs      =   False
       Alignment       =   0
       AutoDeactivate  =   True
@@ -440,14 +440,14 @@ Begin Window ConnectWindow
       Left            =   112
       LimitText       =   0
       LockBottom      =   False
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   False
       LockRight       =   False
       LockTop         =   False
       Mask            =   ""
       Password        =   False
       ReadOnly        =   False
-      Scope           =   0
+      Scope           =   2
       TabIndex        =   8
       TabPanelIndex   =   0
       TabStop         =   True
@@ -457,13 +457,13 @@ Begin Window ConnectWindow
       TextSize        =   0.0
       TextUnit        =   0
       Top             =   109
-      Transparent     =   True
+      Transparent     =   False
       Underline       =   False
       UseFocusRing    =   False
       Visible         =   True
       Width           =   101
    End
-   Begin TextField TimeoutField
+   Begin BetterTextField TimeoutField
       AcceptTabs      =   False
       Alignment       =   0
       AutoDeactivate  =   True
@@ -484,14 +484,14 @@ Begin Window ConnectWindow
       Left            =   335
       LimitText       =   0
       LockBottom      =   False
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   False
       LockRight       =   False
       LockTop         =   False
       Mask            =   ""
       Password        =   False
       ReadOnly        =   False
-      Scope           =   0
+      Scope           =   2
       TabIndex        =   10
       TabPanelIndex   =   0
       TabStop         =   True
@@ -501,7 +501,7 @@ Begin Window ConnectWindow
       TextSize        =   0.0
       TextUnit        =   0
       Top             =   108
-      Transparent     =   True
+      Transparent     =   False
       Underline       =   False
       UseFocusRing    =   False
       Visible         =   True
@@ -520,12 +520,12 @@ Begin Window ConnectWindow
       Italic          =   False
       Left            =   236
       LockBottom      =   False
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   False
       LockRight       =   False
       LockTop         =   False
       Multiline       =   False
-      Scope           =   0
+      Scope           =   2
       Selectable      =   False
       TabIndex        =   9
       TabPanelIndex   =   0
@@ -537,7 +537,7 @@ Begin Window ConnectWindow
       TextSize        =   0.0
       TextUnit        =   0
       Top             =   109
-      Transparent     =   True
+      Transparent     =   False
       Underline       =   False
       Visible         =   True
       Width           =   87
@@ -557,16 +557,16 @@ Begin Window ConnectWindow
       InitialParent   =   ""
       Left            =   367
       LockBottom      =   False
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   True
       LockRight       =   False
       LockTop         =   True
-      Scope           =   0
-      TabIndex        =   16
+      Scope           =   2
+      TabIndex        =   2
       TabPanelIndex   =   0
       TabStop         =   True
-      Top             =   14
-      Transparent     =   True
+      Top             =   12
+      Transparent     =   False
       UseFocusRing    =   True
       Visible         =   True
       Width           =   34
@@ -586,16 +586,16 @@ Begin Window ConnectWindow
       InitialParent   =   ""
       Left            =   20
       LockBottom      =   False
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   True
       LockRight       =   False
       LockTop         =   True
-      Scope           =   0
-      TabIndex        =   17
+      Scope           =   2
+      TabIndex        =   15
       TabPanelIndex   =   0
       TabStop         =   True
       Top             =   191
-      Transparent     =   True
+      Transparent     =   False
       UseFocusRing    =   True
       Visible         =   True
       Width           =   34
@@ -615,21 +615,21 @@ Begin Window ConnectWindow
       InitialParent   =   ""
       Left            =   59
       LockBottom      =   False
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   True
       LockRight       =   False
       LockTop         =   True
-      Scope           =   0
-      TabIndex        =   18
+      Scope           =   2
+      TabIndex        =   16
       TabPanelIndex   =   0
       TabStop         =   True
       Top             =   191
-      Transparent     =   True
+      Transparent     =   False
       UseFocusRing    =   True
       Visible         =   True
       Width           =   34
    End
-   Begin TextField PEMPassword
+   Begin BetterTextField PEMPassword
       AcceptTabs      =   False
       Alignment       =   0
       AutoDeactivate  =   True
@@ -649,15 +649,15 @@ Begin Window ConnectWindow
       Left            =   264
       LimitText       =   0
       LockBottom      =   False
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   True
       LockRight       =   False
       LockTop         =   True
       Mask            =   ""
       Password        =   True
       ReadOnly        =   False
-      Scope           =   0
-      TabIndex        =   19
+      Scope           =   2
+      TabIndex        =   13
       TabPanelIndex   =   0
       TabStop         =   True
       Text            =   ""
@@ -666,7 +666,7 @@ Begin Window ConnectWindow
       TextSize        =   0.0
       TextUnit        =   0
       Top             =   142
-      Transparent     =   True
+      Transparent     =   False
       Underline       =   False
       UseFocusRing    =   False
       Visible         =   False

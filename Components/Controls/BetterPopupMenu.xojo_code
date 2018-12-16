@@ -1,21 +1,18 @@
 #tag Class
-Protected Class BetterPushButton
-Inherits PushButton
+Protected Class BetterPopupMenu
+Inherits PopupMenu
 	#tag Event
 		Sub Open()
-		  #If TargetLinux
-		    if (me.TextFont = "System") then
-		      me.Height = me.Height + 6
-		      me.TextSize = 11
-		    end if
-		    if (me.TextFont = "SmallSystem") then
-		      me.Height = me.Height + 4
-		      me.TextSize = 10
-		    end if
+		  #if TargetLinux and (XojoVersion >= 2017.02) then
+		    me.InitControl_GTK3()
 		  #endif
 		  
-		  #If TargetWin32
-		    me.Height = me.Height + 4
+		  #If TargetLinux
+		    Controls.InitControl_Height(me) = 26
+		  #endif
+		  
+		  #If TargetWindows
+		    Controls.InitControl_Height(me) = 22
 		  #endif
 		  
 		  Open
@@ -30,6 +27,14 @@ Inherits PushButton
 
 	#tag ViewBehavior
 		#tag ViewProperty
+			Name="Transparent"
+			Visible=true
+			Group="Appearance"
+			InitialValue="False"
+			Type="Boolean"
+			EditorType="Boolean"
+		#tag EndViewProperty
+		#tag ViewProperty
 			Name="AutoDeactivate"
 			Visible=true
 			Group="Appearance"
@@ -43,43 +48,18 @@ Inherits PushButton
 			Type="Boolean"
 		#tag EndViewProperty
 		#tag ViewProperty
-			Name="ButtonStyle"
+			Name="DataField"
 			Visible=true
-			Group="Appearance"
-			InitialValue="0"
-			Type="ButtonFrameStyle"
-			EditorType="Enum"
-			#tag EnumValues
-				"0 - Push"
-				"1 - Gradient"
-				"2 - Rounded"
-				"3 - Rescessed"
-				"4 - Textured"
-				"5 - Rounded Textured"
-				"6 - Square"
-				"7 - Bevel"
-				"8 - Round"
-				"9 - Help"
-			#tag EndEnumValues
-		#tag EndViewProperty
-		#tag ViewProperty
-			Name="Cancel"
-			Visible=true
-			Group="Appearance"
-			Type="Boolean"
-		#tag EndViewProperty
-		#tag ViewProperty
-			Name="Caption"
-			Visible=true
-			Group="Appearance"
-			InitialValue="Untitled"
+			Group="Database Binding"
 			Type="String"
+			EditorType="DataField"
 		#tag EndViewProperty
 		#tag ViewProperty
-			Name="Default"
+			Name="DataSource"
 			Visible=true
-			Group="Appearance"
-			Type="Boolean"
+			Group="Database Binding"
+			Type="String"
+			EditorType="DataSource"
 		#tag EndViewProperty
 		#tag ViewProperty
 			Name="Enabled"
@@ -114,6 +94,13 @@ Inherits PushButton
 			Type="String"
 		#tag EndViewProperty
 		#tag ViewProperty
+			Name="InitialValue"
+			Visible=true
+			Group="Appearance"
+			Type="String"
+			EditorType="MultiLineEditor"
+		#tag EndViewProperty
+		#tag ViewProperty
 			Name="Italic"
 			Visible=true
 			Group="Font"
@@ -123,6 +110,13 @@ Inherits PushButton
 			Name="Left"
 			Visible=true
 			Group="Position"
+			Type="Integer"
+		#tag EndViewProperty
+		#tag ViewProperty
+			Name="ListIndex"
+			Visible=true
+			Group="Appearance"
+			InitialValue="0"
 			Type="Integer"
 		#tag EndViewProperty
 		#tag ViewProperty

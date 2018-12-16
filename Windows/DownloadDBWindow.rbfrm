@@ -39,15 +39,16 @@ Begin Window DownloadDBWindow
       Italic          =   False
       Left            =   20
       LockBottom      =   False
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   False
       LockRight       =   False
       LockTop         =   False
       Multiline       =   False
-      Scope           =   0
+      Scope           =   2
       Selectable      =   False
       TabIndex        =   0
       TabPanelIndex   =   0
+      TabStop         =   True
       Text            =   "Downloading database %1 ..."
       TextAlign       =   0
       TextColor       =   &c00000000
@@ -55,7 +56,7 @@ Begin Window DownloadDBWindow
       TextSize        =   0.0
       TextUnit        =   0
       Top             =   14
-      Transparent     =   True
+      Transparent     =   False
       Underline       =   False
       Visible         =   True
       Width           =   383
@@ -69,24 +70,26 @@ Begin Window DownloadDBWindow
       InitialParent   =   ""
       Left            =   20
       LockBottom      =   False
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   False
       LockRight       =   False
       LockTop         =   False
       Maximum         =   0
-      Scope           =   0
+      Scope           =   2
+      TabIndex        =   1
       TabPanelIndex   =   0
       Top             =   46
+      Transparent     =   False
       Value           =   0
       Visible         =   True
       Width           =   383
    End
    Begin Timer Timer1
       Index           =   -2147483648
-      LockedInPosition=   False
+      LockedInPosition=   True
       Mode            =   0
       Period          =   1500
-      Scope           =   0
+      Scope           =   2
       TabPanelIndex   =   0
    End
    Begin Label Label1
@@ -102,15 +105,16 @@ Begin Window DownloadDBWindow
       Italic          =   False
       Left            =   20
       LockBottom      =   False
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   True
       LockRight       =   False
       LockTop         =   True
       Multiline       =   False
-      Scope           =   0
+      Scope           =   2
       Selectable      =   False
-      TabIndex        =   1
+      TabIndex        =   2
       TabPanelIndex   =   0
+      TabStop         =   True
       Text            =   "Press ESC key to cancel download"
       TextAlign       =   1
       TextColor       =   &c00000000

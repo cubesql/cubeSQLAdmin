@@ -32,31 +32,33 @@ Protected Module Utils
 
 	#tag Method, Flags = &h1
 		Protected Sub AppendRecordSet(field As TextArea, title As String, rs As RecordSet)
-		  field.AppendText(title)
-		  field.AppendText(EndOfLine)
-		  if (rs = nil) then return
-		  if (rs.RecordCount = 0) then return
-		  if (rs.FieldCount < 2) then return
+		  Dim sAppendLines() As String
 		  
-		  Dim i, count As Integer
-		  Dim s1, s2 As String
+		  sAppendLines.Append(title)
 		  
-		  count = rs.FieldCount
-		  while (not rs.EOF)
-		    s1 = rs.IdxField(1).getString
-		    if (s1 <> "KEY_VALUE") then
-		      s2 = s1 + ": "
-		      for i=2 to count
-		        s2 = s2 + rs.IdxField(i).getString + " "
-		      next
-		      field.AppendText(s2 + EndOfLine)
-		    end if
-		    rs.MoveNext
-		  wend
-		  rs = nil
-		  field.AppendText(EndOfLine)
+		  if (rs <> nil) and (rs.RecordCount > 0) and (rs.FieldCount >= 2) then
+		    Dim i, count As Integer
+		    Dim s1, s2 As String
+		    
+		    count = rs.FieldCount
+		    while (not rs.EOF)
+		      s1 = rs.IdxField(1).getString
+		      if (s1 <> "KEY_VALUE") then
+		        s2 = s1 + ": "
+		        for i=2 to count
+		          s2 = s2 + rs.IdxField(i).getString + " "
+		        next
+		        sAppendLines.Append(s2)
+		      end if
+		      rs.MoveNext
+		    wend
+		    rs = nil
+		    sAppendLines.Append("")
+		  end if
 		  
+		  sAppendLines.Append("")
 		  
+		  field.AppendText(Join(sAppendLines, EndOfLine))
 		End Sub
 	#tag EndMethod
 
@@ -90,6 +92,7 @@ Protected Module Utils
 		  add_header = list.HasHeading
 		  set_nfields = true
 		  list.DeleteAllRows
+		  list.WM_SetRedraw = false
 		  
 		  if (type = kDatabases) or (type = kClients) or (type = kPlugins) or (type = kLog) or (type = kRestore) or (type = kBackup) or (type = kCommands) or (type = kSchedules) then
 		    add_header = false
@@ -175,6 +178,8 @@ Protected Module Utils
 		    next
 		    rs.MoveNext
 		  next
+		  list.WM_SetRedraw = true
+		  
 		End Sub
 	#tag EndMethod
 

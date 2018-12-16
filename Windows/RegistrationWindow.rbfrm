@@ -39,12 +39,12 @@ Begin Window RegistrationWindow
       Italic          =   False
       Left            =   89
       LockBottom      =   False
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   False
       LockRight       =   False
       LockTop         =   False
       Multiline       =   False
-      Scope           =   0
+      Scope           =   2
       Selectable      =   False
       TabIndex        =   0
       TabPanelIndex   =   0
@@ -56,12 +56,12 @@ Begin Window RegistrationWindow
       TextSize        =   0.0
       TextUnit        =   0
       Top             =   14
-      Transparent     =   True
+      Transparent     =   False
       Underline       =   False
       Visible         =   True
       Width           =   381
    End
-   Begin TextField NameField
+   Begin BetterTextField NameField
       AcceptTabs      =   False
       Alignment       =   0
       AutoDeactivate  =   True
@@ -82,14 +82,14 @@ Begin Window RegistrationWindow
       Left            =   89
       LimitText       =   0
       LockBottom      =   False
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   False
       LockRight       =   False
       LockTop         =   False
       Mask            =   ""
       Password        =   False
       ReadOnly        =   False
-      Scope           =   0
+      Scope           =   2
       TabIndex        =   3
       TabPanelIndex   =   0
       TabStop         =   True
@@ -114,11 +114,11 @@ Begin Window RegistrationWindow
       InitialParent   =   ""
       Left            =   20
       LockBottom      =   True
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   True
       LockRight       =   True
       LockTop         =   False
-      Scope           =   0
+      Scope           =   2
       TabIndex        =   6
       TabPanelIndex   =   0
       TabStop         =   True
@@ -142,11 +142,11 @@ Begin Window RegistrationWindow
       Italic          =   False
       Left            =   390
       LockBottom      =   True
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   False
       LockRight       =   True
       LockTop         =   False
-      Scope           =   0
+      Scope           =   2
       TabIndex        =   8
       TabPanelIndex   =   0
       TabStop         =   True
@@ -174,11 +174,11 @@ Begin Window RegistrationWindow
       Italic          =   False
       Left            =   298
       LockBottom      =   True
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   False
       LockRight       =   True
       LockTop         =   False
-      Scope           =   0
+      Scope           =   2
       TabIndex        =   7
       TabPanelIndex   =   0
       TabStop         =   True
@@ -200,11 +200,11 @@ Begin Window RegistrationWindow
       InitialParent   =   ""
       Left            =   20
       LockBottom      =   False
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   True
       LockRight       =   True
       LockTop         =   False
-      Scope           =   0
+      Scope           =   2
       TabIndex        =   1
       TabPanelIndex   =   0
       TabStop         =   True
@@ -213,7 +213,7 @@ Begin Window RegistrationWindow
       Visible         =   True
       Width           =   450
    End
-   Begin TextField KeyField
+   Begin BetterTextField KeyField
       AcceptTabs      =   False
       Alignment       =   0
       AutoDeactivate  =   True
@@ -234,14 +234,14 @@ Begin Window RegistrationWindow
       Left            =   89
       LimitText       =   0
       LockBottom      =   False
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   False
       LockRight       =   False
       LockTop         =   False
       Mask            =   ""
       Password        =   False
       ReadOnly        =   False
-      Scope           =   0
+      Scope           =   2
       TabIndex        =   5
       TabPanelIndex   =   0
       TabStop         =   True
@@ -270,12 +270,12 @@ Begin Window RegistrationWindow
       Italic          =   False
       Left            =   20
       LockBottom      =   False
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   False
       LockRight       =   False
       LockTop         =   False
       Multiline       =   False
-      Scope           =   0
+      Scope           =   2
       Selectable      =   False
       TabIndex        =   2
       TabPanelIndex   =   0
@@ -287,7 +287,7 @@ Begin Window RegistrationWindow
       TextSize        =   0.0
       TextUnit        =   0
       Top             =   54
-      Transparent     =   True
+      Transparent     =   False
       Underline       =   False
       Visible         =   True
       Width           =   57
@@ -305,12 +305,12 @@ Begin Window RegistrationWindow
       Italic          =   False
       Left            =   20
       LockBottom      =   False
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   False
       LockRight       =   False
       LockTop         =   False
       Multiline       =   False
-      Scope           =   0
+      Scope           =   2
       Selectable      =   False
       TabIndex        =   4
       TabPanelIndex   =   0
@@ -322,7 +322,7 @@ Begin Window RegistrationWindow
       TextSize        =   0.0
       TextUnit        =   0
       Top             =   88
-      Transparent     =   True
+      Transparent     =   False
       Underline       =   False
       Visible         =   True
       Width           =   57

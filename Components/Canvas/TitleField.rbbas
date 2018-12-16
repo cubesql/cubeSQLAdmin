@@ -6,16 +6,23 @@ Inherits Canvas
 		  g.ForeColor = Colors.TitleField_Fill
 		  g.FillRect(0, 0, g.Width, g.Height)
 		  
+		  if TargetWindows or (TargetMacOS and IsDarkMode) then
+		    g.PenWidth = 1 / self.ScaleFactor
+		    g.PenHeight = 1 / self.ScaleFactor
+		  end if
+		  
 		  g.ForeColor = Colors.TitleField_Frame
 		  g.DrawRect(0, 0, g.Width, g.Height)
 		  
+		  g.PenWidth = 1
+		  g.PenHeight = 1
 		  
 		  
 		  g.ForeColor = Colors.TitleField_Text
 		  g.Bold = true
 		  g.TextSize = 12
 		  g.TextFont = "System"
-		  g.DrawString(Title,14, g.TextHeight+1)
+		  g.DrawString(Title, 5, ((g.Height-g.TextHeight)/2)+g.TextAscent)
 		  
 		  
 		End Sub
@@ -55,28 +62,10 @@ Inherits Canvas
 			EditorType="Picture"
 		#tag EndViewProperty
 		#tag ViewProperty
-			Name="BackgroundColor"
-			Group="Behavior"
-			InitialValue="&cCCCCCC"
-			Type="Color"
-		#tag EndViewProperty
-		#tag ViewProperty
-			Name="BorderColor"
-			Group="Behavior"
-			InitialValue="&cC3C3C3"
-			Type="Color"
-		#tag EndViewProperty
-		#tag ViewProperty
 			Name="DoubleBuffer"
 			Visible=true
 			Group="Behavior"
 			InitialValue="False"
-			Type="Boolean"
-		#tag EndViewProperty
-		#tag ViewProperty
-			Name="DrawBorder"
-			Group="Behavior"
-			InitialValue="true"
 			Type="Boolean"
 		#tag EndViewProperty
 		#tag ViewProperty

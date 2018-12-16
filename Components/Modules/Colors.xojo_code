@@ -18,7 +18,20 @@ Protected Module Colors
 
 	#tag Method, Flags = &h0
 		Function DrawAlternatedRowsBackground(Extends oListbox As ListBox, g As Graphics, row As Integer, column As Integer) As Boolean
-		  if (oListbox.ListIndex = row) then return false 'let Xojo handle the Selection Colors
+		  if (oListbox.ListIndex = row) then
+		    'it's the selected Row
+		    #if TargetLinux then
+		      if oListbox.Active = false then
+		        'Xojo doesn't draw a deactivated State...
+		        g.ForeColor = Color.LightGray
+		        g.FillRect 0, 0, g.Width, g.Height
+		        return true
+		      end if
+		    #endif
+		    
+		    'let Xojo handle the Selection Colors
+		    return false
+		  end if
 		  
 		  if row mod 2 = 0 then
 		    g.ForeColor = Colors.Listbox_RowAlternate_1

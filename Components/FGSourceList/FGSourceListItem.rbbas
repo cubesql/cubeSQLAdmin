@@ -274,7 +274,7 @@ Protected Class FGSourceListItem
 		#tag EndGetter
 		#tag Setter
 			Set
-			  #if TargetWin32 ' disallow eject buttons on Windows (this is because shitty Windows doesn't properly handle unicode).
+			  #if TargetWindows ' disallow eject buttons on Windows (this is because shitty Windows doesn't properly handle unicode).
 			    
 			    mEjectButton = false
 			    return
@@ -510,14 +510,14 @@ Protected Class FGSourceListItem
 			Visible=true
 			Group="ID"
 			InitialValue="-2147483648"
-			InheritedFrom="Object"
+			Type="Integer"
 		#tag EndViewProperty
 		#tag ViewProperty
 			Name="Left"
 			Visible=true
 			Group="Position"
 			InitialValue="0"
-			InheritedFrom="Object"
+			Type="Integer"
 		#tag EndViewProperty
 		#tag ViewProperty
 			Name="Level"
@@ -528,7 +528,7 @@ Protected Class FGSourceListItem
 			Name="Name"
 			Visible=true
 			Group="ID"
-			InheritedFrom="Object"
+			Type="String"
 		#tag EndViewProperty
 		#tag ViewProperty
 			Name="NumberOfChildren"
@@ -557,14 +557,14 @@ Protected Class FGSourceListItem
 			Name="Super"
 			Visible=true
 			Group="ID"
-			InheritedFrom="Object"
+			Type="String"
 		#tag EndViewProperty
 		#tag ViewProperty
 			Name="Top"
 			Visible=true
 			Group="Position"
 			InitialValue="0"
-			InheritedFrom="Object"
+			Type="Integer"
 		#tag EndViewProperty
 	#tag EndViewBehavior
 End Class

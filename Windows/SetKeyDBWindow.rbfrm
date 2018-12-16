@@ -41,11 +41,11 @@ Begin Window SetKeyDBWindow
       Italic          =   False
       Left            =   362
       LockBottom      =   False
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   False
       LockRight       =   False
       LockTop         =   False
-      Scope           =   0
+      Scope           =   2
       TabIndex        =   3
       TabPanelIndex   =   0
       TabStop         =   True
@@ -53,6 +53,7 @@ Begin Window SetKeyDBWindow
       TextSize        =   0.0
       TextUnit        =   0
       Top             =   84
+      Transparent     =   False
       Underline       =   False
       Visible         =   True
       Width           =   80
@@ -72,11 +73,11 @@ Begin Window SetKeyDBWindow
       Italic          =   False
       Left            =   270
       LockBottom      =   False
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   False
       LockRight       =   False
       LockTop         =   False
-      Scope           =   0
+      Scope           =   2
       TabIndex        =   2
       TabPanelIndex   =   0
       TabStop         =   True
@@ -84,11 +85,12 @@ Begin Window SetKeyDBWindow
       TextSize        =   0.0
       TextUnit        =   0
       Top             =   84
+      Transparent     =   False
       Underline       =   False
       Visible         =   True
       Width           =   80
    End
-   Begin TextField DBKeyField
+   Begin BetterTextField DBKeyField
       AcceptTabs      =   False
       Alignment       =   0
       AutoDeactivate  =   True
@@ -109,14 +111,14 @@ Begin Window SetKeyDBWindow
       Left            =   16
       LimitText       =   0
       LockBottom      =   False
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   False
       LockRight       =   False
       LockTop         =   False
       Mask            =   ""
       Password        =   True
       ReadOnly        =   False
-      Scope           =   0
+      Scope           =   2
       TabIndex        =   1
       TabPanelIndex   =   0
       TabStop         =   True
@@ -126,6 +128,7 @@ Begin Window SetKeyDBWindow
       TextSize        =   0.0
       TextUnit        =   0
       Top             =   50
+      Transparent     =   False
       Underline       =   False
       UseFocusRing    =   True
       Visible         =   True
@@ -144,15 +147,16 @@ Begin Window SetKeyDBWindow
       Italic          =   False
       Left            =   16
       LockBottom      =   False
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   False
       LockRight       =   False
       LockTop         =   False
       Multiline       =   False
-      Scope           =   0
+      Scope           =   2
       Selectable      =   False
       TabIndex        =   0
       TabPanelIndex   =   0
+      TabStop         =   True
       Text            =   ""
       TextAlign       =   0
       TextColor       =   &c00000000
@@ -160,7 +164,7 @@ Begin Window SetKeyDBWindow
       TextSize        =   0.0
       TextUnit        =   0
       Top             =   18
-      Transparent     =   True
+      Transparent     =   False
       Underline       =   False
       Visible         =   True
       Width           =   426
@@ -284,7 +288,6 @@ End
 			"7 - Global Floating Window"
 			"8 - Sheet Window"
 			"9 - Metal Window"
-			"10 - Drawer Window"
 			"11 - Modeless Dialog"
 		#tag EndEnumValues
 	#tag EndViewProperty

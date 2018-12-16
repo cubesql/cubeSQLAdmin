@@ -47,7 +47,7 @@ Begin Window ServerWindow
       GridLinesVertical=   0
       HasHeading      =   False
       HeadingIndex    =   -1
-      Height          =   613
+      Height          =   611
       HelpTag         =   ""
       Hierarchical    =   False
       Index           =   -2147483648
@@ -62,7 +62,7 @@ Begin Window ServerWindow
       LockRight       =   False
       LockTop         =   True
       RequiresSelection=   False
-      Scope           =   0
+      Scope           =   2
       ScrollbarHorizontal=   False
       ScrollBarVertical=   True
       SelectableSections=   False
@@ -76,7 +76,7 @@ Begin Window ServerWindow
       TextSize        =   0.0
       TextUnit        =   0
       Top             =   0
-      Transparent     =   True
+      Transparent     =   False
       Underline       =   False
       UseFocusRing    =   True
       Visible         =   True
@@ -102,12 +102,12 @@ Begin Window ServerWindow
       LockLeft        =   True
       LockRight       =   True
       LockTop         =   False
-      Scope           =   0
+      Scope           =   2
       TabIndex        =   2
       TabPanelIndex   =   0
       TabStop         =   True
       Top             =   611
-      Transparent     =   True
+      Transparent     =   False
       UseFocusRing    =   False
       Visible         =   True
       Width           =   961
@@ -115,11 +115,11 @@ Begin Window ServerWindow
    Begin PagePanel MainPagePanel
       AutoDeactivate  =   True
       Enabled         =   True
-      Height          =   612
+      Height          =   611
       HelpTag         =   ""
       Index           =   -2147483648
       InitialParent   =   ""
-      Left            =   194
+      Left            =   195
       LockBottom      =   True
       LockedInPosition=   True
       LockLeft        =   True
@@ -127,12 +127,12 @@ Begin Window ServerWindow
       LockTop         =   True
       PanelCount      =   20
       Panels          =   ""
-      Scope           =   0
-      TabIndex        =   5
+      Scope           =   2
+      TabIndex        =   1
       TabPanelIndex   =   0
-      Top             =   -1
-      Transparent     =   True
-      Value           =   8
+      Top             =   0
+      Transparent     =   False
+      Value           =   0
       Visible         =   True
       Width           =   766
       Begin Listbox StatusListbox
@@ -160,14 +160,14 @@ Begin Window ServerWindow
          InitialParent   =   "MainPagePanel"
          InitialValue    =   ""
          Italic          =   False
-         Left            =   206
+         Left            =   207
          LockBottom      =   True
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   True
          LockTop         =   True
          RequiresSelection=   False
-         Scope           =   0
+         Scope           =   2
          ScrollbarHorizontal=   False
          ScrollBarVertical=   False
          SelectionType   =   0
@@ -178,8 +178,8 @@ Begin Window ServerWindow
          TextFont        =   "SmallSystem"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   256
-         Transparent     =   True
+         Top             =   257
+         Transparent     =   False
          Underline       =   False
          UseFocusRing    =   False
          Visible         =   True
@@ -194,24 +194,24 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   True
+         EraseBackground =   False
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
-         Left            =   206
+         Left            =   207
          LockBottom      =   False
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   True
          LockTop         =   True
-         Scope           =   0
+         Scope           =   2
          TabIndex        =   2
          TabPanelIndex   =   1
          TabStop         =   True
          Title           =   "cubeSQL Server"
-         Top             =   233
-         Transparent     =   True
+         Top             =   234
+         Transparent     =   False
          UseFocusRing    =   False
          Visible         =   True
          Width           =   734
@@ -223,24 +223,24 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   True
+         EraseBackground =   False
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
-         Left            =   206
+         Left            =   207
          LockBottom      =   False
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   True
          LockTop         =   False
-         Scope           =   0
+         Scope           =   2
          TabIndex        =   0
          TabPanelIndex   =   2
          TabStop         =   True
          Title           =   "Databases"
-         Top             =   13
-         Transparent     =   True
+         Top             =   14
+         Transparent     =   False
          UseFocusRing    =   False
          Visible         =   True
          Width           =   734
@@ -263,21 +263,21 @@ Begin Window ServerWindow
          GridLinesVertical=   0
          HasHeading      =   True
          HeadingIndex    =   -1
-         Height          =   433
+         Height          =   420
          HelpTag         =   ""
          Hierarchical    =   False
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
          InitialValue    =   "Status	Name	Locked	Lock Owner	Encrypted	Restore	Lock Owner ID"
          Italic          =   False
-         Left            =   206
+         Left            =   207
          LockBottom      =   True
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   True
          LockTop         =   True
          RequiresSelection=   False
-         Scope           =   0
+         Scope           =   2
          ScrollbarHorizontal=   False
          ScrollBarVertical=   True
          SelectionType   =   0
@@ -288,8 +288,8 @@ Begin Window ServerWindow
          TextFont        =   "SmallSystem"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   36
-         Transparent     =   True
+         Top             =   37
+         Transparent     =   False
          Underline       =   False
          UseFocusRing    =   False
          Visible         =   True
@@ -304,24 +304,24 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   True
+         EraseBackground =   False
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
-         Left            =   206
+         Left            =   207
          LockBottom      =   False
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   True
          LockTop         =   True
-         Scope           =   0
+         Scope           =   2
          TabIndex        =   0
          TabPanelIndex   =   3
          TabStop         =   True
          Title           =   "Console"
-         Top             =   13
-         Transparent     =   True
+         Top             =   14
+         Transparent     =   False
          UseFocusRing    =   False
          Visible         =   True
          Width           =   734
@@ -344,7 +344,7 @@ Begin Window ServerWindow
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
          Italic          =   False
-         Left            =   206
+         Left            =   207
          LimitText       =   0
          LineHeight      =   0.0
          LineSpacing     =   1.0
@@ -356,7 +356,7 @@ Begin Window ServerWindow
          Mask            =   ""
          Multiline       =   True
          ReadOnly        =   False
-         Scope           =   0
+         Scope           =   2
          ScrollbarHorizontal=   False
          ScrollbarVertical=   True
          Styled          =   False
@@ -368,8 +368,8 @@ Begin Window ServerWindow
          TextFont        =   "SmallSystem"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   36
-         Transparent     =   True
+         Top             =   37
+         Transparent     =   False
          Underline       =   False
          UseFocusRing    =   False
          Visible         =   True
@@ -400,26 +400,26 @@ Begin Window ServerWindow
          InitialParent   =   "MainPagePanel"
          InitialValue    =   " "
          Italic          =   False
-         Left            =   206
+         Left            =   207
          LockBottom      =   True
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   True
          LockTop         =   True
          RequiresSelection=   False
-         Scope           =   0
+         Scope           =   2
          ScrollbarHorizontal=   True
          ScrollBarVertical=   True
          SelectionType   =   0
          ShowDropIndicator=   False
-         TabIndex        =   3
+         TabIndex        =   5
          TabPanelIndex   =   3
          TabStop         =   True
          TextFont        =   "SmallSystem"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   163
-         Transparent     =   True
+         Top             =   164
+         Transparent     =   False
          Underline       =   False
          UseFocusRing    =   False
          Visible         =   True
@@ -434,24 +434,24 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   True
+         EraseBackground =   False
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
-         Left            =   206
+         Left            =   207
          LockBottom      =   False
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   True
          LockTop         =   True
-         Scope           =   0
+         Scope           =   2
          TabIndex        =   0
          TabPanelIndex   =   4
          TabStop         =   True
          Title           =   "Connected Clients"
-         Top             =   13
-         Transparent     =   True
+         Top             =   14
+         Transparent     =   False
          UseFocusRing    =   False
          Visible         =   True
          Width           =   734
@@ -481,14 +481,14 @@ Begin Window ServerWindow
          InitialParent   =   "MainPagePanel"
          InitialValue    =   "ID	Address	Username	Connection Date	Last Activity	Database	Type	Protocol	Language "
          Italic          =   False
-         Left            =   206
+         Left            =   207
          LockBottom      =   True
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   True
          LockTop         =   True
          RequiresSelection=   False
-         Scope           =   0
+         Scope           =   2
          ScrollbarHorizontal=   False
          ScrollBarVertical=   True
          SelectionType   =   0
@@ -499,8 +499,8 @@ Begin Window ServerWindow
          TextFont        =   "SmallSystem"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   36
-         Transparent     =   True
+         Top             =   37
+         Transparent     =   False
          Underline       =   False
          UseFocusRing    =   False
          Visible         =   True
@@ -513,30 +513,30 @@ Begin Window ServerWindow
          Bold            =   False
          Caption         =   ""
          Enabled         =   True
-         Height          =   87
+         Height          =   96
          HelpTag         =   ""
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
          Italic          =   False
-         Left            =   209
+         Left            =   210
          LockBottom      =   True
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   True
          LockTop         =   False
-         Scope           =   0
+         Scope           =   2
          TabIndex        =   4
          TabPanelIndex   =   2
          TabStop         =   True
          TextFont        =   "System"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   511
-         Transparent     =   True
+         Top             =   504
+         Transparent     =   False
          Underline       =   False
          Visible         =   True
          Width           =   731
-         Begin TextField DBField1
+         Begin BetterTextField DBField1
             AcceptTabs      =   False
             Alignment       =   0
             AutoDeactivate  =   True
@@ -554,17 +554,17 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "DBGroupBox"
             Italic          =   False
-            Left            =   279
+            Left            =   280
             LimitText       =   0
-            LockBottom      =   True
+            LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
             LockRight       =   True
-            LockTop         =   False
+            LockTop         =   True
             Mask            =   ""
             Password        =   False
             ReadOnly        =   False
-            Scope           =   0
+            Scope           =   2
             TabIndex        =   1
             TabPanelIndex   =   2
             TabStop         =   True
@@ -573,8 +573,8 @@ Begin Window ServerWindow
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   526
-            Transparent     =   True
+            Top             =   524
+            Transparent     =   False
             Underline       =   False
             UseFocusRing    =   True
             Visible         =   True
@@ -586,19 +586,19 @@ Begin Window ServerWindow
             DataField       =   ""
             DataSource      =   ""
             Enabled         =   True
-            Height          =   20
+            Height          =   22
             HelpTag         =   ""
             Index           =   -2147483648
             InitialParent   =   "DBGroupBox"
             Italic          =   False
-            Left            =   221
-            LockBottom      =   True
+            Left            =   222
+            LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
             LockRight       =   False
-            LockTop         =   False
+            LockTop         =   True
             Multiline       =   False
-            Scope           =   0
+            Scope           =   2
             Selectable      =   False
             TabIndex        =   0
             TabPanelIndex   =   2
@@ -609,13 +609,13 @@ Begin Window ServerWindow
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   528
-            Transparent     =   True
+            Top             =   524
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   52
          End
-         Begin TextField DBField2
+         Begin BetterTextField DBField2
             AcceptTabs      =   False
             Alignment       =   0
             AutoDeactivate  =   True
@@ -633,17 +633,17 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "DBGroupBox"
             Italic          =   False
-            Left            =   279
+            Left            =   280
             LimitText       =   0
-            LockBottom      =   True
+            LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
             LockRight       =   True
-            LockTop         =   False
+            LockTop         =   True
             Mask            =   ""
             Password        =   False
             ReadOnly        =   False
-            Scope           =   0
+            Scope           =   2
             TabIndex        =   3
             TabPanelIndex   =   2
             TabStop         =   True
@@ -652,8 +652,8 @@ Begin Window ServerWindow
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   560
-            Transparent     =   True
+            Top             =   558
+            Transparent     =   False
             Underline       =   False
             UseFocusRing    =   True
             Visible         =   True
@@ -665,19 +665,19 @@ Begin Window ServerWindow
             DataField       =   ""
             DataSource      =   ""
             Enabled         =   True
-            Height          =   20
+            Height          =   22
             HelpTag         =   ""
             Index           =   -2147483648
             InitialParent   =   "DBGroupBox"
             Italic          =   False
-            Left            =   221
-            LockBottom      =   True
+            Left            =   222
+            LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
             LockRight       =   False
-            LockTop         =   False
+            LockTop         =   True
             Multiline       =   False
-            Scope           =   0
+            Scope           =   2
             Selectable      =   False
             TabIndex        =   2
             TabPanelIndex   =   2
@@ -688,8 +688,8 @@ Begin Window ServerWindow
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   562
-            Transparent     =   True
+            Top             =   558
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   46
@@ -706,22 +706,22 @@ Begin Window ServerWindow
             InitialParent   =   "DBGroupBox"
             InitialValue    =   "UTF-8\rUTF-16\rUTF-16le\rUTF-16be"
             Italic          =   False
-            Left            =   746
+            Left            =   747
             ListIndex       =   0
-            LockBottom      =   True
+            LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   False
             LockRight       =   True
-            LockTop         =   False
-            Scope           =   0
+            LockTop         =   True
+            Scope           =   2
             TabIndex        =   5
             TabPanelIndex   =   2
             TabStop         =   True
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   560
-            Transparent     =   True
+            Top             =   559
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   80
@@ -732,19 +732,19 @@ Begin Window ServerWindow
             DataField       =   ""
             DataSource      =   ""
             Enabled         =   True
-            Height          =   20
+            Height          =   22
             HelpTag         =   ""
             Index           =   -2147483648
             InitialParent   =   "DBGroupBox"
             Italic          =   False
-            Left            =   656
-            LockBottom      =   True
+            Left            =   657
+            LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   False
             LockRight       =   True
-            LockTop         =   False
+            LockTop         =   True
             Multiline       =   False
-            Scope           =   0
+            Scope           =   2
             Selectable      =   False
             TabIndex        =   4
             TabPanelIndex   =   2
@@ -755,8 +755,8 @@ Begin Window ServerWindow
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   560
-            Transparent     =   True
+            Top             =   558
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   84
@@ -774,21 +774,21 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "DBGroupBox"
             Italic          =   False
-            Left            =   845
-            LockBottom      =   True
+            Left            =   846
+            LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   False
             LockRight       =   True
-            LockTop         =   False
-            Scope           =   0
+            LockTop         =   True
+            Scope           =   2
             TabIndex        =   6
             TabPanelIndex   =   2
             TabStop         =   True
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   560
-            Transparent     =   True
+            Top             =   559
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   80
@@ -807,21 +807,21 @@ Begin Window ServerWindow
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
          Italic          =   False
-         Left            =   860
+         Left            =   861
          LockBottom      =   True
          LockedInPosition=   True
          LockLeft        =   False
          LockRight       =   True
          LockTop         =   False
-         Scope           =   0
+         Scope           =   2
          TabIndex        =   3
          TabPanelIndex   =   2
          TabStop         =   True
          TextFont        =   "SmallSystem"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   479
-         Transparent     =   True
+         Top             =   466
+         Transparent     =   False
          Underline       =   False
          Visible         =   True
          Width           =   80
@@ -839,21 +839,21 @@ Begin Window ServerWindow
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
          Italic          =   False
-         Left            =   860
+         Left            =   861
          LockBottom      =   False
          LockedInPosition=   True
          LockLeft        =   False
          LockRight       =   True
          LockTop         =   True
-         Scope           =   0
-         TabIndex        =   2
+         Scope           =   2
+         TabIndex        =   4
          TabPanelIndex   =   3
          TabStop         =   True
          TextFont        =   "SmallSystem"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   131
-         Transparent     =   True
+         Top             =   132
+         Transparent     =   False
          Underline       =   False
          Visible         =   True
          Width           =   80
@@ -871,21 +871,21 @@ Begin Window ServerWindow
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
          Italic          =   False
-         Left            =   844
+         Left            =   845
          LockBottom      =   True
          LockedInPosition=   True
          LockLeft        =   False
          LockRight       =   True
          LockTop         =   False
-         Scope           =   0
+         Scope           =   2
          TabIndex        =   2
          TabPanelIndex   =   4
          TabStop         =   True
          TextFont        =   "SmallSystem"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   578
-         Transparent     =   True
+         Top             =   579
+         Transparent     =   False
          Underline       =   False
          Visible         =   True
          Width           =   96
@@ -897,24 +897,24 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   True
+         EraseBackground =   False
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
-         Left            =   206
+         Left            =   207
          LockBottom      =   False
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   True
          LockTop         =   True
-         Scope           =   0
+         Scope           =   2
          TabIndex        =   0
          TabPanelIndex   =   6
          TabStop         =   True
          Title           =   "Users & Groups"
-         Top             =   13
-         Transparent     =   True
+         Top             =   14
+         Transparent     =   False
          UseFocusRing    =   False
          Visible         =   True
          Width           =   734
@@ -940,7 +940,7 @@ Begin Window ServerWindow
          GridLinesVertical=   0
          HasHeading      =   False
          HeadingIndex    =   -1
-         Height          =   415
+         Height          =   385
          HelpTag         =   ""
          Hierarchical    =   False
          Index           =   -2147483648
@@ -948,14 +948,14 @@ Begin Window ServerWindow
          InitialValue    =   ""
          Italic          =   False
          LastItemIndex   =   0
-         Left            =   206
+         Left            =   207
          LockBottom      =   True
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   True
          LockTop         =   True
          RequiresSelection=   False
-         Scope           =   0
+         Scope           =   2
          ScrollbarHorizontal=   False
          ScrollBarVertical=   True
          SelectableSections=   False
@@ -968,8 +968,8 @@ Begin Window ServerWindow
          TextFont        =   "System"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   36
-         Transparent     =   True
+         Top             =   37
+         Transparent     =   False
          Underline       =   False
          UseFocusRing    =   True
          Visible         =   True
@@ -990,21 +990,21 @@ Begin Window ServerWindow
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
          Italic          =   False
-         Left            =   736
+         Left            =   737
          LockBottom      =   True
          LockedInPosition=   True
          LockLeft        =   False
          LockRight       =   True
          LockTop         =   False
-         Scope           =   0
-         TabIndex        =   4
+         Scope           =   2
+         TabIndex        =   3
          TabPanelIndex   =   6
          TabStop         =   True
          TextFont        =   "SmallSystem"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   463
-         Transparent     =   True
+         Top             =   432
+         Transparent     =   False
          Underline       =   False
          Visible         =   True
          Width           =   96
@@ -1022,21 +1022,21 @@ Begin Window ServerWindow
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
          Italic          =   False
-         Left            =   844
+         Left            =   845
          LockBottom      =   True
          LockedInPosition=   True
          LockLeft        =   False
          LockRight       =   True
          LockTop         =   False
-         Scope           =   0
-         TabIndex        =   5
+         Scope           =   2
+         TabIndex        =   4
          TabPanelIndex   =   6
          TabStop         =   True
          TextFont        =   "SmallSystem"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   463
-         Transparent     =   True
+         Top             =   432
+         Transparent     =   False
          Underline       =   False
          Visible         =   True
          Width           =   96
@@ -1046,26 +1046,26 @@ Begin Window ServerWindow
          Bold            =   False
          Caption         =   ""
          Enabled         =   True
-         Height          =   108
+         Height          =   130
          HelpTag         =   ""
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
          Italic          =   False
-         Left            =   206
+         Left            =   207
          LockBottom      =   True
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   True
          LockTop         =   False
-         Scope           =   0
+         Scope           =   2
          TabIndex        =   6
          TabPanelIndex   =   6
          TabStop         =   True
          TextFont        =   "System"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   495
-         Transparent     =   True
+         Top             =   470
+         Transparent     =   False
          Underline       =   False
          Visible         =   True
          Width           =   734
@@ -1075,19 +1075,19 @@ Begin Window ServerWindow
             DataField       =   ""
             DataSource      =   ""
             Enabled         =   True
-            Height          =   20
+            Height          =   22
             HelpTag         =   ""
             Index           =   -2147483648
             InitialParent   =   "GroupsBox"
             Italic          =   False
-            Left            =   213
+            Left            =   214
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
             Multiline       =   False
-            Scope           =   0
+            Scope           =   2
             Selectable      =   False
             TabIndex        =   0
             TabPanelIndex   =   6
@@ -1098,8 +1098,8 @@ Begin Window ServerWindow
             TextFont        =   "SMallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   510
-            Transparent     =   True
+            Top             =   490
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   80
@@ -1110,19 +1110,19 @@ Begin Window ServerWindow
             DataField       =   ""
             DataSource      =   ""
             Enabled         =   True
-            Height          =   20
+            Height          =   22
             HelpTag         =   ""
             Index           =   -2147483648
             InitialParent   =   "GroupsBox"
             Italic          =   False
-            Left            =   213
+            Left            =   214
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
             Multiline       =   False
-            Scope           =   0
+            Scope           =   2
             Selectable      =   False
             TabIndex        =   3
             TabPanelIndex   =   6
@@ -1133,13 +1133,13 @@ Begin Window ServerWindow
             TextFont        =   "SMallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   542
-            Transparent     =   True
+            Top             =   524
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   80
          End
-         Begin TextField GroupsField2
+         Begin BetterTextField GroupsField2
             AcceptTabs      =   False
             Alignment       =   0
             AutoDeactivate  =   True
@@ -1157,17 +1157,17 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "GroupsBox"
             Italic          =   False
-            Left            =   305
+            Left            =   306
             LimitText       =   0
-            LockBottom      =   True
+            LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
             LockRight       =   True
-            LockTop         =   False
+            LockTop         =   True
             Mask            =   ""
             Password        =   False
             ReadOnly        =   False
-            Scope           =   0
+            Scope           =   2
             TabIndex        =   4
             TabPanelIndex   =   6
             TabStop         =   True
@@ -1176,12 +1176,12 @@ Begin Window ServerWindow
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   540
-            Transparent     =   True
+            Top             =   524
+            Transparent     =   False
             Underline       =   False
             UseFocusRing    =   True
             Visible         =   True
-            Width           =   624
+            Width           =   311
          End
          Begin Label StaticText3
             AutoDeactivate  =   True
@@ -1189,19 +1189,19 @@ Begin Window ServerWindow
             DataField       =   ""
             DataSource      =   ""
             Enabled         =   True
-            Height          =   20
+            Height          =   22
             HelpTag         =   ""
             Index           =   -2147483648
             InitialParent   =   "GroupsBox"
             Italic          =   False
-            Left            =   213
+            Left            =   214
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
             Multiline       =   False
-            Scope           =   0
+            Scope           =   2
             Selectable      =   False
             TabIndex        =   5
             TabPanelIndex   =   6
@@ -1212,13 +1212,13 @@ Begin Window ServerWindow
             TextFont        =   "SMallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   574
-            Transparent     =   True
+            Top             =   558
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   80
          End
-         Begin TextField GroupsField3
+         Begin BetterTextField GroupsField3
             AcceptTabs      =   False
             Alignment       =   0
             AutoDeactivate  =   True
@@ -1236,17 +1236,17 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "GroupsBox"
             Italic          =   False
-            Left            =   305
+            Left            =   306
             LimitText       =   0
-            LockBottom      =   True
+            LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
             LockRight       =   True
-            LockTop         =   False
+            LockTop         =   True
             Mask            =   ""
             Password        =   False
             ReadOnly        =   False
-            Scope           =   0
+            Scope           =   2
             TabIndex        =   6
             TabPanelIndex   =   6
             TabStop         =   True
@@ -1255,14 +1255,14 @@ Begin Window ServerWindow
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   572
-            Transparent     =   True
+            Top             =   558
+            Transparent     =   False
             Underline       =   False
             UseFocusRing    =   True
             Visible         =   True
             Width           =   311
          End
-         Begin TextField GroupsField1
+         Begin BetterTextField GroupsField1
             AcceptTabs      =   False
             Alignment       =   0
             AutoDeactivate  =   True
@@ -1280,17 +1280,17 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "GroupsBox"
             Italic          =   False
-            Left            =   305
+            Left            =   306
             LimitText       =   0
             LockBottom      =   False
             LockedInPosition=   True
-            LockLeft        =   False
-            LockRight       =   False
-            LockTop         =   False
+            LockLeft        =   True
+            LockRight       =   True
+            LockTop         =   True
             Mask            =   ""
             Password        =   False
             ReadOnly        =   False
-            Scope           =   0
+            Scope           =   2
             TabIndex        =   1
             TabPanelIndex   =   6
             TabStop         =   True
@@ -1299,8 +1299,8 @@ Begin Window ServerWindow
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   508
-            Transparent     =   True
+            Top             =   490
+            Transparent     =   False
             Underline       =   False
             UseFocusRing    =   True
             Visible         =   True
@@ -1312,19 +1312,19 @@ Begin Window ServerWindow
             DataField       =   ""
             DataSource      =   ""
             Enabled         =   True
-            Height          =   20
+            Height          =   22
             HelpTag         =   ""
             Index           =   -2147483648
             InitialParent   =   "GroupsBox"
             Italic          =   False
-            Left            =   621
-            LockBottom      =   True
+            Left            =   622
+            LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   False
             LockRight       =   True
-            LockTop         =   False
+            LockTop         =   True
             Multiline       =   False
-            Scope           =   0
+            Scope           =   2
             Selectable      =   False
             TabIndex        =   7
             TabPanelIndex   =   6
@@ -1335,8 +1335,8 @@ Begin Window ServerWindow
             TextFont        =   "SMallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   574
-            Transparent     =   True
+            Top             =   558
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   71
@@ -1353,22 +1353,22 @@ Begin Window ServerWindow
             InitialParent   =   "GroupsBox"
             InitialValue    =   ""
             Italic          =   False
-            Left            =   699
+            Left            =   700
             ListIndex       =   0
-            LockBottom      =   True
+            LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   False
             LockRight       =   True
-            LockTop         =   False
-            Scope           =   0
+            LockTop         =   True
+            Scope           =   2
             TabIndex        =   8
             TabPanelIndex   =   6
             TabStop         =   True
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   574
-            Transparent     =   True
+            Top             =   559
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   124
@@ -1386,21 +1386,21 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "GroupsBox"
             Italic          =   False
-            Left            =   835
-            LockBottom      =   True
+            Left            =   836
+            LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   False
             LockRight       =   True
-            LockTop         =   False
-            Scope           =   0
+            LockTop         =   True
+            Scope           =   2
             TabIndex        =   9
             TabPanelIndex   =   6
             TabStop         =   True
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   572
-            Transparent     =   True
+            Top             =   559
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   94
@@ -1418,21 +1418,21 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "GroupsBox"
             Italic          =   False
-            Left            =   526
-            LockBottom      =   True
+            Left            =   523
+            LockBottom      =   False
             LockedInPosition=   True
-            LockLeft        =   True
-            LockRight       =   False
-            LockTop         =   False
-            Scope           =   0
+            LockLeft        =   False
+            LockRight       =   True
+            LockTop         =   True
+            Scope           =   2
             TabIndex        =   2
             TabPanelIndex   =   6
             TabStop         =   True
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   508
-            Transparent     =   True
+            Top             =   491
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   94
@@ -1445,24 +1445,24 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   True
+         EraseBackground =   False
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
-         Left            =   206
+         Left            =   207
          LockBottom      =   False
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   True
          LockTop         =   True
-         Scope           =   0
+         Scope           =   2
          TabIndex        =   0
          TabPanelIndex   =   8
          TabStop         =   True
          Title           =   "Plugins"
-         Top             =   13
-         Transparent     =   True
+         Top             =   14
+         Transparent     =   False
          UseFocusRing    =   False
          Visible         =   True
          Width           =   734
@@ -1492,14 +1492,14 @@ Begin Window ServerWindow
          InitialParent   =   "MainPagePanel"
          InitialValue    =   "Name	Version	Copyright	Description"
          Italic          =   False
-         Left            =   206
+         Left            =   207
          LockBottom      =   True
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   True
          LockTop         =   True
          RequiresSelection=   False
-         Scope           =   0
+         Scope           =   2
          ScrollbarHorizontal=   False
          ScrollBarVertical=   True
          SelectionType   =   0
@@ -1510,8 +1510,8 @@ Begin Window ServerWindow
          TextFont        =   "SmallSystem"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   36
-         Transparent     =   True
+         Top             =   37
+         Transparent     =   False
          Underline       =   False
          UseFocusRing    =   False
          Visible         =   True
@@ -1532,21 +1532,21 @@ Begin Window ServerWindow
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
          Italic          =   False
-         Left            =   860
+         Left            =   861
          LockBottom      =   True
          LockedInPosition=   True
          LockLeft        =   False
          LockRight       =   True
          LockTop         =   False
-         Scope           =   0
+         Scope           =   2
          TabIndex        =   2
          TabPanelIndex   =   8
          TabStop         =   True
          TextFont        =   "SmallSystem"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   499
-         Transparent     =   True
+         Top             =   500
+         Transparent     =   False
          Underline       =   False
          Visible         =   True
          Width           =   80
@@ -1569,7 +1569,7 @@ Begin Window ServerWindow
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
          Italic          =   False
-         Left            =   206
+         Left            =   207
          LimitText       =   0
          LineHeight      =   0.0
          LineSpacing     =   1.0
@@ -1581,7 +1581,7 @@ Begin Window ServerWindow
          Mask            =   ""
          Multiline       =   True
          ReadOnly        =   True
-         Scope           =   0
+         Scope           =   2
          ScrollbarHorizontal=   False
          ScrollbarVertical=   True
          Styled          =   False
@@ -1593,8 +1593,8 @@ Begin Window ServerWindow
          TextFont        =   "SmallSystem"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   531
-         Transparent     =   True
+         Top             =   532
+         Transparent     =   False
          Underline       =   False
          UseFocusRing    =   False
          Visible         =   True
@@ -1607,24 +1607,24 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   True
+         EraseBackground =   False
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
-         Left            =   206
+         Left            =   207
          LockBottom      =   False
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   True
          LockTop         =   True
-         Scope           =   0
+         Scope           =   2
          TabIndex        =   0
          TabPanelIndex   =   11
          TabStop         =   True
          Title           =   "cubeSQL Server Log"
-         Top             =   13
-         Transparent     =   True
+         Top             =   14
+         Transparent     =   False
          UseFocusRing    =   False
          Visible         =   True
          Width           =   734
@@ -1654,14 +1654,14 @@ Begin Window ServerWindow
          InitialParent   =   "MainPagePanel"
          InitialValue    =   "Date	Description	Username	Database	Operation"
          Italic          =   False
-         Left            =   206
+         Left            =   207
          LockBottom      =   True
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   True
          LockTop         =   True
          RequiresSelection=   False
-         Scope           =   0
+         Scope           =   2
          ScrollbarHorizontal=   False
          ScrollBarVertical=   True
          SelectionType   =   0
@@ -1672,8 +1672,8 @@ Begin Window ServerWindow
          TextFont        =   "SmallSystem"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   36
-         Transparent     =   True
+         Top             =   37
+         Transparent     =   False
          Underline       =   False
          UseFocusRing    =   False
          Visible         =   True
@@ -1687,7 +1687,7 @@ Begin Window ServerWindow
          DataField       =   ""
          DataSource      =   ""
          Enabled         =   True
-         Height          =   20
+         Height          =   22
          HelpTag         =   ""
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
@@ -1699,7 +1699,7 @@ Begin Window ServerWindow
          LockRight       =   True
          LockTop         =   False
          Multiline       =   False
-         Scope           =   0
+         Scope           =   2
          Selectable      =   False
          TabIndex        =   3
          TabPanelIndex   =   11
@@ -1710,13 +1710,13 @@ Begin Window ServerWindow
          TextFont        =   "SmallSystem"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   583
+         Top             =   584
          Transparent     =   False
          Underline       =   False
          Visible         =   True
          Width           =   176
       End
-      Begin TextField LogField
+      Begin BetterTextField LogField
          AcceptTabs      =   False
          Alignment       =   0
          AutoDeactivate  =   True
@@ -1734,7 +1734,7 @@ Begin Window ServerWindow
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
          Italic          =   False
-         Left            =   896
+         Left            =   897
          LimitText       =   0
          LockBottom      =   True
          LockedInPosition=   True
@@ -1744,7 +1744,7 @@ Begin Window ServerWindow
          Mask            =   ""
          Password        =   False
          ReadOnly        =   False
-         Scope           =   0
+         Scope           =   2
          TabIndex        =   4
          TabPanelIndex   =   11
          TabStop         =   True
@@ -1753,8 +1753,8 @@ Begin Window ServerWindow
          TextFont        =   "SmallSystem"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   583
-         Transparent     =   True
+         Top             =   584
+         Transparent     =   False
          Underline       =   False
          UseFocusRing    =   True
          Visible         =   True
@@ -1771,14 +1771,14 @@ Begin Window ServerWindow
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
          Italic          =   False
-         Left            =   206
+         Left            =   207
          LockBottom      =   True
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   True
          LockTop         =   False
          Multiline       =   False
-         Scope           =   0
+         Scope           =   2
          Selectable      =   False
          TabIndex        =   2
          TabPanelIndex   =   11
@@ -1789,7 +1789,7 @@ Begin Window ServerWindow
          TextFont        =   "SmallSystem"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   583
+         Top             =   584
          Transparent     =   False
          Underline       =   False
          Visible         =   True
@@ -1820,14 +1820,14 @@ Begin Window ServerWindow
          InitialParent   =   "MainPagePanel"
          InitialValue    =   "ID	Date	Table	SQL"
          Italic          =   False
-         Left            =   206
+         Left            =   207
          LockBottom      =   True
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   True
          LockTop         =   True
          RequiresSelection=   False
-         Scope           =   0
+         Scope           =   2
          ScrollbarHorizontal=   False
          ScrollBarVertical=   True
          SelectionType   =   0
@@ -1838,8 +1838,8 @@ Begin Window ServerWindow
          TextFont        =   "SmallSystem"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   80
-         Transparent     =   True
+         Top             =   81
+         Transparent     =   False
          Underline       =   False
          UseFocusRing    =   False
          Visible         =   True
@@ -1854,24 +1854,24 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   True
+         EraseBackground =   False
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
-         Left            =   206
+         Left            =   207
          LockBottom      =   False
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   True
          LockTop         =   True
-         Scope           =   0
+         Scope           =   2
          TabIndex        =   0
          TabPanelIndex   =   10
          TabStop         =   True
          Title           =   "Restore Manager"
-         Top             =   13
-         Transparent     =   True
+         Top             =   14
+         Transparent     =   False
          UseFocusRing    =   False
          Visible         =   True
          Width           =   734
@@ -1883,23 +1883,23 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   True
+         EraseBackground =   False
          Height          =   45
          HelpTag         =   ""
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
-         Left            =   206
+         Left            =   207
          LockBottom      =   False
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   True
          LockTop         =   True
-         Scope           =   0
+         Scope           =   2
          TabIndex        =   1
          TabPanelIndex   =   10
          TabStop         =   True
-         Top             =   36
-         Transparent     =   True
+         Top             =   37
+         Transparent     =   False
          UseFocusRing    =   False
          Visible         =   True
          Width           =   734
@@ -1914,14 +1914,14 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "Canvas1"
             Italic          =   False
-            Left            =   215
+            Left            =   216
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
             LockRight       =   False
             LockTop         =   True
             Multiline       =   False
-            Scope           =   0
+            Scope           =   2
             Selectable      =   False
             TabIndex        =   0
             TabPanelIndex   =   10
@@ -1932,8 +1932,8 @@ Begin Window ServerWindow
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   48
-            Transparent     =   True
+            Top             =   49
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   72
@@ -1950,22 +1950,22 @@ Begin Window ServerWindow
             InitialParent   =   "Canvas1"
             InitialValue    =   ""
             Italic          =   False
-            Left            =   292
+            Left            =   293
             ListIndex       =   0
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
             LockRight       =   False
             LockTop         =   True
-            Scope           =   0
+            Scope           =   2
             TabIndex        =   1
             TabPanelIndex   =   10
             TabStop         =   True
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   49
-            Transparent     =   True
+            Top             =   50
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   172
@@ -1983,21 +1983,21 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "Canvas1"
             Italic          =   False
-            Left            =   846
+            Left            =   847
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   False
             LockRight       =   True
             LockTop         =   True
-            Scope           =   0
+            Scope           =   2
             TabIndex        =   3
             TabPanelIndex   =   10
             TabStop         =   True
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   48
-            Transparent     =   True
+            Top             =   49
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   80
@@ -2015,21 +2015,21 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "Canvas1"
             Italic          =   False
-            Left            =   476
+            Left            =   477
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
             LockRight       =   False
             LockTop         =   True
-            Scope           =   0
+            Scope           =   2
             TabIndex        =   2
             TabPanelIndex   =   10
             TabStop         =   True
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   48
-            Transparent     =   True
+            Top             =   49
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   119
@@ -2048,21 +2048,21 @@ Begin Window ServerWindow
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
          Italic          =   False
-         Left            =   860
+         Left            =   861
          LockBottom      =   True
          LockedInPosition=   True
          LockLeft        =   False
          LockRight       =   True
          LockTop         =   False
-         Scope           =   0
+         Scope           =   2
          TabIndex        =   3
          TabPanelIndex   =   10
          TabStop         =   True
          TextFont        =   "SmallSystem"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   578
-         Transparent     =   True
+         Top             =   579
+         Transparent     =   False
          Underline       =   False
          Visible         =   True
          Width           =   80
@@ -2092,14 +2092,14 @@ Begin Window ServerWindow
          InitialParent   =   "MainPagePanel"
          InitialValue    =   "Name	Time Stamp"
          Italic          =   False
-         Left            =   206
+         Left            =   207
          LockBottom      =   True
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   True
          LockTop         =   True
          RequiresSelection=   False
-         Scope           =   0
+         Scope           =   2
          ScrollbarHorizontal=   False
          ScrollBarVertical=   True
          SelectionType   =   1
@@ -2110,8 +2110,8 @@ Begin Window ServerWindow
          TextFont        =   "SmallSystem"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   80
-         Transparent     =   True
+         Top             =   81
+         Transparent     =   False
          Underline       =   False
          UseFocusRing    =   False
          Visible         =   True
@@ -2126,24 +2126,24 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   True
+         EraseBackground =   False
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
-         Left            =   206
+         Left            =   207
          LockBottom      =   False
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   True
          LockTop         =   True
-         Scope           =   0
+         Scope           =   2
          TabIndex        =   0
          TabPanelIndex   =   5
          TabStop         =   True
          Title           =   "Backup Manager"
-         Top             =   13
-         Transparent     =   True
+         Top             =   14
+         Transparent     =   False
          UseFocusRing    =   False
          Visible         =   True
          Width           =   734
@@ -2155,23 +2155,23 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   True
+         EraseBackground =   False
          Height          =   45
          HelpTag         =   ""
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
-         Left            =   206
+         Left            =   207
          LockBottom      =   False
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   True
          LockTop         =   True
-         Scope           =   0
+         Scope           =   2
          TabIndex        =   1
          TabPanelIndex   =   5
          TabStop         =   True
-         Top             =   36
-         Transparent     =   True
+         Top             =   37
+         Transparent     =   False
          UseFocusRing    =   False
          Visible         =   True
          Width           =   734
@@ -2186,14 +2186,14 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "Canvas11"
             Italic          =   False
-            Left            =   215
+            Left            =   216
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
             LockRight       =   False
             LockTop         =   True
             Multiline       =   False
-            Scope           =   0
+            Scope           =   2
             Selectable      =   False
             TabIndex        =   0
             TabPanelIndex   =   5
@@ -2204,8 +2204,8 @@ Begin Window ServerWindow
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   48
-            Transparent     =   True
+            Top             =   49
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   80
@@ -2222,22 +2222,22 @@ Begin Window ServerWindow
             InitialParent   =   "Canvas11"
             InitialValue    =   ""
             Italic          =   False
-            Left            =   297
+            Left            =   298
             ListIndex       =   0
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
             LockRight       =   False
             LockTop         =   True
-            Scope           =   0
+            Scope           =   2
             TabIndex        =   1
             TabPanelIndex   =   5
             TabStop         =   True
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   49
-            Transparent     =   True
+            Top             =   50
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   172
@@ -2255,21 +2255,21 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "Canvas11"
             Italic          =   False
-            Left            =   827
+            Left            =   828
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   False
             LockRight       =   True
             LockTop         =   True
-            Scope           =   0
+            Scope           =   2
             TabIndex        =   3
             TabPanelIndex   =   5
             TabStop         =   True
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   48
-            Transparent     =   True
+            Top             =   49
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   104
@@ -2287,21 +2287,21 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "Canvas11"
             Italic          =   False
-            Left            =   481
+            Left            =   482
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
             LockRight       =   False
             LockTop         =   True
-            Scope           =   0
+            Scope           =   2
             TabIndex        =   2
             TabPanelIndex   =   5
             TabStop         =   True
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   48
-            Transparent     =   True
+            Top             =   49
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   104
@@ -2320,21 +2320,21 @@ Begin Window ServerWindow
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
          Italic          =   False
-         Left            =   836
+         Left            =   837
          LockBottom      =   True
          LockedInPosition=   True
          LockLeft        =   False
          LockRight       =   True
          LockTop         =   False
-         Scope           =   0
-         TabIndex        =   4
+         Scope           =   2
+         TabIndex        =   5
          TabPanelIndex   =   5
          TabStop         =   True
          TextFont        =   "SmallSystem"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   578
-         Transparent     =   True
+         Top             =   579
+         Transparent     =   False
          Underline       =   False
          Visible         =   True
          Width           =   104
@@ -2352,21 +2352,21 @@ Begin Window ServerWindow
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
          Italic          =   False
-         Left            =   720
+         Left            =   721
          LockBottom      =   True
          LockedInPosition=   True
          LockLeft        =   False
          LockRight       =   True
          LockTop         =   False
-         Scope           =   0
-         TabIndex        =   3
+         Scope           =   2
+         TabIndex        =   4
          TabPanelIndex   =   5
          TabStop         =   True
          TextFont        =   "SmallSystem"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   578
-         Transparent     =   True
+         Top             =   579
+         Transparent     =   False
          Underline       =   False
          Visible         =   True
          Width           =   104
@@ -2384,21 +2384,21 @@ Begin Window ServerWindow
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
          Italic          =   False
-         Left            =   860
+         Left            =   861
          LockBottom      =   True
          LockedInPosition=   True
          LockLeft        =   False
          LockRight       =   True
          LockTop         =   False
-         Scope           =   0
+         Scope           =   2
          TabIndex        =   3
          TabPanelIndex   =   7
          TabStop         =   True
          TextFont        =   "SmallSystem"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   494
-         Transparent     =   True
+         Top             =   453
+         Transparent     =   False
          Underline       =   False
          Visible         =   True
          Width           =   80
@@ -2410,24 +2410,24 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   True
+         EraseBackground =   False
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
-         Left            =   206
+         Left            =   207
          LockBottom      =   False
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   True
          LockTop         =   True
-         Scope           =   0
+         Scope           =   2
          TabIndex        =   0
          TabPanelIndex   =   7
          TabStop         =   True
          Title           =   "Privileges"
-         Top             =   13
-         Transparent     =   True
+         Top             =   14
+         Transparent     =   False
          UseFocusRing    =   False
          Visible         =   True
          Width           =   734
@@ -2453,7 +2453,7 @@ Begin Window ServerWindow
          GridLinesVertical=   0
          HasHeading      =   False
          HeadingIndex    =   -1
-         Height          =   446
+         Height          =   406
          HelpTag         =   ""
          Hierarchical    =   False
          Index           =   -2147483648
@@ -2461,14 +2461,14 @@ Begin Window ServerWindow
          InitialValue    =   ""
          Italic          =   False
          LastItemIndex   =   0
-         Left            =   206
+         Left            =   207
          LockBottom      =   True
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   True
          LockTop         =   True
          RequiresSelection=   False
-         Scope           =   0
+         Scope           =   2
          ScrollbarHorizontal=   False
          ScrollBarVertical=   True
          SelectableSections=   False
@@ -2481,8 +2481,8 @@ Begin Window ServerWindow
          TextFont        =   "System"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   36
-         Transparent     =   True
+         Top             =   37
+         Transparent     =   False
          Underline       =   False
          UseFocusRing    =   True
          Visible         =   True
@@ -2495,26 +2495,26 @@ Begin Window ServerWindow
          Bold            =   False
          Caption         =   ""
          Enabled         =   True
-         Height          =   77
+         Height          =   96
          HelpTag         =   ""
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
          Italic          =   False
-         Left            =   206
+         Left            =   207
          LockBottom      =   True
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   True
          LockTop         =   False
-         Scope           =   0
+         Scope           =   2
          TabIndex        =   4
          TabPanelIndex   =   7
          TabStop         =   True
          TextFont        =   "System"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   523
-         Transparent     =   True
+         Top             =   504
+         Transparent     =   False
          Underline       =   False
          Visible         =   True
          Width           =   734
@@ -2524,19 +2524,19 @@ Begin Window ServerWindow
             DataField       =   ""
             DataSource      =   ""
             Enabled         =   True
-            Height          =   20
+            Height          =   22
             HelpTag         =   ""
             Index           =   -2147483648
             InitialParent   =   "PrivBox"
             Italic          =   False
-            Left            =   227
+            Left            =   228
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
             Multiline       =   False
-            Scope           =   0
+            Scope           =   2
             Selectable      =   False
             TabIndex        =   0
             TabPanelIndex   =   7
@@ -2547,8 +2547,8 @@ Begin Window ServerWindow
             TextFont        =   "SMallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   538
-            Transparent     =   True
+            Top             =   524
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   64
@@ -2559,19 +2559,19 @@ Begin Window ServerWindow
             DataField       =   ""
             DataSource      =   ""
             Enabled         =   True
-            Height          =   20
+            Height          =   22
             HelpTag         =   ""
             Index           =   -2147483648
             InitialParent   =   "PrivBox"
             Italic          =   False
-            Left            =   216
+            Left            =   217
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
             Multiline       =   False
-            Scope           =   0
+            Scope           =   2
             Selectable      =   False
             TabIndex        =   4
             TabPanelIndex   =   7
@@ -2582,8 +2582,8 @@ Begin Window ServerWindow
             TextFont        =   "SMallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   570
-            Transparent     =   True
+            Top             =   557
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   75
@@ -2594,19 +2594,19 @@ Begin Window ServerWindow
             DataField       =   ""
             DataSource      =   ""
             Enabled         =   True
-            Height          =   20
+            Height          =   22
             HelpTag         =   ""
             Index           =   -2147483648
             InitialParent   =   "PrivBox"
             Italic          =   False
-            Left            =   470
+            Left            =   471
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
             Multiline       =   False
-            Scope           =   0
+            Scope           =   2
             Selectable      =   False
             TabIndex        =   2
             TabPanelIndex   =   7
@@ -2617,8 +2617,8 @@ Begin Window ServerWindow
             TextFont        =   "SMallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   538
-            Transparent     =   True
+            Top             =   524
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   71
@@ -2635,22 +2635,22 @@ Begin Window ServerWindow
             InitialParent   =   "PrivBox"
             InitialValue    =   ""
             Italic          =   False
-            Left            =   299
+            Left            =   300
             ListIndex       =   0
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
-            Scope           =   0
+            Scope           =   2
             TabIndex        =   1
             TabPanelIndex   =   7
             TabStop         =   True
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   538
-            Transparent     =   True
+            Top             =   525
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   160
@@ -2668,21 +2668,21 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "PrivBox"
             Italic          =   False
-            Left            =   730
+            Left            =   731
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
-            Scope           =   0
+            Scope           =   2
             TabIndex        =   8
             TabPanelIndex   =   7
             TabStop         =   True
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   567
-            Transparent     =   True
+            Top             =   559
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   80
@@ -2699,22 +2699,22 @@ Begin Window ServerWindow
             InitialParent   =   "PrivBox"
             InitialValue    =   ""
             Italic          =   False
-            Left            =   299
+            Left            =   300
             ListIndex       =   0
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
-            Scope           =   0
+            Scope           =   2
             TabIndex        =   5
             TabPanelIndex   =   7
             TabStop         =   True
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   570
-            Transparent     =   True
+            Top             =   559
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   160
@@ -2725,19 +2725,19 @@ Begin Window ServerWindow
             DataField       =   ""
             DataSource      =   ""
             Enabled         =   True
-            Height          =   20
+            Height          =   22
             HelpTag         =   ""
             Index           =   -2147483648
             InitialParent   =   "PrivBox"
             Italic          =   False
-            Left            =   488
+            Left            =   489
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
             Multiline       =   False
-            Scope           =   0
+            Scope           =   2
             Selectable      =   False
             TabIndex        =   6
             TabPanelIndex   =   7
@@ -2748,8 +2748,8 @@ Begin Window ServerWindow
             TextFont        =   "SMallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   570
-            Transparent     =   True
+            Top             =   558
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   53
@@ -2766,22 +2766,22 @@ Begin Window ServerWindow
             InitialParent   =   "PrivBox"
             InitialValue    =   ""
             Italic          =   False
-            Left            =   553
+            Left            =   554
             ListIndex       =   0
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
-            Scope           =   0
+            Scope           =   2
             TabIndex        =   7
             TabPanelIndex   =   7
             TabStop         =   True
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   570
-            Transparent     =   True
+            Top             =   559
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   160
@@ -2798,22 +2798,22 @@ Begin Window ServerWindow
             InitialParent   =   "PrivBox"
             InitialValue    =   ""
             Italic          =   False
-            Left            =   553
+            Left            =   554
             ListIndex       =   0
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
-            Scope           =   0
+            Scope           =   2
             TabIndex        =   3
             TabPanelIndex   =   7
             TabStop         =   True
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   538
-            Transparent     =   True
+            Top             =   525
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   160
@@ -2826,24 +2826,24 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   True
+         EraseBackground =   False
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
-         Left            =   206
+         Left            =   207
          LockBottom      =   False
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   True
          LockTop         =   True
-         Scope           =   0
+         Scope           =   2
          TabIndex        =   0
          TabPanelIndex   =   13
          TabStop         =   True
          Title           =   "Commands"
-         Top             =   13
-         Transparent     =   True
+         Top             =   14
+         Transparent     =   False
          UseFocusRing    =   False
          Visible         =   True
          Width           =   734
@@ -2873,14 +2873,14 @@ Begin Window ServerWindow
          InitialParent   =   "MainPagePanel"
          InitialValue    =   "Command	Context	Privilege"
          Italic          =   False
-         Left            =   206
+         Left            =   207
          LockBottom      =   True
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   True
          LockTop         =   True
          RequiresSelection=   False
-         Scope           =   0
+         Scope           =   2
          ScrollbarHorizontal=   False
          ScrollBarVertical=   True
          SelectionType   =   0
@@ -2891,8 +2891,8 @@ Begin Window ServerWindow
          TextFont        =   "SmallSystem"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   36
-         Transparent     =   True
+         Top             =   37
+         Transparent     =   False
          Underline       =   False
          UseFocusRing    =   False
          Visible         =   True
@@ -2912,18 +2912,18 @@ Begin Window ServerWindow
          HelpTag         =   ""
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
-         Left            =   206
+         Left            =   207
          LockBottom      =   True
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   False
          LockTop         =   False
-         Scope           =   0
+         Scope           =   2
          TabIndex        =   2
          TabPanelIndex   =   14
          TabStop         =   True
-         Top             =   554
-         Transparent     =   True
+         Top             =   550
+         Transparent     =   False
          UseFocusRing    =   False
          Visible         =   True
          Width           =   16
@@ -2946,21 +2946,21 @@ Begin Window ServerWindow
          GridLinesVertical=   0
          HasHeading      =   True
          HeadingIndex    =   -1
-         Height          =   504
+         Height          =   490
          HelpTag         =   ""
          Hierarchical    =   False
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
          InitialValue    =   "From	Message"
          Italic          =   False
-         Left            =   206
+         Left            =   207
          LockBottom      =   True
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   True
          LockTop         =   True
          RequiresSelection=   False
-         Scope           =   0
+         Scope           =   2
          ScrollbarHorizontal=   False
          ScrollBarVertical=   True
          SelectionType   =   0
@@ -2971,8 +2971,8 @@ Begin Window ServerWindow
          TextFont        =   "SmallSystem"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   36
-         Transparent     =   True
+         Top             =   37
+         Transparent     =   False
          Underline       =   False
          UseFocusRing    =   False
          Visible         =   True
@@ -2987,29 +2987,29 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   True
+         EraseBackground =   False
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
-         Left            =   206
+         Left            =   207
          LockBottom      =   False
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   True
          LockTop         =   True
-         Scope           =   0
+         Scope           =   2
          TabIndex        =   0
          TabPanelIndex   =   14
          TabStop         =   True
          Title           =   "Messages"
-         Top             =   13
-         Transparent     =   True
+         Top             =   14
+         Transparent     =   False
          UseFocusRing    =   False
          Visible         =   True
          Width           =   734
       End
-      Begin TextField ClientsField1
+      Begin BetterTextField ClientsField1
          AcceptTabs      =   False
          Alignment       =   0
          AutoDeactivate  =   True
@@ -3027,7 +3027,7 @@ Begin Window ServerWindow
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
          Italic          =   False
-         Left            =   206
+         Left            =   207
          LimitText       =   0
          LockBottom      =   True
          LockedInPosition=   True
@@ -3037,7 +3037,7 @@ Begin Window ServerWindow
          Mask            =   ""
          Password        =   False
          ReadOnly        =   False
-         Scope           =   0
+         Scope           =   2
          TabIndex        =   4
          TabPanelIndex   =   14
          TabStop         =   True
@@ -3046,8 +3046,8 @@ Begin Window ServerWindow
          TextFont        =   "SmallSystem"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   576
-         Transparent     =   True
+         Top             =   577
+         Transparent     =   False
          Underline       =   False
          UseFocusRing    =   False
          Visible         =   True
@@ -3066,21 +3066,21 @@ Begin Window ServerWindow
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
          Italic          =   False
-         Left            =   860
+         Left            =   861
          LockBottom      =   True
          LockedInPosition=   True
          LockLeft        =   False
          LockRight       =   True
          LockTop         =   False
-         Scope           =   0
+         Scope           =   2
          TabIndex        =   5
          TabPanelIndex   =   14
          TabStop         =   True
          TextFont        =   "SmallSystem"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   576
-         Transparent     =   True
+         Top             =   578
+         Transparent     =   False
          Underline       =   False
          Visible         =   True
          Width           =   80
@@ -3097,22 +3097,22 @@ Begin Window ServerWindow
          InitialParent   =   "MainPagePanel"
          InitialValue    =   ""
          Italic          =   False
-         Left            =   230
+         Left            =   231
          ListIndex       =   0
          LockBottom      =   True
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   False
          LockTop         =   False
-         Scope           =   0
+         Scope           =   2
          TabIndex        =   3
          TabPanelIndex   =   14
          TabStop         =   True
          TextFont        =   "SmallSystem"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   553
-         Transparent     =   True
+         Top             =   548
+         Transparent     =   False
          Underline       =   False
          Visible         =   True
          Width           =   151
@@ -3130,21 +3130,21 @@ Begin Window ServerWindow
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
          Italic          =   False
-         Left            =   768
+         Left            =   769
          LockBottom      =   True
          LockedInPosition=   True
          LockLeft        =   False
          LockRight       =   True
          LockTop         =   False
-         Scope           =   0
+         Scope           =   2
          TabIndex        =   2
          TabPanelIndex   =   2
          TabStop         =   True
          TextFont        =   "SmallSystem"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   479
-         Transparent     =   True
+         Top             =   466
+         Transparent     =   False
          Underline       =   False
          Visible         =   True
          Width           =   80
@@ -3156,24 +3156,24 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   True
+         EraseBackground =   False
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
-         Left            =   206
+         Left            =   207
          LockBottom      =   False
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   True
          LockTop         =   True
-         Scope           =   0
+         Scope           =   2
          TabIndex        =   0
          TabPanelIndex   =   12
          TabStop         =   True
          Title           =   "Path (local to server's machine)"
-         Top             =   13
-         Transparent     =   True
+         Top             =   14
+         Transparent     =   False
          UseFocusRing    =   False
          Visible         =   True
          Width           =   734
@@ -3185,24 +3185,24 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   True
+         EraseBackground =   False
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
-         Left            =   206
+         Left            =   207
          LockBottom      =   False
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   True
          LockTop         =   True
-         Scope           =   0
+         Scope           =   2
          TabIndex        =   2
          TabPanelIndex   =   12
          TabStop         =   True
          Title           =   "Preferences"
-         Top             =   187
-         Transparent     =   True
+         Top             =   188
+         Transparent     =   False
          UseFocusRing    =   False
          Visible         =   True
          Width           =   734
@@ -3220,21 +3220,21 @@ Begin Window ServerWindow
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
          Italic          =   False
-         Left            =   860
-         LockBottom      =   True
+         Left            =   861
+         LockBottom      =   False
          LockedInPosition=   True
          LockLeft        =   False
          LockRight       =   True
-         LockTop         =   False
-         Scope           =   0
+         LockTop         =   True
+         Scope           =   2
          TabIndex        =   4
          TabPanelIndex   =   12
          TabStop         =   True
          TextFont        =   "SmallSystem"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   572
-         Transparent     =   True
+         Top             =   470
+         Transparent     =   False
          Underline       =   False
          Visible         =   True
          Width           =   80
@@ -3246,24 +3246,24 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   True
+         EraseBackground =   False
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
-         Left            =   206
+         Left            =   207
          LockBottom      =   False
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   True
          LockTop         =   True
-         Scope           =   0
+         Scope           =   2
          TabIndex        =   0
          TabPanelIndex   =   15
          TabStop         =   True
          Title           =   "Technical Information"
-         Top             =   13
-         Transparent     =   True
+         Top             =   14
+         Transparent     =   False
          UseFocusRing    =   False
          Visible         =   True
          Width           =   734
@@ -3286,7 +3286,7 @@ Begin Window ServerWindow
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
          Italic          =   False
-         Left            =   206
+         Left            =   207
          LimitText       =   0
          LineHeight      =   0.0
          LineSpacing     =   1.0
@@ -3298,7 +3298,7 @@ Begin Window ServerWindow
          Mask            =   ""
          Multiline       =   True
          ReadOnly        =   False
-         Scope           =   0
+         Scope           =   2
          ScrollbarHorizontal=   False
          ScrollbarVertical=   True
          Styled          =   False
@@ -3310,8 +3310,8 @@ Begin Window ServerWindow
          TextFont        =   "SmallSystem"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   35
-         Transparent     =   True
+         Top             =   36
+         Transparent     =   False
          Underline       =   False
          UseFocusRing    =   False
          Visible         =   True
@@ -3324,24 +3324,24 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   True
+         EraseBackground =   False
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
-         Left            =   206
+         Left            =   207
          LockBottom      =   False
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   True
          LockTop         =   True
-         Scope           =   0
+         Scope           =   2
          TabIndex        =   2
          TabPanelIndex   =   15
          TabStop         =   True
          Title           =   "Problem Description"
-         Top             =   240
-         Transparent     =   True
+         Top             =   241
+         Transparent     =   False
          UseFocusRing    =   False
          Visible         =   True
          Width           =   734
@@ -3364,7 +3364,7 @@ Begin Window ServerWindow
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
          Italic          =   False
-         Left            =   206
+         Left            =   207
          LimitText       =   0
          LineHeight      =   0.0
          LineSpacing     =   1.0
@@ -3376,7 +3376,7 @@ Begin Window ServerWindow
          Mask            =   ""
          Multiline       =   True
          ReadOnly        =   False
-         Scope           =   0
+         Scope           =   2
          ScrollbarHorizontal=   False
          ScrollbarVertical=   True
          Styled          =   False
@@ -3388,8 +3388,8 @@ Begin Window ServerWindow
          TextFont        =   "SmallSystem"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   263
-         Transparent     =   True
+         Top             =   264
+         Transparent     =   False
          Underline       =   False
          UseFocusRing    =   False
          Visible         =   True
@@ -3408,21 +3408,21 @@ Begin Window ServerWindow
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
          Italic          =   False
-         Left            =   860
+         Left            =   861
          LockBottom      =   True
          LockedInPosition=   True
          LockLeft        =   False
          LockRight       =   True
          LockTop         =   False
-         Scope           =   0
+         Scope           =   2
          TabIndex        =   7
          TabPanelIndex   =   15
          TabStop         =   True
          TextFont        =   "SmallSystem"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   579
-         Transparent     =   True
+         Top             =   580
+         Transparent     =   False
          Underline       =   False
          Visible         =   True
          Width           =   80
@@ -3438,14 +3438,14 @@ Begin Window ServerWindow
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
          Italic          =   False
-         Left            =   206
+         Left            =   207
          LockBottom      =   True
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   False
          LockTop         =   False
          Multiline       =   False
-         Scope           =   0
+         Scope           =   2
          Selectable      =   False
          TabIndex        =   4
          TabPanelIndex   =   15
@@ -3456,13 +3456,13 @@ Begin Window ServerWindow
          TextFont        =   "SmallSystem"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   578
+         Top             =   579
          Transparent     =   False
          Underline       =   False
          Visible         =   True
          Width           =   45
       End
-      Begin TextField BugField3
+      Begin BetterTextField BugField3
          AcceptTabs      =   False
          Alignment       =   0
          AutoDeactivate  =   True
@@ -3480,7 +3480,7 @@ Begin Window ServerWindow
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
          Italic          =   False
-         Left            =   251
+         Left            =   252
          LimitText       =   0
          LockBottom      =   True
          LockedInPosition=   True
@@ -3490,7 +3490,7 @@ Begin Window ServerWindow
          Mask            =   ""
          Password        =   False
          ReadOnly        =   False
-         Scope           =   0
+         Scope           =   2
          TabIndex        =   5
          TabPanelIndex   =   15
          TabStop         =   True
@@ -3499,8 +3499,8 @@ Begin Window ServerWindow
          TextFont        =   "SmallSystem"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   577
-         Transparent     =   True
+         Top             =   578
+         Transparent     =   False
          Underline       =   False
          UseFocusRing    =   True
          Visible         =   True
@@ -3513,18 +3513,18 @@ Begin Window ServerWindow
          HelpTag         =   ""
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
-         Left            =   838
+         Left            =   839
          LockBottom      =   True
          LockedInPosition=   True
          LockLeft        =   False
          LockRight       =   True
          LockTop         =   False
-         Scope           =   0
+         Scope           =   2
          TabIndex        =   6
          TabPanelIndex   =   15
          TabStop         =   True
-         Top             =   581
-         Transparent     =   True
+         Top             =   582
+         Transparent     =   False
          Visible         =   False
          Width           =   16
       End
@@ -3535,24 +3535,24 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   True
+         EraseBackground =   False
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
-         Left            =   206
+         Left            =   207
          LockBottom      =   False
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   True
          LockTop         =   True
-         Scope           =   0
+         Scope           =   2
          TabIndex        =   0
          TabPanelIndex   =   9
          TabStop         =   True
          Title           =   "Schedules"
-         Top             =   13
-         Transparent     =   True
+         Top             =   14
+         Transparent     =   False
          UseFocusRing    =   False
          Visible         =   True
          Width           =   734
@@ -3575,21 +3575,21 @@ Begin Window ServerWindow
          GridLinesVertical=   0
          HasHeading      =   False
          HeadingIndex    =   -1
-         Height          =   304
+         Height          =   290
          HelpTag         =   ""
          Hierarchical    =   False
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
          InitialValue    =   ""
          Italic          =   False
-         Left            =   206
+         Left            =   207
          LockBottom      =   True
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   True
          LockTop         =   True
          RequiresSelection=   False
-         Scope           =   0
+         Scope           =   2
          ScrollbarHorizontal=   False
          ScrollBarVertical=   True
          SelectionType   =   0
@@ -3600,8 +3600,8 @@ Begin Window ServerWindow
          TextFont        =   "SmallSystem"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   36
-         Transparent     =   True
+         Top             =   37
+         Transparent     =   False
          Underline       =   False
          UseFocusRing    =   False
          Visible         =   True
@@ -3622,21 +3622,21 @@ Begin Window ServerWindow
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
          Italic          =   False
-         Left            =   860
+         Left            =   861
          LockBottom      =   True
          LockedInPosition=   True
          LockLeft        =   False
          LockRight       =   True
          LockTop         =   False
-         Scope           =   0
+         Scope           =   2
          TabIndex        =   2
          TabPanelIndex   =   9
          TabStop         =   True
          TextFont        =   "SmallSystem"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   352
-         Transparent     =   True
+         Top             =   337
+         Transparent     =   False
          Underline       =   False
          Visible         =   True
          Width           =   80
@@ -3646,26 +3646,26 @@ Begin Window ServerWindow
          Bold            =   False
          Caption         =   ""
          Enabled         =   True
-         Height          =   214
+         Height          =   218
          HelpTag         =   ""
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
          Italic          =   False
-         Left            =   211
+         Left            =   212
          LockBottom      =   True
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   True
          LockTop         =   False
-         Scope           =   0
+         Scope           =   2
          TabIndex        =   3
          TabPanelIndex   =   9
          TabStop         =   True
          TextFont        =   "System"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   384
-         Transparent     =   True
+         Top             =   382
+         Transparent     =   False
          Underline       =   False
          Visible         =   True
          Width           =   734
@@ -3675,19 +3675,19 @@ Begin Window ServerWindow
             DataField       =   ""
             DataSource      =   ""
             Enabled         =   True
-            Height          =   20
+            Height          =   22
             HelpTag         =   ""
             Index           =   -2147483648
             InitialParent   =   "SchedBox"
             Italic          =   False
-            Left            =   226
+            Left            =   227
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
             Multiline       =   False
-            Scope           =   0
+            Scope           =   2
             Selectable      =   False
             TabIndex        =   0
             TabPanelIndex   =   9
@@ -3698,8 +3698,8 @@ Begin Window ServerWindow
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   399
-            Transparent     =   True
+            Top             =   402
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   54
@@ -3710,19 +3710,19 @@ Begin Window ServerWindow
             DataField       =   ""
             DataSource      =   ""
             Enabled         =   True
-            Height          =   20
+            Height          =   22
             HelpTag         =   ""
             Index           =   -2147483648
             InitialParent   =   "SchedBox"
             Italic          =   False
-            Left            =   215
+            Left            =   216
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
             Multiline       =   False
-            Scope           =   0
+            Scope           =   2
             Selectable      =   False
             TabIndex        =   4
             TabPanelIndex   =   9
@@ -3733,8 +3733,8 @@ Begin Window ServerWindow
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   433
-            Transparent     =   True
+            Top             =   437
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   65
@@ -3745,19 +3745,19 @@ Begin Window ServerWindow
             DataField       =   ""
             DataSource      =   ""
             Enabled         =   True
-            Height          =   20
+            Height          =   22
             HelpTag         =   ""
             Index           =   -2147483648
             InitialParent   =   "SchedBox"
             Italic          =   False
-            Left            =   606
+            Left            =   607
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
             Multiline       =   False
-            Scope           =   0
+            Scope           =   2
             Selectable      =   False
             TabIndex        =   2
             TabPanelIndex   =   9
@@ -3768,8 +3768,8 @@ Begin Window ServerWindow
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   399
-            Transparent     =   True
+            Top             =   402
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   38
@@ -3787,21 +3787,21 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "SchedBox"
             Italic          =   False
-            Left            =   730
-            LockBottom      =   True
+            Left            =   731
+            LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
             LockRight       =   False
-            LockTop         =   False
-            Scope           =   0
+            LockTop         =   True
+            Scope           =   2
             TabIndex        =   27
             TabPanelIndex   =   9
             TabStop         =   True
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   566
-            Transparent     =   True
+            Top             =   559
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   80
@@ -3812,19 +3812,19 @@ Begin Window ServerWindow
             DataField       =   ""
             DataSource      =   ""
             Enabled         =   True
-            Height          =   20
+            Height          =   22
             HelpTag         =   ""
             Index           =   -2147483648
             InitialParent   =   "SchedBox"
             Italic          =   False
-            Left            =   220
+            Left            =   221
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
             Multiline       =   False
-            Scope           =   0
+            Scope           =   2
             Selectable      =   False
             TabIndex        =   7
             TabPanelIndex   =   9
@@ -3836,12 +3836,12 @@ Begin Window ServerWindow
             TextSize        =   0.0
             TextUnit        =   0
             Top             =   482
-            Transparent     =   True
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   54
          End
-         Begin TextField SchedNameField
+         Begin BetterTextField SchedNameField
             AcceptTabs      =   False
             Alignment       =   0
             AutoDeactivate  =   True
@@ -3859,7 +3859,7 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "SchedBox"
             Italic          =   False
-            Left            =   286
+            Left            =   287
             LimitText       =   0
             LockBottom      =   False
             LockedInPosition=   True
@@ -3869,7 +3869,7 @@ Begin Window ServerWindow
             Mask            =   ""
             Password        =   False
             ReadOnly        =   False
-            Scope           =   0
+            Scope           =   2
             TabIndex        =   1
             TabPanelIndex   =   9
             TabStop         =   True
@@ -3878,14 +3878,14 @@ Begin Window ServerWindow
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   397
-            Transparent     =   True
+            Top             =   402
+            Transparent     =   False
             Underline       =   False
             UseFocusRing    =   False
             Visible         =   True
             Width           =   316
          End
-         Begin TextField SchedOptionsField
+         Begin BetterTextField SchedOptionsField
             AcceptTabs      =   False
             Alignment       =   0
             AutoDeactivate  =   True
@@ -3903,7 +3903,7 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "SchedBox"
             Italic          =   False
-            Left            =   286
+            Left            =   287
             LimitText       =   0
             LockBottom      =   False
             LockedInPosition=   True
@@ -3913,7 +3913,7 @@ Begin Window ServerWindow
             Mask            =   ""
             Password        =   False
             ReadOnly        =   False
-            Scope           =   0
+            Scope           =   2
             TabIndex        =   5
             TabPanelIndex   =   9
             TabStop         =   True
@@ -3922,8 +3922,8 @@ Begin Window ServerWindow
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   431
-            Transparent     =   True
+            Top             =   437
+            Transparent     =   False
             Underline       =   False
             UseFocusRing    =   False
             Visible         =   True
@@ -3941,22 +3941,22 @@ Begin Window ServerWindow
             InitialParent   =   "SchedBox"
             InitialValue    =   "BACKUP\rSHELL\rSQL"
             Italic          =   False
-            Left            =   653
+            Left            =   654
             ListIndex       =   0
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
-            Scope           =   0
+            Scope           =   2
             TabIndex        =   3
             TabPanelIndex   =   9
             TabStop         =   True
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   399
-            Transparent     =   True
+            Top             =   403
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   157
@@ -3968,18 +3968,18 @@ Begin Window ServerWindow
             HelpTag         =   ""
             Index           =   -2147483648
             InitialParent   =   "SchedBox"
-            Left            =   220
+            Left            =   221
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
-            Scope           =   0
+            Scope           =   2
             TabIndex        =   6
             TabPanelIndex   =   9
             TabStop         =   True
-            Top             =   465
-            Transparent     =   True
+            Top             =   467
+            Transparent     =   False
             Visible         =   True
             Width           =   590
          End
@@ -3989,19 +3989,19 @@ Begin Window ServerWindow
             DataField       =   ""
             DataSource      =   ""
             Enabled         =   True
-            Height          =   20
+            Height          =   22
             HelpTag         =   ""
             Index           =   -2147483648
             InitialParent   =   "SchedBox"
             Italic          =   False
-            Left            =   220
+            Left            =   221
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
             Multiline       =   False
-            Scope           =   0
+            Scope           =   2
             Selectable      =   False
             TabIndex        =   17
             TabPanelIndex   =   9
@@ -4013,7 +4013,7 @@ Begin Window ServerWindow
             TextSize        =   0.0
             TextUnit        =   0
             Top             =   516
-            Transparent     =   True
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   54
@@ -4041,14 +4041,14 @@ Begin Window ServerWindow
             Index           =   0
             InitialParent   =   "SchedBox"
             Italic          =   False
-            Left            =   286
+            Left            =   287
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
             MenuValue       =   0
-            Scope           =   0
+            Scope           =   2
             TabIndex        =   8
             TabPanelIndex   =   9
             TabStop         =   True
@@ -4057,7 +4057,7 @@ Begin Window ServerWindow
             TextSize        =   0.0
             TextUnit        =   0
             Top             =   482
-            Transparent     =   True
+            Transparent     =   False
             Underline       =   False
             Value           =   False
             Visible         =   True
@@ -4086,14 +4086,14 @@ Begin Window ServerWindow
             Index           =   1
             InitialParent   =   "SchedBox"
             Italic          =   False
-            Left            =   335
+            Left            =   336
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
             MenuValue       =   0
-            Scope           =   0
+            Scope           =   2
             TabIndex        =   9
             TabPanelIndex   =   9
             TabStop         =   True
@@ -4102,7 +4102,7 @@ Begin Window ServerWindow
             TextSize        =   0.0
             TextUnit        =   0
             Top             =   482
-            Transparent     =   True
+            Transparent     =   False
             Underline       =   False
             Value           =   False
             Visible         =   True
@@ -4131,14 +4131,14 @@ Begin Window ServerWindow
             Index           =   2
             InitialParent   =   "SchedBox"
             Italic          =   False
-            Left            =   381
+            Left            =   382
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
             MenuValue       =   0
-            Scope           =   0
+            Scope           =   2
             TabIndex        =   10
             TabPanelIndex   =   9
             TabStop         =   True
@@ -4147,7 +4147,7 @@ Begin Window ServerWindow
             TextSize        =   0.0
             TextUnit        =   0
             Top             =   482
-            Transparent     =   True
+            Transparent     =   False
             Underline       =   False
             Value           =   False
             Visible         =   True
@@ -4176,14 +4176,14 @@ Begin Window ServerWindow
             Index           =   3
             InitialParent   =   "SchedBox"
             Italic          =   False
-            Left            =   429
+            Left            =   430
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
             MenuValue       =   0
-            Scope           =   0
+            Scope           =   2
             TabIndex        =   11
             TabPanelIndex   =   9
             TabStop         =   True
@@ -4192,7 +4192,7 @@ Begin Window ServerWindow
             TextSize        =   0.0
             TextUnit        =   0
             Top             =   482
-            Transparent     =   True
+            Transparent     =   False
             Underline       =   False
             Value           =   False
             Visible         =   True
@@ -4221,14 +4221,14 @@ Begin Window ServerWindow
             Index           =   4
             InitialParent   =   "SchedBox"
             Italic          =   False
-            Left            =   476
+            Left            =   477
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
             MenuValue       =   0
-            Scope           =   0
+            Scope           =   2
             TabIndex        =   12
             TabPanelIndex   =   9
             TabStop         =   True
@@ -4237,7 +4237,7 @@ Begin Window ServerWindow
             TextSize        =   0.0
             TextUnit        =   0
             Top             =   482
-            Transparent     =   True
+            Transparent     =   False
             Underline       =   False
             Value           =   False
             Visible         =   True
@@ -4266,14 +4266,14 @@ Begin Window ServerWindow
             Index           =   5
             InitialParent   =   "SchedBox"
             Italic          =   False
-            Left            =   525
+            Left            =   526
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
             MenuValue       =   0
-            Scope           =   0
+            Scope           =   2
             TabIndex        =   13
             TabPanelIndex   =   9
             TabStop         =   True
@@ -4282,7 +4282,7 @@ Begin Window ServerWindow
             TextSize        =   0.0
             TextUnit        =   0
             Top             =   482
-            Transparent     =   True
+            Transparent     =   False
             Underline       =   False
             Value           =   False
             Visible         =   True
@@ -4311,14 +4311,14 @@ Begin Window ServerWindow
             Index           =   6
             InitialParent   =   "SchedBox"
             Italic          =   False
-            Left            =   574
+            Left            =   575
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
             MenuValue       =   0
-            Scope           =   0
+            Scope           =   2
             TabIndex        =   14
             TabPanelIndex   =   9
             TabStop         =   True
@@ -4327,7 +4327,7 @@ Begin Window ServerWindow
             TextSize        =   0.0
             TextUnit        =   0
             Top             =   482
-            Transparent     =   True
+            Transparent     =   False
             Underline       =   False
             Value           =   False
             Visible         =   True
@@ -4345,22 +4345,22 @@ Begin Window ServerWindow
             InitialParent   =   "SchedBox"
             InitialValue    =   "1\r2\r3\r4\r5\r6\r7\r8\r9\r10\r11\r12"
             Italic          =   False
-            Left            =   286
+            Left            =   287
             ListIndex       =   0
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
-            Scope           =   0
+            Scope           =   2
             TabIndex        =   18
             TabPanelIndex   =   9
             TabStop         =   True
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   516
-            Transparent     =   True
+            Top             =   517
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   40
@@ -4377,22 +4377,22 @@ Begin Window ServerWindow
             InitialParent   =   "SchedBox"
             InitialValue    =   "AM\rPM"
             Italic          =   False
-            Left            =   381
+            Left            =   382
             ListIndex       =   0
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
-            Scope           =   0
-            TabIndex        =   19
+            Scope           =   2
+            TabIndex        =   21
             TabPanelIndex   =   9
             TabStop         =   True
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   516
-            Transparent     =   True
+            Top             =   517
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   51
@@ -4409,22 +4409,22 @@ Begin Window ServerWindow
             InitialParent   =   "SchedBox"
             InitialValue    =   "0\r1\r2\r3\r4\r5\r6\r7\r8\r9\r10\r11\r12\r13\r14\r15\r16\r17\r18\r19\r20\r21\r22\r23\r24\r25\r26\r27\r28\r29\r30\r31\r32\r33\r34\r35\r36\r37\r38\r39\r40\r41\r42\r43\r44\r45\r46\r47\r48\r49\r50\r51\r52\r53\r54\r55\r56\r57\r58\r59"
             Italic          =   False
-            Left            =   335
+            Left            =   336
             ListIndex       =   0
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
-            Scope           =   0
-            TabIndex        =   21
+            Scope           =   2
+            TabIndex        =   20
             TabPanelIndex   =   9
             TabStop         =   True
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   516
-            Transparent     =   True
+            Top             =   517
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   40
@@ -4441,22 +4441,22 @@ Begin Window ServerWindow
             InitialParent   =   "SchedBox"
             InitialValue    =   "Every Week\rEvery 2 Weeks\rEvery 3 Weeks\rEvery Month\rEvery 2 Months\rEvery 3 Months"
             Italic          =   False
-            Left            =   703
+            Left            =   704
             ListIndex       =   0
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
-            Scope           =   0
-            TabIndex        =   23
+            Scope           =   2
+            TabIndex        =   24
             TabPanelIndex   =   9
             TabStop         =   True
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   516
-            Transparent     =   True
+            Top             =   517
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   107
@@ -4467,21 +4467,21 @@ Begin Window ServerWindow
             DataField       =   ""
             DataSource      =   ""
             Enabled         =   True
-            Height          =   20
+            Height          =   22
             HelpTag         =   ""
             Index           =   -2147483648
             InitialParent   =   "SchedBox"
             Italic          =   False
-            Left            =   636
+            Left            =   637
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
             Multiline       =   False
-            Scope           =   0
+            Scope           =   2
             Selectable      =   False
-            TabIndex        =   22
+            TabIndex        =   23
             TabPanelIndex   =   9
             TabStop         =   True
             Text            =   "Interval:"
@@ -4491,7 +4491,7 @@ Begin Window ServerWindow
             TextSize        =   0.0
             TextUnit        =   0
             Top             =   516
-            Transparent     =   True
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   59
@@ -4508,22 +4508,22 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "SchedBox"
             Italic          =   False
-            Left            =   220
+            Left            =   221
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
-            Scope           =   0
+            Scope           =   2
             State           =   0
-            TabIndex        =   25
+            TabIndex        =   26
             TabPanelIndex   =   9
             TabStop         =   True
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   566
-            Transparent     =   True
+            Top             =   559
+            Transparent     =   False
             Underline       =   False
             Value           =   False
             Visible         =   True
@@ -4535,19 +4535,19 @@ Begin Window ServerWindow
             DataField       =   ""
             DataSource      =   ""
             Enabled         =   True
-            Height          =   20
+            Height          =   22
             HelpTag         =   ""
             Index           =   -2147483648
             InitialParent   =   "SchedBox"
             Italic          =   False
-            Left            =   636
+            Left            =   637
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
             Multiline       =   False
-            Scope           =   0
+            Scope           =   2
             Selectable      =   False
             TabIndex        =   15
             TabPanelIndex   =   9
@@ -4559,7 +4559,7 @@ Begin Window ServerWindow
             TextSize        =   0.0
             TextUnit        =   0
             Top             =   482
-            Transparent     =   True
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   59
@@ -4576,22 +4576,22 @@ Begin Window ServerWindow
             InitialParent   =   "SchedBox"
             InitialValue    =   "None\rStartup Schedule\rShutdown Schedule"
             Italic          =   False
-            Left            =   703
+            Left            =   704
             ListIndex       =   0
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
-            Scope           =   0
+            Scope           =   2
             TabIndex        =   16
             TabPanelIndex   =   9
             TabStop         =   True
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   482
-            Transparent     =   True
+            Top             =   483
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   107
@@ -4603,18 +4603,18 @@ Begin Window ServerWindow
             HelpTag         =   ""
             Index           =   -2147483648
             InitialParent   =   "SchedBox"
-            Left            =   220
+            Left            =   221
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
-            Scope           =   0
-            TabIndex        =   24
+            Scope           =   2
+            TabIndex        =   25
             TabPanelIndex   =   9
             TabStop         =   True
-            Top             =   543
-            Transparent     =   True
+            Top             =   546
+            Transparent     =   False
             Visible         =   True
             Width           =   590
          End
@@ -4624,21 +4624,21 @@ Begin Window ServerWindow
             DataField       =   ""
             DataSource      =   ""
             Enabled         =   True
-            Height          =   20
+            Height          =   22
             HelpTag         =   ""
             Index           =   -2147483648
             InitialParent   =   "SchedBox"
             Italic          =   False
-            Left            =   443
+            Left            =   444
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
             Multiline       =   False
-            Scope           =   0
+            Scope           =   2
             Selectable      =   False
-            TabIndex        =   20
+            TabIndex        =   22
             TabPanelIndex   =   9
             TabStop         =   True
             Text            =   "HH:MM"
@@ -4648,7 +4648,7 @@ Begin Window ServerWindow
             TextSize        =   0.0
             TextUnit        =   0
             Top             =   516
-            Transparent     =   True
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   60
@@ -4659,21 +4659,21 @@ Begin Window ServerWindow
             DataField       =   ""
             DataSource      =   ""
             Enabled         =   True
-            Height          =   20
+            Height          =   22
             HelpTag         =   ""
             Index           =   -2147483648
             InitialParent   =   "SchedBox"
             Italic          =   False
-            Left            =   326
+            Left            =   327
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
             Multiline       =   False
-            Scope           =   0
+            Scope           =   2
             Selectable      =   False
-            TabIndex        =   28
+            TabIndex        =   19
             TabPanelIndex   =   9
             TabStop         =   True
             Text            =   ":"
@@ -4683,7 +4683,7 @@ Begin Window ServerWindow
             TextSize        =   0.0
             TextUnit        =   0
             Top             =   516
-            Transparent     =   True
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   10
@@ -4701,13 +4701,13 @@ Begin Window ServerWindow
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
          Italic          =   False
-         Left            =   206
+         Left            =   207
          LockBottom      =   True
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   False
          LockTop         =   False
-         Scope           =   0
+         Scope           =   2
          State           =   0
          TabIndex        =   2
          TabPanelIndex   =   7
@@ -4715,8 +4715,8 @@ Begin Window ServerWindow
          TextFont        =   "SmallSystem"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   493
-         Transparent     =   True
+         Top             =   453
+         Transparent     =   False
          Underline       =   False
          Value           =   False
          Visible         =   True
@@ -4728,30 +4728,30 @@ Begin Window ServerWindow
          DataField       =   ""
          DataSource      =   ""
          Enabled         =   True
-         Height          =   20
+         Height          =   22
          HelpTag         =   ""
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
          Italic          =   False
-         Left            =   226
+         Left            =   230
          LockBottom      =   True
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   True
          LockTop         =   False
          Multiline       =   False
-         Scope           =   0
+         Scope           =   2
          Selectable      =   False
-         TabIndex        =   3
+         TabIndex        =   5
          TabPanelIndex   =   6
          TabStop         =   True
          Text            =   ""
          TextAlign       =   0
-         TextColor       =   &c4E4E4E00
+         TextColor       =   &c00000000
          TextFont        =   "SmallSystem"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   463
+         Top             =   431
          Transparent     =   False
          Underline       =   False
          Visible         =   True
@@ -4761,29 +4761,29 @@ Begin Window ServerWindow
          AcceptFocus     =   False
          AcceptTabs      =   False
          AutoDeactivate  =   True
-         Backdrop        =   1658462378
+         Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
          EraseBackground =   True
-         Height          =   18
+         Height          =   22
          HelpTag         =   ""
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
-         Left            =   206
+         Left            =   207
          LockBottom      =   True
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   False
          LockTop         =   False
-         Scope           =   0
+         Scope           =   2
          TabIndex        =   2
          TabPanelIndex   =   6
          TabStop         =   True
-         Top             =   463
-         Transparent     =   True
+         Top             =   431
+         Transparent     =   False
          UseFocusRing    =   False
          Visible         =   False
-         Width           =   18
+         Width           =   22
       End
       Begin TitleField StatusTitle1
          AcceptFocus     =   False
@@ -4792,29 +4792,29 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   True
+         EraseBackground =   False
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
-         Left            =   206
+         Left            =   207
          LockBottom      =   False
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   True
          LockTop         =   True
-         Scope           =   0
+         Scope           =   2
          TabIndex        =   0
          TabPanelIndex   =   1
          TabStop         =   True
          Title           =   ""
-         Top             =   13
-         Transparent     =   True
+         Top             =   14
+         Transparent     =   False
          UseFocusRing    =   False
          Visible         =   True
          Width           =   734
       End
-      Begin Canvas StatusGraph
+      Begin RectCanvas StatusGraph
          AcceptFocus     =   False
          AcceptTabs      =   False
          AutoDeactivate  =   True
@@ -4826,18 +4826,18 @@ Begin Window ServerWindow
          HelpTag         =   ""
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
-         Left            =   206
+         Left            =   207
          LockBottom      =   False
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   True
          LockTop         =   True
-         Scope           =   0
+         Scope           =   2
          TabIndex        =   1
          TabPanelIndex   =   1
          TabStop         =   True
-         Top             =   36
-         Transparent     =   True
+         Top             =   37
+         Transparent     =   False
          UseFocusRing    =   False
          Visible         =   True
          Width           =   734
@@ -4845,7 +4845,7 @@ Begin Window ServerWindow
             AcceptFocus     =   False
             AcceptTabs      =   False
             AutoDeactivate  =   True
-            Backdrop        =   15517095
+            Backdrop        =   0
             DoubleBuffer    =   False
             Enabled         =   True
             EraseBackground =   True
@@ -4853,18 +4853,18 @@ Begin Window ServerWindow
             HelpTag         =   ""
             Index           =   -2147483648
             InitialParent   =   "StatusGraph"
-            Left            =   226
+            Left            =   227
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
             LockRight       =   False
             LockTop         =   True
-            Scope           =   0
+            Scope           =   2
             TabIndex        =   0
             TabPanelIndex   =   1
             TabStop         =   True
-            Top             =   64
-            Transparent     =   True
+            Top             =   65
+            Transparent     =   False
             UseFocusRing    =   False
             Visible         =   True
             Width           =   128
@@ -4875,19 +4875,19 @@ Begin Window ServerWindow
             DataField       =   ""
             DataSource      =   ""
             Enabled         =   True
-            Height          =   20
+            Height          =   22
             HelpTag         =   ""
             Index           =   -2147483648
             InitialParent   =   "StatusGraph"
             Italic          =   False
-            Left            =   385
+            Left            =   386
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
-            LockRight       =   False
+            LockRight       =   True
             LockTop         =   True
             Multiline       =   False
-            Scope           =   0
+            Scope           =   2
             Selectable      =   False
             TabIndex        =   1
             TabPanelIndex   =   1
@@ -4898,11 +4898,11 @@ Begin Window ServerWindow
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   81
+            Top             =   82
             Transparent     =   False
             Underline       =   False
             Visible         =   True
-            Width           =   430
+            Width           =   535
          End
          Begin Label StatusField2
             AutoDeactivate  =   True
@@ -4910,19 +4910,19 @@ Begin Window ServerWindow
             DataField       =   ""
             DataSource      =   ""
             Enabled         =   True
-            Height          =   20
+            Height          =   22
             HelpTag         =   ""
             Index           =   -2147483648
             InitialParent   =   "StatusGraph"
             Italic          =   False
-            Left            =   385
+            Left            =   386
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
-            LockRight       =   False
+            LockRight       =   True
             LockTop         =   True
             Multiline       =   False
-            Scope           =   0
+            Scope           =   2
             Selectable      =   False
             TabIndex        =   2
             TabPanelIndex   =   1
@@ -4933,11 +4933,11 @@ Begin Window ServerWindow
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   107
+            Top             =   108
             Transparent     =   False
             Underline       =   False
             Visible         =   True
-            Width           =   430
+            Width           =   535
          End
          Begin Label StatusField3
             AutoDeactivate  =   True
@@ -4945,19 +4945,19 @@ Begin Window ServerWindow
             DataField       =   ""
             DataSource      =   ""
             Enabled         =   True
-            Height          =   20
+            Height          =   22
             HelpTag         =   ""
             Index           =   -2147483648
             InitialParent   =   "StatusGraph"
             Italic          =   False
-            Left            =   385
+            Left            =   386
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
-            LockRight       =   False
+            LockRight       =   True
             LockTop         =   True
             Multiline       =   False
-            Scope           =   0
+            Scope           =   2
             Selectable      =   False
             TabIndex        =   3
             TabPanelIndex   =   1
@@ -4968,11 +4968,11 @@ Begin Window ServerWindow
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   132
+            Top             =   133
             Transparent     =   False
             Underline       =   False
             Visible         =   True
-            Width           =   430
+            Width           =   535
          End
          Begin Label StatusField4
             AutoDeactivate  =   True
@@ -4980,19 +4980,19 @@ Begin Window ServerWindow
             DataField       =   ""
             DataSource      =   ""
             Enabled         =   True
-            Height          =   20
+            Height          =   22
             HelpTag         =   ""
             Index           =   -2147483648
             InitialParent   =   "StatusGraph"
             Italic          =   False
-            Left            =   385
+            Left            =   386
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
-            LockRight       =   False
+            LockRight       =   True
             LockTop         =   True
             Multiline       =   False
-            Scope           =   0
+            Scope           =   2
             Selectable      =   False
             TabIndex        =   4
             TabPanelIndex   =   1
@@ -5003,11 +5003,11 @@ Begin Window ServerWindow
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   157
+            Top             =   158
             Transparent     =   False
             Underline       =   False
             Visible         =   True
-            Width           =   430
+            Width           =   535
          End
       End
       Begin Listbox StructListbox
@@ -5035,14 +5035,14 @@ Begin Window ServerWindow
          InitialParent   =   "MainPagePanel"
          InitialValue    =   "Type	Name	SQL"
          Italic          =   False
-         Left            =   206
+         Left            =   207
          LockBottom      =   True
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   True
          LockTop         =   True
          RequiresSelection=   False
-         Scope           =   0
+         Scope           =   2
          ScrollbarHorizontal=   False
          ScrollBarVertical=   True
          SelectionType   =   0
@@ -5053,8 +5053,8 @@ Begin Window ServerWindow
          TextFont        =   "SmallSystem"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   80
-         Transparent     =   True
+         Top             =   81
+         Transparent     =   False
          Underline       =   False
          UseFocusRing    =   False
          Visible         =   True
@@ -5069,23 +5069,23 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   True
+         EraseBackground =   False
          Height          =   45
          HelpTag         =   ""
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
-         Left            =   206
+         Left            =   207
          LockBottom      =   False
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   True
          LockTop         =   True
-         Scope           =   0
+         Scope           =   2
          TabIndex        =   1
          TabPanelIndex   =   16
          TabStop         =   True
-         Top             =   36
-         Transparent     =   True
+         Top             =   37
+         Transparent     =   False
          UseFocusRing    =   False
          Visible         =   True
          Width           =   734
@@ -5095,19 +5095,19 @@ Begin Window ServerWindow
             DataField       =   ""
             DataSource      =   ""
             Enabled         =   True
-            Height          =   20
+            Height          =   22
             HelpTag         =   ""
             Index           =   -2147483648
             InitialParent   =   "StructCanvas"
             Italic          =   False
-            Left            =   215
+            Left            =   216
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
             LockRight       =   False
             LockTop         =   True
             Multiline       =   False
-            Scope           =   0
+            Scope           =   2
             Selectable      =   False
             TabIndex        =   0
             TabPanelIndex   =   16
@@ -5118,8 +5118,8 @@ Begin Window ServerWindow
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   48
-            Transparent     =   True
+            Top             =   49
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   80
@@ -5136,22 +5136,22 @@ Begin Window ServerWindow
             InitialParent   =   "StructCanvas"
             InitialValue    =   ""
             Italic          =   False
-            Left            =   284
+            Left            =   285
             ListIndex       =   0
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
             LockRight       =   False
             LockTop         =   True
-            Scope           =   0
+            Scope           =   2
             TabIndex        =   1
             TabPanelIndex   =   16
             TabStop         =   True
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   49
-            Transparent     =   True
+            Top             =   50
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   186
@@ -5164,24 +5164,24 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   True
+         EraseBackground =   False
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
-         Left            =   206
+         Left            =   207
          LockBottom      =   False
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   True
          LockTop         =   True
-         Scope           =   0
+         Scope           =   2
          TabIndex        =   0
          TabPanelIndex   =   16
          TabStop         =   True
          Title           =   "Tables and Indexes"
-         Top             =   13
-         Transparent     =   True
+         Top             =   14
+         Transparent     =   False
          UseFocusRing    =   False
          Visible         =   True
          Width           =   734
@@ -5199,21 +5199,21 @@ Begin Window ServerWindow
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
          Italic          =   False
-         Left            =   322
+         Left            =   323
          LockBottom      =   True
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   False
          LockTop         =   False
-         Scope           =   0
+         Scope           =   2
          TabIndex        =   4
          TabPanelIndex   =   16
          TabStop         =   True
          TextFont        =   "SmallSystem"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   578
-         Transparent     =   True
+         Top             =   579
+         Transparent     =   False
          Underline       =   False
          Visible         =   True
          Width           =   104
@@ -5231,21 +5231,21 @@ Begin Window ServerWindow
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
          Italic          =   False
-         Left            =   836
+         Left            =   837
          LockBottom      =   True
          LockedInPosition=   True
          LockLeft        =   False
          LockRight       =   True
          LockTop         =   False
-         Scope           =   0
+         Scope           =   2
          TabIndex        =   6
          TabPanelIndex   =   16
          TabStop         =   True
          TextFont        =   "SmallSystem"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   578
-         Transparent     =   True
+         Top             =   579
+         Transparent     =   False
          Underline       =   False
          Visible         =   True
          Width           =   104
@@ -5263,21 +5263,21 @@ Begin Window ServerWindow
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
          Italic          =   False
-         Left            =   206
+         Left            =   207
          LockBottom      =   True
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   False
          LockTop         =   False
-         Scope           =   0
+         Scope           =   2
          TabIndex        =   3
          TabPanelIndex   =   16
          TabStop         =   True
          TextFont        =   "SmallSystem"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   578
-         Transparent     =   True
+         Top             =   579
+         Transparent     =   False
          Underline       =   False
          Visible         =   True
          Width           =   104
@@ -5295,21 +5295,21 @@ Begin Window ServerWindow
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
          Italic          =   False
-         Left            =   720
+         Left            =   721
          LockBottom      =   True
          LockedInPosition=   True
          LockLeft        =   False
          LockRight       =   True
          LockTop         =   False
-         Scope           =   0
+         Scope           =   2
          TabIndex        =   5
          TabPanelIndex   =   16
          TabStop         =   True
          TextFont        =   "SmallSystem"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   578
-         Transparent     =   True
+         Top             =   579
+         Transparent     =   False
          Underline       =   False
          Visible         =   True
          Width           =   104
@@ -5320,21 +5320,21 @@ Begin Window ServerWindow
          DataField       =   ""
          DataSource      =   ""
          Enabled         =   True
-         Height          =   20
+         Height          =   22
          HelpTag         =   ""
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
          Italic          =   False
-         Left            =   208
+         Left            =   209
          LockBottom      =   False
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   False
          LockTop         =   True
          Multiline       =   False
-         Scope           =   0
+         Scope           =   2
          Selectable      =   False
-         TabIndex        =   4
+         TabIndex        =   2
          TabPanelIndex   =   3
          TabStop         =   True
          Text            =   "Database:"
@@ -5361,22 +5361,22 @@ Begin Window ServerWindow
          InitialParent   =   "MainPagePanel"
          InitialValue    =   ""
          Italic          =   False
-         Left            =   272
+         Left            =   273
          ListIndex       =   0
          LockBottom      =   False
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   False
          LockTop         =   True
-         Scope           =   0
-         TabIndex        =   5
+         Scope           =   2
+         TabIndex        =   3
          TabPanelIndex   =   3
          TabStop         =   True
          TextFont        =   "SmallSystem"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   131
-         Transparent     =   True
+         Top             =   132
+         Transparent     =   False
          Underline       =   False
          Visible         =   True
          Width           =   157
@@ -5388,23 +5388,23 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   True
+         EraseBackground =   False
          Height          =   562
          HelpTag         =   ""
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
-         Left            =   206
+         Left            =   207
          LockBottom      =   True
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   True
          LockTop         =   True
-         Scope           =   0
-         TabIndex        =   0
+         Scope           =   2
+         TabIndex        =   1
          TabPanelIndex   =   17
          TabStop         =   True
-         Top             =   36
-         Transparent     =   True
+         Top             =   37
+         Transparent     =   False
          UseFocusRing    =   False
          Visible         =   True
          Width           =   734
@@ -5420,18 +5420,18 @@ Begin Window ServerWindow
             HelpTag         =   ""
             Index           =   -2147483648
             InitialParent   =   "MVCCGroupBox11"
-            Left            =   225
+            Left            =   226
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
             LockRight       =   False
             LockTop         =   True
-            Scope           =   0
+            Scope           =   2
             TabIndex        =   0
             TabPanelIndex   =   17
             TabStop         =   True
-            Top             =   49
-            Transparent     =   True
+            Top             =   50
+            Transparent     =   False
             UseFocusRing    =   False
             Visible         =   True
             Width           =   48
@@ -5447,14 +5447,14 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "MVCCGroupBox11"
             Italic          =   False
-            Left            =   285
+            Left            =   286
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
             LockRight       =   False
             LockTop         =   True
             Multiline       =   False
-            Scope           =   0
+            Scope           =   2
             Selectable      =   False
             TabIndex        =   1
             TabPanelIndex   =   17
@@ -5465,8 +5465,8 @@ Begin Window ServerWindow
             TextFont        =   "System"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   49
-            Transparent     =   True
+            Top             =   50
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   353
@@ -5478,18 +5478,18 @@ Begin Window ServerWindow
             HelpTag         =   ""
             Index           =   -2147483648
             InitialParent   =   "MVCCGroupBox11"
-            Left            =   285
+            Left            =   286
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
             LockRight       =   False
             LockTop         =   True
-            Scope           =   0
+            Scope           =   2
             TabIndex        =   3
             TabPanelIndex   =   17
             TabStop         =   True
-            Top             =   109
-            Transparent     =   True
+            Top             =   110
+            Transparent     =   False
             Visible         =   True
             Width           =   512
          End
@@ -5504,16 +5504,16 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "MVCCGroupBox11"
             Italic          =   False
-            Left            =   285
+            Left            =   286
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
             LockRight       =   False
             LockTop         =   True
             Multiline       =   True
-            Scope           =   0
+            Scope           =   2
             Selectable      =   False
-            TabIndex        =   4
+            TabIndex        =   5
             TabPanelIndex   =   17
             TabStop         =   True
             Text            =   "When MVCC is ON server is able to offer a much better concurrency in situations where there is a very large number of concurrent writers. In general Write operations are slower when MVCC is ON and Read is always UNCOMMITTED. If you are upgrading from REAL Server 2009/2010 you probably want MVCC to be turned ON."
@@ -5522,8 +5522,8 @@ Begin Window ServerWindow
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   150
-            Transparent     =   True
+            Top             =   151
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   512
@@ -5539,16 +5539,16 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "MVCCGroupBox11"
             Italic          =   False
-            Left            =   285
+            Left            =   286
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
             LockRight       =   False
             LockTop         =   True
             Multiline       =   False
-            Scope           =   0
+            Scope           =   2
             Selectable      =   False
-            TabIndex        =   5
+            TabIndex        =   4
             TabPanelIndex   =   17
             TabStop         =   True
             Text            =   "MVCC ON"
@@ -5557,8 +5557,8 @@ Begin Window ServerWindow
             TextFont        =   "System"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   125
-            Transparent     =   True
+            Top             =   126
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   100
@@ -5574,16 +5574,16 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "MVCCGroupBox11"
             Italic          =   False
-            Left            =   285
+            Left            =   286
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
             LockRight       =   False
             LockTop         =   True
             Multiline       =   True
-            Scope           =   0
+            Scope           =   2
             Selectable      =   False
-            TabIndex        =   6
+            TabIndex        =   7
             TabPanelIndex   =   17
             TabStop         =   True
             Text            =   "When MVCC is OFF server works in safer mode. The behavior is identical to the one offered by the standard sqlite engine and Write operations are always performed at full speed. Read operations are COMMITTED so for some applications this could be the preferred and safer behavior. If you are upgrading from REAL SQL Server 2008 you probably want MVCC to be turned OFF."
@@ -5592,8 +5592,8 @@ Begin Window ServerWindow
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   250
-            Transparent     =   True
+            Top             =   251
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   512
@@ -5609,16 +5609,16 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "MVCCGroupBox11"
             Italic          =   False
-            Left            =   285
+            Left            =   286
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
             LockRight       =   False
             LockTop         =   True
             Multiline       =   False
-            Scope           =   0
+            Scope           =   2
             Selectable      =   False
-            TabIndex        =   7
+            TabIndex        =   6
             TabPanelIndex   =   17
             TabStop         =   True
             Text            =   "MVCC OFF"
@@ -5627,8 +5627,8 @@ Begin Window ServerWindow
             TextFont        =   "System"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   225
-            Transparent     =   True
+            Top             =   226
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   100
@@ -5644,14 +5644,14 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "MVCCGroupBox11"
             Italic          =   False
-            Left            =   285
+            Left            =   286
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
             LockRight       =   False
             LockTop         =   True
             Multiline       =   True
-            Scope           =   0
+            Scope           =   2
             Selectable      =   False
             TabIndex        =   8
             TabPanelIndex   =   17
@@ -5662,8 +5662,8 @@ Begin Window ServerWindow
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   340
-            Transparent     =   True
+            Top             =   341
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   512
@@ -5691,23 +5691,23 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "MVCCGroupBox11"
             Italic          =   False
-            Left            =   285
+            Left            =   286
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
             LockRight       =   False
             LockTop         =   True
             MenuValue       =   0
-            Scope           =   0
-            TabIndex        =   9
+            Scope           =   2
+            TabIndex        =   2
             TabPanelIndex   =   17
             TabStop         =   True
             TextColor       =   &c00000000
             TextFont        =   "System"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   75
-            Transparent     =   True
+            Top             =   76
+            Transparent     =   False
             Underline       =   False
             Value           =   False
             Visible         =   True
@@ -5721,24 +5721,24 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   True
+         EraseBackground =   False
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
-         Left            =   206
+         Left            =   207
          LockBottom      =   False
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   True
          LockTop         =   True
-         Scope           =   0
-         TabIndex        =   1
+         Scope           =   2
+         TabIndex        =   0
          TabPanelIndex   =   17
          TabStop         =   True
          Title           =   "MultiVersion Concurrency Control"
-         Top             =   13
-         Transparent     =   True
+         Top             =   14
+         Transparent     =   False
          UseFocusRing    =   False
          Visible         =   True
          Width           =   734
@@ -5750,24 +5750,24 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   True
+         EraseBackground =   False
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
-         Left            =   206
+         Left            =   207
          LockBottom      =   False
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   True
          LockTop         =   True
-         Scope           =   0
+         Scope           =   2
          TabIndex        =   0
          TabPanelIndex   =   18
          TabStop         =   True
          Title           =   "cubeSQL News"
-         Top             =   13
-         Transparent     =   True
+         Top             =   14
+         Transparent     =   False
          UseFocusRing    =   False
          Visible         =   True
          Width           =   734
@@ -5779,23 +5779,23 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   True
+         EraseBackground =   False
          Height          =   562
          HelpTag         =   ""
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
-         Left            =   206
+         Left            =   207
          LockBottom      =   True
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   True
          LockTop         =   True
-         Scope           =   0
+         Scope           =   2
          TabIndex        =   1
          TabPanelIndex   =   18
          TabStop         =   True
-         Top             =   36
-         Transparent     =   True
+         Top             =   37
+         Transparent     =   False
          UseFocusRing    =   False
          Visible         =   True
          Width           =   734
@@ -5806,18 +5806,18 @@ Begin Window ServerWindow
             HelpTag         =   ""
             Index           =   -2147483648
             InitialParent   =   "NewsGroupBox1"
-            Left            =   213
+            Left            =   214
             LockBottom      =   True
             LockedInPosition=   True
             LockLeft        =   True
             LockRight       =   True
             LockTop         =   True
             Renderer        =   0
-            Scope           =   0
+            Scope           =   2
             TabIndex        =   0
             TabPanelIndex   =   18
             TabStop         =   True
-            Top             =   42
+            Top             =   43
             Visible         =   True
             Width           =   722
          End
@@ -5829,23 +5829,23 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   True
+         EraseBackground =   False
          Height          =   530
          HelpTag         =   ""
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
-         Left            =   206
+         Left            =   207
          LockBottom      =   True
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   True
          LockTop         =   True
-         Scope           =   0
-         TabIndex        =   0
+         Scope           =   2
+         TabIndex        =   1
          TabPanelIndex   =   19
          TabStop         =   True
-         Top             =   36
-         Transparent     =   True
+         Top             =   37
+         Transparent     =   False
          UseFocusRing    =   False
          Visible         =   True
          Width           =   734
@@ -5856,18 +5856,18 @@ Begin Window ServerWindow
             HelpTag         =   ""
             Index           =   -2147483648
             InitialParent   =   "WebGroupBox1"
-            Left            =   285
+            Left            =   286
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
             LockRight       =   True
             LockTop         =   True
-            Scope           =   0
-            TabIndex        =   0
+            Scope           =   2
+            TabIndex        =   4
             TabPanelIndex   =   19
             TabStop         =   True
-            Top             =   109
-            Transparent     =   True
+            Top             =   110
+            Transparent     =   False
             Visible         =   True
             Width           =   627
          End
@@ -5894,23 +5894,23 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "WebGroupBox1"
             Italic          =   False
-            Left            =   285
+            Left            =   286
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
             LockRight       =   False
             LockTop         =   True
             MenuValue       =   0
-            Scope           =   0
-            TabIndex        =   1
+            Scope           =   2
+            TabIndex        =   2
             TabPanelIndex   =   19
             TabStop         =   True
             TextColor       =   &c00000000
             TextFont        =   "System"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   75
-            Transparent     =   True
+            Top             =   76
+            Transparent     =   False
             Underline       =   False
             Value           =   False
             Visible         =   True
@@ -5927,16 +5927,16 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "WebGroupBox1"
             Italic          =   False
-            Left            =   285
+            Left            =   286
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
             LockRight       =   False
             LockTop         =   True
             Multiline       =   False
-            Scope           =   0
+            Scope           =   2
             Selectable      =   False
-            TabIndex        =   2
+            TabIndex        =   1
             TabPanelIndex   =   19
             TabStop         =   True
             Text            =   "HTTP Server is currently %1."
@@ -5945,8 +5945,8 @@ Begin Window ServerWindow
             TextFont        =   "System"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   49
-            Transparent     =   True
+            Top             =   50
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   453
@@ -5963,18 +5963,18 @@ Begin Window ServerWindow
             HelpTag         =   ""
             Index           =   -2147483648
             InitialParent   =   "WebGroupBox1"
-            Left            =   225
+            Left            =   226
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
             LockRight       =   False
             LockTop         =   True
-            Scope           =   0
-            TabIndex        =   3
+            Scope           =   2
+            TabIndex        =   0
             TabPanelIndex   =   19
             TabStop         =   True
-            Top             =   49
-            Transparent     =   True
+            Top             =   50
+            Transparent     =   False
             UseFocusRing    =   False
             Visible         =   True
             Width           =   48
@@ -5985,21 +5985,21 @@ Begin Window ServerWindow
             DataField       =   ""
             DataSource      =   ""
             Enabled         =   True
-            Height          =   20
+            Height          =   22
             HelpTag         =   ""
             Index           =   -2147483648
             InitialParent   =   "WebGroupBox1"
             Italic          =   False
-            Left            =   774
+            Left            =   775
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   False
             LockRight       =   True
             LockTop         =   True
             Multiline       =   False
-            Scope           =   0
+            Scope           =   2
             Selectable      =   False
-            TabIndex        =   4
+            TabIndex        =   3
             TabPanelIndex   =   19
             TabStop         =   True
             Text            =   "vers. %1"
@@ -6022,24 +6022,24 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   True
+         EraseBackground =   False
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
-         Left            =   206
+         Left            =   207
          LockBottom      =   False
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   True
          LockTop         =   True
-         Scope           =   0
-         TabIndex        =   1
+         Scope           =   2
+         TabIndex        =   0
          TabPanelIndex   =   19
          TabStop         =   True
          Title           =   "Web Settings"
-         Top             =   13
-         Transparent     =   True
+         Top             =   14
+         Transparent     =   False
          UseFocusRing    =   False
          Visible         =   True
          Width           =   734
@@ -6057,21 +6057,21 @@ Begin Window ServerWindow
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
          Italic          =   False
-         Left            =   860
+         Left            =   861
          LockBottom      =   True
          LockedInPosition=   True
          LockLeft        =   False
          LockRight       =   True
          LockTop         =   False
-         Scope           =   0
+         Scope           =   2
          TabIndex        =   2
          TabPanelIndex   =   19
          TabStop         =   True
          TextFont        =   "SmallSystem"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   578
-         Transparent     =   True
+         Top             =   579
+         Transparent     =   False
          Underline       =   False
          Visible         =   True
          Width           =   80
@@ -6083,24 +6083,24 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   True
+         EraseBackground =   False
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
-         Left            =   206
+         Left            =   207
          LockBottom      =   False
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   True
          LockTop         =   True
-         Scope           =   0
+         Scope           =   2
          TabIndex        =   0
          TabPanelIndex   =   20
          TabStop         =   True
          Title           =   "Global Server Settings"
-         Top             =   13
-         Transparent     =   True
+         Top             =   14
+         Transparent     =   False
          UseFocusRing    =   False
          Visible         =   True
          Width           =   734
@@ -6112,23 +6112,23 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   True
+         EraseBackground =   False
          Height          =   453
          HelpTag         =   ""
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
-         Left            =   206
+         Left            =   207
          LockBottom      =   False
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   True
          LockTop         =   True
-         Scope           =   0
+         Scope           =   2
          TabIndex        =   1
          TabPanelIndex   =   20
          TabStop         =   True
-         Top             =   36
-         Transparent     =   True
+         Top             =   37
+         Transparent     =   False
          UseFocusRing    =   False
          Visible         =   True
          Width           =   734
@@ -6155,23 +6155,23 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "SettingsGroupBox1"
             Italic          =   False
-            Left            =   222
+            Left            =   223
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
             LockRight       =   False
             LockTop         =   True
             MenuValue       =   0
-            Scope           =   0
-            TabIndex        =   2
+            Scope           =   2
+            TabIndex        =   1
             TabPanelIndex   =   20
             TabStop         =   True
             TextColor       =   &c00000000
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   81
-            Transparent     =   True
+            Top             =   82
+            Transparent     =   False
             Underline       =   False
             Value           =   False
             Visible         =   True
@@ -6188,16 +6188,16 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "SettingsGroupBox1"
             Italic          =   False
-            Left            =   222
+            Left            =   223
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
             LockRight       =   False
             LockTop         =   True
             Multiline       =   False
-            Scope           =   0
+            Scope           =   2
             Selectable      =   False
-            TabIndex        =   3
+            TabIndex        =   0
             TabPanelIndex   =   20
             TabStop         =   True
             Text            =   "Automatic RowID Mode is currently %1."
@@ -6206,8 +6206,8 @@ Begin Window ServerWindow
             TextFont        =   "System"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   49
-            Transparent     =   True
+            Top             =   50
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   584
@@ -6223,16 +6223,16 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "SettingsGroupBox1"
             Italic          =   False
-            Left            =   444
+            Left            =   445
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
-            LockRight       =   True
+            LockRight       =   False
             LockTop         =   True
             Multiline       =   True
-            Scope           =   0
+            Scope           =   2
             Selectable      =   False
-            TabIndex        =   5
+            TabIndex        =   2
             TabPanelIndex   =   20
             TabStop         =   True
             Text            =   "When Automatic RowID mode is ON, server will try to add a rowid column to each SELECT statement, in this way you can use REAL Studio RecordSet.Update method.\r\rIf you manually write your own sql update statements that you can disable this feature in order to speed up queries and increase sqlite behaviour compatibility."
@@ -6241,7 +6241,7 @@ Begin Window ServerWindow
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   81
+            Top             =   82
             Transparent     =   False
             Underline       =   False
             Visible         =   True
@@ -6253,21 +6253,21 @@ Begin Window ServerWindow
             DataField       =   ""
             DataSource      =   ""
             Enabled         =   True
-            Height          =   20
+            Height          =   22
             HelpTag         =   ""
             Index           =   -2147483648
             InitialParent   =   "SettingsGroupBox1"
             Italic          =   False
-            Left            =   222
+            Left            =   223
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
             LockRight       =   False
             LockTop         =   True
             Multiline       =   False
-            Scope           =   0
+            Scope           =   2
             Selectable      =   False
-            TabIndex        =   6
+            TabIndex        =   7
             TabPanelIndex   =   20
             TabStop         =   True
             Text            =   "Chunk Size:"
@@ -6277,12 +6277,12 @@ Begin Window ServerWindow
             TextSize        =   0.0
             TextUnit        =   0
             Top             =   377
-            Transparent     =   True
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   102
          End
-         Begin TextField SettingsChunkSizeField
+         Begin BetterTextField SettingsChunkSizeField
             AcceptTabs      =   False
             Alignment       =   0
             AutoDeactivate  =   True
@@ -6300,7 +6300,7 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "SettingsGroupBox1"
             Italic          =   False
-            Left            =   336
+            Left            =   337
             LimitText       =   0
             LockBottom      =   False
             LockedInPosition=   True
@@ -6310,8 +6310,8 @@ Begin Window ServerWindow
             Mask            =   ""
             Password        =   False
             ReadOnly        =   False
-            Scope           =   0
-            TabIndex        =   7
+            Scope           =   2
+            TabIndex        =   8
             TabPanelIndex   =   20
             TabStop         =   True
             Text            =   ""
@@ -6319,8 +6319,8 @@ Begin Window ServerWindow
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   376
-            Transparent     =   True
+            Top             =   377
+            Transparent     =   False
             Underline       =   False
             UseFocusRing    =   True
             Visible         =   True
@@ -6339,21 +6339,21 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "SettingsGroupBox1"
             Italic          =   False
-            Left            =   451
+            Left            =   452
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
             LockRight       =   False
             LockTop         =   True
-            Scope           =   0
-            TabIndex        =   8
+            Scope           =   2
+            TabIndex        =   9
             TabPanelIndex   =   20
             TabStop         =   True
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   376
-            Transparent     =   True
+            Top             =   378
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   56
@@ -6369,16 +6369,16 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "SettingsGroupBox1"
             Italic          =   False
-            Left            =   533
+            Left            =   534
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
             LockRight       =   False
             LockTop         =   True
             Multiline       =   True
-            Scope           =   0
+            Scope           =   2
             Selectable      =   False
-            TabIndex        =   9
+            TabIndex        =   10
             TabPanelIndex   =   20
             TabStop         =   True
             Text            =   "Maximum size (in bytes) for a cursor before splitted in chunks. Higher values means better performance but requires extra memory."
@@ -6387,7 +6387,7 @@ Begin Window ServerWindow
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   377
+            Top             =   378
             Transparent     =   False
             Underline       =   False
             Visible         =   True
@@ -6406,26 +6406,26 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "SettingsGroupBox1"
             Italic          =   False
-            Left            =   451
+            Left            =   452
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
             LockRight       =   False
             LockTop         =   True
-            Scope           =   0
-            TabIndex        =   10
+            Scope           =   2
+            TabIndex        =   13
             TabPanelIndex   =   20
             TabStop         =   True
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   434
-            Transparent     =   True
+            Top             =   436
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   56
          End
-         Begin TextField SettingsLockDBField
+         Begin BetterTextField SettingsLockDBField
             AcceptTabs      =   False
             Alignment       =   0
             AutoDeactivate  =   True
@@ -6443,7 +6443,7 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "SettingsGroupBox1"
             Italic          =   False
-            Left            =   336
+            Left            =   337
             LimitText       =   0
             LockBottom      =   False
             LockedInPosition=   True
@@ -6453,8 +6453,8 @@ Begin Window ServerWindow
             Mask            =   ""
             Password        =   False
             ReadOnly        =   False
-            Scope           =   0
-            TabIndex        =   11
+            Scope           =   2
+            TabIndex        =   12
             TabPanelIndex   =   20
             TabStop         =   True
             Text            =   ""
@@ -6462,8 +6462,8 @@ Begin Window ServerWindow
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   434
-            Transparent     =   True
+            Top             =   435
+            Transparent     =   False
             Underline       =   False
             UseFocusRing    =   True
             Visible         =   True
@@ -6475,21 +6475,21 @@ Begin Window ServerWindow
             DataField       =   ""
             DataSource      =   ""
             Enabled         =   True
-            Height          =   20
+            Height          =   22
             HelpTag         =   ""
             Index           =   -2147483648
             InitialParent   =   "SettingsGroupBox1"
             Italic          =   False
-            Left            =   222
+            Left            =   223
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
             LockRight       =   False
             LockTop         =   True
             Multiline       =   False
-            Scope           =   0
+            Scope           =   2
             Selectable      =   False
-            TabIndex        =   12
+            TabIndex        =   11
             TabPanelIndex   =   20
             TabStop         =   True
             Text            =   "Lock DB (ms):"
@@ -6499,7 +6499,7 @@ Begin Window ServerWindow
             TextSize        =   0.0
             TextUnit        =   0
             Top             =   435
-            Transparent     =   True
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   102
@@ -6515,16 +6515,16 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "SettingsGroupBox1"
             Italic          =   False
-            Left            =   533
+            Left            =   534
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
             LockRight       =   False
             LockTop         =   True
             Multiline       =   True
-            Scope           =   0
+            Scope           =   2
             Selectable      =   False
-            TabIndex        =   13
+            TabIndex        =   14
             TabPanelIndex   =   20
             TabStop         =   True
             Text            =   "Maximum time (in ms) a database can wait for a lock to be cleared. Lock occurs ONLY if Autotransaction is ON."
@@ -6533,7 +6533,7 @@ Begin Window ServerWindow
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   435
+            Top             =   436
             Transparent     =   False
             Underline       =   False
             Visible         =   True
@@ -6546,18 +6546,18 @@ Begin Window ServerWindow
             HelpTag         =   ""
             Index           =   -2147483648
             InitialParent   =   "SettingsGroupBox1"
-            Left            =   222
+            Left            =   223
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
             LockRight       =   False
             LockTop         =   True
-            Scope           =   0
-            TabIndex        =   14
+            Scope           =   2
+            TabIndex        =   6
             TabPanelIndex   =   20
             TabStop         =   True
-            Top             =   356
-            Transparent     =   True
+            Top             =   357
+            Transparent     =   False
             Visible         =   True
             Width           =   622
          End
@@ -6572,16 +6572,16 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "SettingsGroupBox1"
             Italic          =   False
-            Left            =   444
+            Left            =   445
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
-            LockRight       =   True
+            LockRight       =   False
             LockTop         =   True
             Multiline       =   True
-            Scope           =   0
+            Scope           =   2
             Selectable      =   False
-            TabIndex        =   15
+            TabIndex        =   5
             TabPanelIndex   =   20
             TabStop         =   True
             Text            =   "When Autotransaction mode is ON, every WRITE operation (INSERT, UPDATE, DELETE, REPLACE) is automatically executed inside a TRANSACTION. That means that WRITE operations are faster but in order to save your data into the database a COMMIT command MUST BE sent at the end of each statement or series of stataments.\r\rIf you do not need to WRITE large amout of data in loop then you can turn OFF autotransaction mode and the server will NEVER lock a database."
@@ -6590,7 +6590,7 @@ Begin Window ServerWindow
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   217
+            Top             =   218
             Transparent     =   False
             Underline       =   False
             Visible         =   False
@@ -6619,23 +6619,23 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "SettingsGroupBox1"
             Italic          =   False
-            Left            =   222
+            Left            =   223
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
             LockRight       =   False
             LockTop         =   True
             MenuValue       =   0
-            Scope           =   0
-            TabIndex        =   16
+            Scope           =   2
+            TabIndex        =   4
             TabPanelIndex   =   20
             TabStop         =   True
             TextColor       =   &c00000000
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   217
-            Transparent     =   True
+            Top             =   218
+            Transparent     =   False
             Underline       =   False
             Value           =   False
             Visible         =   False
@@ -6652,16 +6652,16 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "SettingsGroupBox1"
             Italic          =   False
-            Left            =   222
+            Left            =   223
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
             LockRight       =   False
             LockTop         =   True
             Multiline       =   False
-            Scope           =   0
+            Scope           =   2
             Selectable      =   False
-            TabIndex        =   17
+            TabIndex        =   3
             TabPanelIndex   =   20
             TabStop         =   True
             Text            =   "Autotransaction Mode is currently %1."
@@ -6670,8 +6670,8 @@ Begin Window ServerWindow
             TextFont        =   "System"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   191
-            Transparent     =   True
+            Top             =   192
+            Transparent     =   False
             Underline       =   False
             Visible         =   False
             Width           =   584
@@ -6684,23 +6684,23 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   True
+         EraseBackground =   False
          Height          =   248
          HelpTag         =   ""
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
-         Left            =   206
+         Left            =   207
          LockBottom      =   False
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   True
          LockTop         =   True
-         Scope           =   0
-         TabIndex        =   5
+         Scope           =   2
+         TabIndex        =   3
          TabPanelIndex   =   12
          TabStop         =   True
-         Top             =   210
-         Transparent     =   True
+         Top             =   211
+         Transparent     =   False
          UseFocusRing    =   True
          Visible         =   True
          Width           =   734
@@ -6715,16 +6715,16 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "PrefGroupBox2"
             Italic          =   False
-            Left            =   600
+            Left            =   601
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
             Multiline       =   False
-            Scope           =   0
+            Scope           =   2
             Selectable      =   False
-            TabIndex        =   0
+            TabIndex        =   4
             TabPanelIndex   =   12
             TabStop         =   True
             Text            =   "Official IANA Ports"
@@ -6733,13 +6733,13 @@ Begin Window ServerWindow
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   255
+            Top             =   256
             Transparent     =   False
             Underline       =   True
             Visible         =   True
             Width           =   114
          End
-         Begin TextField SettingsPortField
+         Begin BetterTextField SettingsPortField
             AcceptTabs      =   False
             Alignment       =   0
             AutoDeactivate  =   True
@@ -6757,7 +6757,7 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "PrefGroupBox2"
             Italic          =   False
-            Left            =   345
+            Left            =   346
             LimitText       =   0
             LockBottom      =   False
             LockedInPosition=   True
@@ -6767,8 +6767,8 @@ Begin Window ServerWindow
             Mask            =   ""
             Password        =   False
             ReadOnly        =   False
-            Scope           =   0
-            TabIndex        =   1
+            Scope           =   2
+            TabIndex        =   3
             TabPanelIndex   =   12
             TabStop         =   True
             Text            =   ""
@@ -6776,8 +6776,8 @@ Begin Window ServerWindow
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   255
-            Transparent     =   True
+            Top             =   256
+            Transparent     =   False
             Underline       =   False
             UseFocusRing    =   True
             Visible         =   True
@@ -6794,14 +6794,14 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "PrefGroupBox2"
             Italic          =   False
-            Left            =   241
+            Left            =   242
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
             LockRight       =   False
             LockTop         =   True
             Multiline       =   False
-            Scope           =   0
+            Scope           =   2
             Selectable      =   False
             TabIndex        =   2
             TabPanelIndex   =   12
@@ -6812,13 +6812,13 @@ Begin Window ServerWindow
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   257
-            Transparent     =   True
+            Top             =   258
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   92
          End
-         Begin TextField SettingsNameField
+         Begin BetterTextField SettingsNameField
             AcceptTabs      =   False
             Alignment       =   0
             AutoDeactivate  =   True
@@ -6836,7 +6836,7 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "PrefGroupBox2"
             Italic          =   False
-            Left            =   345
+            Left            =   346
             LimitText       =   0
             LockBottom      =   False
             LockedInPosition=   True
@@ -6846,8 +6846,8 @@ Begin Window ServerWindow
             Mask            =   ""
             Password        =   False
             ReadOnly        =   False
-            Scope           =   0
-            TabIndex        =   3
+            Scope           =   2
+            TabIndex        =   1
             TabPanelIndex   =   12
             TabStop         =   True
             Text            =   ""
@@ -6855,8 +6855,8 @@ Begin Window ServerWindow
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   223
-            Transparent     =   True
+            Top             =   224
+            Transparent     =   False
             Underline       =   False
             UseFocusRing    =   True
             Visible         =   True
@@ -6873,16 +6873,16 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "PrefGroupBox2"
             Italic          =   False
-            Left            =   232
+            Left            =   233
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
             LockRight       =   False
             LockTop         =   True
             Multiline       =   False
-            Scope           =   0
+            Scope           =   2
             Selectable      =   False
-            TabIndex        =   4
+            TabIndex        =   0
             TabPanelIndex   =   12
             TabStop         =   True
             Text            =   "Server Name:"
@@ -6891,8 +6891,8 @@ Begin Window ServerWindow
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   225
-            Transparent     =   True
+            Top             =   226
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   101
@@ -6904,18 +6904,18 @@ Begin Window ServerWindow
             HelpTag         =   ""
             Index           =   -2147483648
             InitialParent   =   "PrefGroupBox2"
-            Left            =   241
+            Left            =   242
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
             LockRight       =   False
             LockTop         =   True
-            Scope           =   0
+            Scope           =   2
             TabIndex        =   5
             TabPanelIndex   =   12
             TabStop         =   True
-            Top             =   289
-            Transparent     =   True
+            Top             =   290
+            Transparent     =   False
             Visible         =   True
             Width           =   561
          End
@@ -6930,16 +6930,16 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "PrefGroupBox2"
             Italic          =   False
-            Left            =   225
+            Left            =   226
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
             LockRight       =   False
             LockTop         =   True
             Multiline       =   False
-            Scope           =   0
+            Scope           =   2
             Selectable      =   False
-            TabIndex        =   6
+            TabIndex        =   9
             TabPanelIndex   =   12
             TabStop         =   True
             Text            =   "Log Verbosity:"
@@ -6948,8 +6948,8 @@ Begin Window ServerWindow
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   335
-            Transparent     =   True
+            Top             =   336
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   108
@@ -6966,22 +6966,22 @@ Begin Window ServerWindow
             InitialParent   =   "PrefGroupBox2"
             InitialValue    =   "NONE\rSQL ERRORS\rSQL COMMANDS"
             Italic          =   False
-            Left            =   345
+            Left            =   346
             ListIndex       =   1
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
-            Scope           =   0
-            TabIndex        =   7
+            Scope           =   2
+            TabIndex        =   10
             TabPanelIndex   =   12
             TabStop         =   True
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   335
-            Transparent     =   True
+            Top             =   336
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   103
@@ -6998,22 +6998,22 @@ Begin Window ServerWindow
             InitialParent   =   "PrefGroupBox2"
             InitialValue    =   "FILE\rSYSTEM\rCONSOLE"
             Italic          =   False
-            Left            =   345
+            Left            =   346
             ListIndex       =   0
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
-            Scope           =   0
-            TabIndex        =   8
+            Scope           =   2
+            TabIndex        =   15
             TabPanelIndex   =   12
             TabStop         =   True
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   428
-            Transparent     =   True
+            Top             =   429
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   103
@@ -7029,16 +7029,16 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "PrefGroupBox2"
             Italic          =   False
-            Left            =   215
+            Left            =   216
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
             LockRight       =   False
             LockTop         =   True
             Multiline       =   False
-            Scope           =   0
+            Scope           =   2
             Selectable      =   False
-            TabIndex        =   9
+            TabIndex        =   14
             TabPanelIndex   =   12
             TabStop         =   True
             Text            =   "Debug Format:"
@@ -7047,8 +7047,8 @@ Begin Window ServerWindow
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   428
-            Transparent     =   True
+            Top             =   429
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   118
@@ -7065,22 +7065,22 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "PrefGroupBox2"
             Italic          =   False
-            Left            =   345
+            Left            =   346
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
-            Scope           =   0
+            Scope           =   2
             State           =   0
-            TabIndex        =   10
+            TabIndex        =   12
             TabPanelIndex   =   12
             TabStop         =   True
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   396
-            Transparent     =   True
+            Top             =   397
+            Transparent     =   False
             Underline       =   False
             Value           =   False
             Visible         =   True
@@ -7098,22 +7098,22 @@ Begin Window ServerWindow
             InitialParent   =   "PrefGroupBox2"
             InitialValue    =   "SQLITE\rTEXT"
             Italic          =   False
-            Left            =   345
+            Left            =   346
             ListIndex       =   0
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
-            Scope           =   0
-            TabIndex        =   11
+            Scope           =   2
+            TabIndex        =   7
             TabPanelIndex   =   12
             TabStop         =   True
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   305
-            Transparent     =   True
+            Top             =   306
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   103
@@ -7129,16 +7129,16 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "PrefGroupBox2"
             Italic          =   False
-            Left            =   241
+            Left            =   242
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
             LockRight       =   False
             LockTop         =   True
             Multiline       =   False
-            Scope           =   0
+            Scope           =   2
             Selectable      =   False
-            TabIndex        =   12
+            TabIndex        =   6
             TabPanelIndex   =   12
             TabStop         =   True
             Text            =   "Log Format:"
@@ -7147,8 +7147,8 @@ Begin Window ServerWindow
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   305
-            Transparent     =   True
+            Top             =   306
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   92
@@ -7160,18 +7160,18 @@ Begin Window ServerWindow
             HelpTag         =   ""
             Index           =   -2147483648
             InitialParent   =   "PrefGroupBox2"
-            Left            =   241
+            Left            =   242
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
             LockRight       =   False
             LockTop         =   True
-            Scope           =   0
-            TabIndex        =   13
+            Scope           =   2
+            TabIndex        =   11
             TabPanelIndex   =   12
             TabStop         =   True
-            Top             =   380
-            Transparent     =   True
+            Top             =   381
+            Transparent     =   False
             Visible         =   True
             Width           =   561
          End
@@ -7186,16 +7186,16 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "PrefGroupBox2"
             Italic          =   False
-            Left            =   495
+            Left            =   496
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
             LockRight       =   False
             LockTop         =   True
             Multiline       =   True
-            Scope           =   0
+            Scope           =   2
             Selectable      =   False
-            TabIndex        =   14
+            TabIndex        =   13
             TabPanelIndex   =   12
             TabStop         =   True
             Text            =   "Turning ON debug mode will slow down the server but it could help to track down rare or random issues. Use this feature only if you have a compelling reason to use it."
@@ -7204,7 +7204,7 @@ Begin Window ServerWindow
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   396
+            Top             =   397
             Transparent     =   False
             Underline       =   False
             Visible         =   True
@@ -7221,16 +7221,16 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "PrefGroupBox2"
             Italic          =   False
-            Left            =   495
+            Left            =   496
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
             LockRight       =   False
             LockTop         =   True
             Multiline       =   True
-            Scope           =   0
+            Scope           =   2
             Selectable      =   False
-            TabIndex        =   15
+            TabIndex        =   8
             TabPanelIndex   =   12
             TabStop         =   True
             Text            =   "Logging sql statements could help you to track down logical or potential errors. Some time you can forget a COMMIT statement and receive a DATABASE IS LOCKED error because a transaction is never closed."
@@ -7239,7 +7239,7 @@ Begin Window ServerWindow
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   305
+            Top             =   306
             Transparent     =   False
             Underline       =   False
             Visible         =   True
@@ -7253,23 +7253,23 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   True
+         EraseBackground =   False
          Height          =   139
          HelpTag         =   ""
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
-         Left            =   206
+         Left            =   207
          LockBottom      =   False
          LockedInPosition=   True
          LockLeft        =   True
          LockRight       =   True
          LockTop         =   True
-         Scope           =   0
+         Scope           =   2
          TabIndex        =   1
          TabPanelIndex   =   12
          TabStop         =   True
-         Top             =   36
-         Transparent     =   True
+         Top             =   37
+         Transparent     =   False
          UseFocusRing    =   False
          Visible         =   True
          Width           =   734
@@ -7284,14 +7284,14 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "PrefGroupBox1"
             Italic          =   False
-            Left            =   215
+            Left            =   216
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
             LockRight       =   False
             LockTop         =   True
             Multiline       =   False
-            Scope           =   0
+            Scope           =   2
             Selectable      =   False
             TabIndex        =   0
             TabPanelIndex   =   12
@@ -7302,8 +7302,8 @@ Begin Window ServerWindow
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   48
-            Transparent     =   True
+            Top             =   49
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   86
@@ -7319,14 +7319,14 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "PrefGroupBox1"
             Italic          =   False
-            Left            =   215
+            Left            =   216
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
             LockRight       =   False
             LockTop         =   True
             Multiline       =   False
-            Scope           =   0
+            Scope           =   2
             Selectable      =   False
             TabIndex        =   3
             TabPanelIndex   =   12
@@ -7337,13 +7337,13 @@ Begin Window ServerWindow
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   82
-            Transparent     =   True
+            Top             =   83
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   86
          End
-         Begin TextField SettingsBackupPathField
+         Begin BetterTextField SettingsBackupPathField
             AcceptTabs      =   False
             Alignment       =   0
             AutoDeactivate  =   True
@@ -7361,7 +7361,7 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "PrefGroupBox1"
             Italic          =   False
-            Left            =   313
+            Left            =   314
             LimitText       =   0
             LockBottom      =   False
             LockedInPosition=   True
@@ -7371,7 +7371,7 @@ Begin Window ServerWindow
             Mask            =   ""
             Password        =   False
             ReadOnly        =   False
-            Scope           =   0
+            Scope           =   2
             TabIndex        =   4
             TabPanelIndex   =   12
             TabStop         =   True
@@ -7380,14 +7380,14 @@ Begin Window ServerWindow
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   80
-            Transparent     =   True
+            Top             =   81
+            Transparent     =   False
             Underline       =   False
             UseFocusRing    =   True
             Visible         =   True
             Width           =   401
          End
-         Begin TextField SettingsRestorePathField
+         Begin BetterTextField SettingsRestorePathField
             AcceptTabs      =   False
             Alignment       =   0
             AutoDeactivate  =   True
@@ -7405,7 +7405,7 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "PrefGroupBox1"
             Italic          =   False
-            Left            =   313
+            Left            =   314
             LimitText       =   0
             LockBottom      =   False
             LockedInPosition=   True
@@ -7415,7 +7415,7 @@ Begin Window ServerWindow
             Mask            =   ""
             Password        =   False
             ReadOnly        =   False
-            Scope           =   0
+            Scope           =   2
             TabIndex        =   7
             TabPanelIndex   =   12
             TabStop         =   True
@@ -7424,8 +7424,8 @@ Begin Window ServerWindow
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   114
-            Transparent     =   True
+            Top             =   115
+            Transparent     =   False
             Underline       =   False
             UseFocusRing    =   True
             Visible         =   True
@@ -7442,14 +7442,14 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "PrefGroupBox1"
             Italic          =   False
-            Left            =   215
+            Left            =   216
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
             LockRight       =   False
             LockTop         =   True
             Multiline       =   False
-            Scope           =   0
+            Scope           =   2
             Selectable      =   False
             TabIndex        =   6
             TabPanelIndex   =   12
@@ -7460,13 +7460,13 @@ Begin Window ServerWindow
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   116
-            Transparent     =   True
+            Top             =   117
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   86
          End
-         Begin TextField SettingsDBPathField
+         Begin BetterTextField SettingsDBPathField
             AcceptTabs      =   False
             Alignment       =   0
             AutoDeactivate  =   True
@@ -7484,7 +7484,7 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "PrefGroupBox1"
             Italic          =   False
-            Left            =   313
+            Left            =   314
             LimitText       =   0
             LockBottom      =   False
             LockedInPosition=   True
@@ -7494,7 +7494,7 @@ Begin Window ServerWindow
             Mask            =   ""
             Password        =   False
             ReadOnly        =   False
-            Scope           =   0
+            Scope           =   2
             TabIndex        =   1
             TabPanelIndex   =   12
             TabStop         =   True
@@ -7503,8 +7503,8 @@ Begin Window ServerWindow
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   46
-            Transparent     =   True
+            Top             =   47
+            Transparent     =   False
             Underline       =   False
             UseFocusRing    =   True
             Visible         =   True
@@ -7523,21 +7523,21 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "PrefGroupBox1"
             Italic          =   False
-            Left            =   726
+            Left            =   727
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
-            Scope           =   0
+            Scope           =   2
             TabIndex        =   2
             TabPanelIndex   =   12
             TabStop         =   True
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   47
-            Transparent     =   True
+            Top             =   48
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   76
@@ -7555,21 +7555,21 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "PrefGroupBox1"
             Italic          =   False
-            Left            =   726
+            Left            =   727
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
-            Scope           =   0
+            Scope           =   2
             TabIndex        =   5
             TabPanelIndex   =   12
             TabStop         =   True
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   82
-            Transparent     =   True
+            Top             =   83
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   76
@@ -7587,26 +7587,26 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "PrefGroupBox1"
             Italic          =   False
-            Left            =   726
+            Left            =   727
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
-            Scope           =   0
+            Scope           =   2
             TabIndex        =   8
             TabPanelIndex   =   12
             TabStop         =   True
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   114
-            Transparent     =   True
+            Top             =   115
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   76
          End
-         Begin TextField SettingsExecutablePath
+         Begin BetterTextField SettingsExecutablePath
             AcceptTabs      =   False
             Alignment       =   0
             AutoDeactivate  =   True
@@ -7624,18 +7624,18 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "PrefGroupBox1"
             Italic          =   False
-            Left            =   390
+            Left            =   314
             LimitText       =   0
             LockBottom      =   False
             LockedInPosition=   True
-            LockLeft        =   False
-            LockRight       =   True
-            LockTop         =   False
+            LockLeft        =   True
+            LockRight       =   False
+            LockTop         =   True
             Mask            =   ""
             Password        =   False
             ReadOnly        =   True
-            Scope           =   0
-            TabIndex        =   9
+            Scope           =   2
+            TabIndex        =   10
             TabPanelIndex   =   12
             TabStop         =   True
             Text            =   ""
@@ -7643,8 +7643,8 @@ Begin Window ServerWindow
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   146
-            Transparent     =   True
+            Top             =   147
+            Transparent     =   False
             Underline       =   False
             UseFocusRing    =   True
             Visible         =   True
@@ -7661,16 +7661,16 @@ Begin Window ServerWindow
             Index           =   -2147483648
             InitialParent   =   "PrefGroupBox1"
             Italic          =   False
-            Left            =   215
+            Left            =   216
             LockBottom      =   False
             LockedInPosition=   True
             LockLeft        =   True
             LockRight       =   False
             LockTop         =   True
             Multiline       =   False
-            Scope           =   0
+            Scope           =   2
             Selectable      =   False
-            TabIndex        =   10
+            TabIndex        =   9
             TabPanelIndex   =   12
             TabStop         =   True
             Text            =   "Executable:"
@@ -7679,8 +7679,8 @@ Begin Window ServerWindow
             TextFont        =   "SmallSystem"
             TextSize        =   0.0
             TextUnit        =   0
-            Top             =   146
-            Transparent     =   True
+            Top             =   147
+            Transparent     =   False
             Underline       =   False
             Visible         =   True
             Width           =   86
@@ -7699,21 +7699,21 @@ Begin Window ServerWindow
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
          Italic          =   False
-         Left            =   596
+         Left            =   597
          LockBottom      =   True
          LockedInPosition=   True
          LockLeft        =   False
          LockRight       =   True
          LockTop         =   False
-         Scope           =   0
-         TabIndex        =   5
+         Scope           =   2
+         TabIndex        =   3
          TabPanelIndex   =   5
          TabStop         =   True
          TextFont        =   "SmallSystem"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   578
-         Transparent     =   True
+         Top             =   579
+         Transparent     =   False
          Underline       =   False
          Visible         =   True
          Width           =   112
@@ -7757,6 +7757,24 @@ End
 		  NavigationList.Selected(1) = true
 		  NavigationList.Refresh
 		  DoPanelStatus
+		  
+		  #if TargetLinux then
+		    //Workaround: Adjust Position of GroupBoxes and their Controls
+		    Dim oGroupBoxes() As GroupBox = Array(DBGroupBox, GroupsBox, PrivBox, SchedBox)
+		    for each oBox As GroupBox in oGroupBoxes
+		      oBox.Height = oBox.Height + 8
+		      oBox.Top = oBox.Top - 4
+		    next
+		    Dim oCurrentControl As Control
+		    for i As Integer = self.ControlCount-1 DownTo 0
+		      oCurrentControl = self.Control(i)
+		      if (oCurrentControl IsA RectControl) and (RectControl(oCurrentControl).Parent IsA GroupBox) then
+		        if (oGroupBoxes.IndexOf(GroupBox(RectControl(oCurrentControl).Parent)) >= 0) then
+		          RectControl(oCurrentControl).Top = RectControl(oCurrentControl).Top + 4
+		        end if
+		      end if
+		    next
+		  #endif
 		End Sub
 	#tag EndEvent
 
@@ -7900,7 +7918,7 @@ End
 		Private Function DoFixPath(f As FolderItem) As String
 		  Dim s As String
 		  
-		  #if TargetWin32
+		  #if TargetWindows
 		    s = f.AbsolutePath
 		  #else
 		    s = f.ShellPath.ReplaceAll("\\", chr(1))
@@ -8143,6 +8161,7 @@ End
 		  rs1 = db.SQLSelect("SHOW GROUPS;")
 		  if (rs1 = nil) then return
 		  
+		  GroupsListbox.WM_SetRedraw = false
 		  while (not rs1.EOF)
 		    groupname = rs1.IdxField(1).getString
 		    GroupsListbox.AppendSection(groupname, true, false, true)
@@ -8199,6 +8218,7 @@ End
 		  
 		  rs2 = nil
 		  GroupsListbox.Rebuild()
+		  GroupsListbox.WM_SetRedraw = true
 		  GroupsPopup.ListIndex = 0
 		End Sub
 	#tag EndMethod
@@ -8388,6 +8408,8 @@ End
 		  end if
 		  rs = nil
 		  
+		  PrivListbox.WM_SetRedraw = false
+		  
 		  if (PrivCheckBox.Value = false) then
 		    DoPanelPrivilegesView1
 		  else
@@ -8398,6 +8420,8 @@ End
 		  PrivGroupsPopup.ListIndex = 0
 		  PrivDBPopup.ListIndex = 0
 		  PrivListbox.Rebuild()
+		  PrivListbox.WM_SetRedraw = true
+		  
 		End Sub
 	#tag EndMethod
 
@@ -8488,7 +8512,7 @@ End
 		  
 		  // build main listbox
 		  // build ListBox and Groups popup
-		  Dim dbname, s, s1, s2, s3 As String
+		  Dim dbname, s, s2, s3 As String
 		  Dim nrec As Integer
 		  
 		  rs = db.SQLSelect("SHOW ALL PRIVILEGES")
@@ -9239,6 +9263,8 @@ End
 	#tag EndEvent
 	#tag Event
 		Sub SelectedItem(Item as FGSourceListItem)
+		  self.ShowMsg("")
+		  
 		  select case Item.Tag
 		  case "Status"
 		    DoPanelStatus
@@ -9281,6 +9307,7 @@ End
 		  case "Web"
 		    DoPanelWeb
 		  end select
+		  
 		End Sub
 	#tag EndEvent
 #tag EndEvents
@@ -9295,7 +9322,7 @@ End
 		    g.TextFont = "System"
 		    g.TextSize = 11
 		    g.TextUnit = FontUnits.Point
-		    g.DrawString(mMessageFieldText, ((g.Height-g.TextHeight)/2)+g.TextAscent-1, 20, g.Width-40)
+		    g.DrawString(mMessageFieldText, 10, ((g.Height-g.TextHeight)/2)+g.TextAscent, g.Width-40)
 		  end if
 		  
 		  g.ForeColor = Colors.BottomBar_Frame
@@ -9319,14 +9346,6 @@ End
 		Function CellClick(row as Integer, column as Integer, x as Integer, y as Integer) As Boolean
 		  return true
 		End Function
-	#tag EndEvent
-	#tag Event
-		Sub Open()
-		  #If TargetLinux
-		    me.TextSize = 10
-		  #endif
-		  
-		End Sub
 	#tag EndEvent
 #tag EndEvents
 #tag Events DBListbox
@@ -9381,14 +9400,6 @@ End
 		  end if
 		End Sub
 	#tag EndEvent
-	#tag Event
-		Sub Open()
-		  #If TargetLinux
-		    me.TextSize = 10
-		  #endif
-		  
-		End Sub
-	#tag EndEvent
 #tag EndEvents
 #tag Events ConsoleField
 	#tag Event
@@ -9416,14 +9427,6 @@ End
 		  return me.DrawAlternatedRowsBackground(g, row, column)
 		End Function
 	#tag EndEvent
-	#tag Event
-		Sub Open()
-		  #If TargetLinux
-		    me.TextSize = 10
-		  #endif
-		  
-		End Sub
-	#tag EndEvent
 #tag EndEvents
 #tag Events ClientsListbox
 	#tag Event
@@ -9441,14 +9444,6 @@ End
 	#tag Event
 		Sub Change()
 		  ClientsDisconnect.Enabled = (me.ListIndex <> -1)
-		End Sub
-	#tag EndEvent
-	#tag Event
-		Sub Open()
-		  #If TargetLinux
-		    me.TextSize = 10
-		  #endif
-		  
 		End Sub
 	#tag EndEvent
 #tag EndEvents
@@ -9568,9 +9563,6 @@ End
 		Sub Open()
 		  me.UseFocusRing = false
 		  me.SelectableSections = true
-		  #If TargetLinux
-		    me.TextSize = 10
-		  #endif
 		  
 		End Sub
 	#tag EndEvent
@@ -9732,14 +9724,6 @@ End
 		  end if
 		End Sub
 	#tag EndEvent
-	#tag Event
-		Sub Open()
-		  #If TargetLinux
-		    me.TextSize = 10
-		  #endif
-		  
-		End Sub
-	#tag EndEvent
 #tag EndEvents
 #tag Events PluginsDisable
 	#tag Event
@@ -9785,14 +9769,6 @@ End
 		End Sub
 	#tag EndEvent
 	#tag Event
-		Sub Open()
-		  #If TargetLinux
-		    me.TextSize = 10
-		  #endif
-		  
-		End Sub
-	#tag EndEvent
-	#tag Event
 		Function ConstructContextualMenu(base as MenuItem, x as Integer, y as Integer) As Boolean
 		  base.append(New MenuItem("Descending Order"))
 		  base.append(New MenuItem("Ascending Order"))
@@ -9829,14 +9805,6 @@ End
 	#tag Event
 		Sub Change()
 		  RestoreButton.Enabled = (me.ListIndex <> -1)
-		End Sub
-	#tag EndEvent
-	#tag Event
-		Sub Open()
-		  #If TargetLinux
-		    me.TextSize = 10
-		  #endif
-		  
 		End Sub
 	#tag EndEvent
 #tag EndEvents
@@ -9969,14 +9937,6 @@ End
 		  
 		  // BackupDeleteButton.Enabled = (me.ListIndex <> -1)
 		  // BackupRestoreButton.Enabled = (me.ListIndex <> -1)
-		End Sub
-	#tag EndEvent
-	#tag Event
-		Sub Open()
-		  #If TargetLinux
-		    me.TextSize = 10
-		  #endif
-		  
 		End Sub
 	#tag EndEvent
 #tag EndEvents
@@ -10116,9 +10076,6 @@ End
 	#tag Event
 		Sub Open()
 		  me.UseFocusRing = false
-		  #If TargetLinux
-		    me.TextSize = 10
-		  #endif
 		  
 		End Sub
 	#tag EndEvent
@@ -10192,14 +10149,6 @@ End
 		  return false
 		End Function
 	#tag EndEvent
-	#tag Event
-		Sub Open()
-		  #If TargetLinux
-		    me.TextSize = 10
-		  #endif
-		  
-		End Sub
-	#tag EndEvent
 #tag EndEvents
 #tag Events ChatListbox
 	#tag Event
@@ -10212,14 +10161,6 @@ End
 		  if (column = 0) then g.Bold = true
 		  return false
 		End Function
-	#tag EndEvent
-	#tag Event
-		Sub Open()
-		  #If TargetLinux
-		    me.TextSize = 10
-		  #endif
-		  
-		End Sub
 	#tag EndEvent
 #tag EndEvents
 #tag Events DBStartStopButton
@@ -10326,14 +10267,6 @@ End
 		  if (me.ListIndex <> -1) then DoLoadSchedule
 		End Sub
 	#tag EndEvent
-	#tag Event
-		Sub Open()
-		  #If TargetLinux
-		    me.TextSize = 10
-		  #endif
-		  
-		End Sub
-	#tag EndEvent
 #tag EndEvents
 #tag Events SchedDropButton
 	#tag Event
@@ -10385,13 +10318,23 @@ End
 		End Sub
 	#tag EndEvent
 #tag EndEvents
-#tag Events StatusGraph
+#tag Events GroupsTips
 	#tag Event
 		Sub Paint(g As Graphics, areas() As REALbasic.Rect)
+		  g.ForeColor = FillColor
+		  g.FillRect(0, 0, g.Width, g.Height)
 		  
-		  g.ForeColor = Colors.TitleField_Frame
-		  g.DrawRect(0, 0, me.Width, me.Height)
+		  g.DrawPicture(tips, (g.Width-tips.Width)/2, (g.Height-tips.Height)/2)
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events StatusIcon
+	#tag Event
+		Sub Paint(g As Graphics, areas() As REALbasic.Rect)
+		  g.ForeColor = FillColor
+		  g.FillRect(0, 0, g.Width, g.Height)
 		  
+		  g.DrawPicture(icon, (g.Width-icon.Width)/2, (g.Height-icon.Height)/2)
 		End Sub
 	#tag EndEvent
 #tag EndEvents
@@ -10405,14 +10348,6 @@ End
 		Sub Change()
 		  StructDropButton.Enabled = (me.ListIndex <> -1)
 		  StructAlterTableButton.Enabled = (me.ListIndex <> -1) and (me.Cell(me.ListIndex, 0) = "table")
-		End Sub
-	#tag EndEvent
-	#tag Event
-		Sub Open()
-		  #If TargetLinux
-		    me.TextSize = 10
-		  #endif
-		  
 		End Sub
 	#tag EndEvent
 #tag EndEvents

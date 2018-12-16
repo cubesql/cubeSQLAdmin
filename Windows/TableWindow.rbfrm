@@ -39,34 +39,34 @@ Begin Window TableWindow
       Italic          =   False
       Left            =   20
       LockBottom      =   False
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   True
       LockRight       =   False
       LockTop         =   True
       Multiline       =   False
-      Scope           =   0
+      Scope           =   2
       Selectable      =   False
       TabIndex        =   0
       TabPanelIndex   =   0
       TabStop         =   True
       Text            =   "Table Name:"
       TextAlign       =   0
-      TextColor       =   
+      TextColor       =   &c00000000
       TextFont        =   "SmallSystem"
       TextSize        =   0.0
       TextUnit        =   0
       Top             =   14
-      Transparent     =   True
+      Transparent     =   False
       Underline       =   False
       Visible         =   True
       Width           =   89
    End
-   Begin TextField TableNameField
+   Begin BetterTextField TableNameField
       AcceptTabs      =   False
       Alignment       =   0
       AutoDeactivate  =   True
       AutomaticallyCheckSpelling=   False
-      BackColor       =   
+      BackColor       =   &cFFFFFF00
       Bold            =   False
       Border          =   True
       CueText         =   ""
@@ -82,19 +82,19 @@ Begin Window TableWindow
       Left            =   121
       LimitText       =   0
       LockBottom      =   False
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   True
       LockRight       =   True
       LockTop         =   True
       Mask            =   ""
       Password        =   False
       ReadOnly        =   False
-      Scope           =   0
+      Scope           =   2
       TabIndex        =   1
       TabPanelIndex   =   0
       TabStop         =   True
       Text            =   ""
-      TextColor       =   
+      TextColor       =   &c00000000
       TextFont        =   "SmallSystem"
       TextSize        =   0.0
       TextUnit        =   0
@@ -114,11 +114,11 @@ Begin Window TableWindow
       InitialParent   =   ""
       Left            =   20
       LockBottom      =   True
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   True
       LockRight       =   True
       LockTop         =   False
-      Scope           =   0
+      Scope           =   2
       TabIndex        =   13
       TabPanelIndex   =   0
       TabStop         =   True
@@ -142,11 +142,11 @@ Begin Window TableWindow
       Italic          =   False
       Left            =   449
       LockBottom      =   True
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   False
       LockRight       =   True
       LockTop         =   False
-      Scope           =   0
+      Scope           =   2
       TabIndex        =   15
       TabPanelIndex   =   0
       TabStop         =   True
@@ -174,11 +174,11 @@ Begin Window TableWindow
       Italic          =   False
       Left            =   357
       LockBottom      =   True
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   False
       LockRight       =   True
       LockTop         =   False
-      Scope           =   0
+      Scope           =   2
       TabIndex        =   14
       TabPanelIndex   =   0
       TabStop         =   True
@@ -200,11 +200,11 @@ Begin Window TableWindow
       InitialParent   =   ""
       Left            =   20
       LockBottom      =   False
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   True
       LockRight       =   True
       LockTop         =   True
-      Scope           =   0
+      Scope           =   2
       TabIndex        =   2
       TabPanelIndex   =   0
       TabStop         =   True
@@ -240,12 +240,12 @@ Begin Window TableWindow
       Italic          =   False
       Left            =   20
       LockBottom      =   True
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   True
       LockRight       =   True
       LockTop         =   True
       RequiresSelection=   False
-      Scope           =   0
+      Scope           =   2
       ScrollbarHorizontal=   False
       ScrollBarVertical=   True
       SelectionType   =   0
@@ -265,12 +265,12 @@ Begin Window TableWindow
       _ScrollOffset   =   0
       _ScrollWidth    =   -1
    End
-   Begin TextField FieldName
+   Begin BetterTextField FieldName
       AcceptTabs      =   False
       Alignment       =   0
       AutoDeactivate  =   True
       AutomaticallyCheckSpelling=   False
-      BackColor       =   
+      BackColor       =   &cFFFFFF00
       Bold            =   False
       Border          =   True
       CueText         =   ""
@@ -286,19 +286,19 @@ Begin Window TableWindow
       Left            =   121
       LimitText       =   0
       LockBottom      =   True
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   True
       LockRight       =   True
       LockTop         =   False
       Mask            =   ""
       Password        =   False
       ReadOnly        =   False
-      Scope           =   0
+      Scope           =   2
       TabIndex        =   5
       TabPanelIndex   =   0
       TabStop         =   True
       Text            =   ""
-      TextColor       =   
+      TextColor       =   &c00000000
       TextFont        =   "SmallSystem"
       TextSize        =   0.0
       TextUnit        =   0
@@ -322,29 +322,29 @@ Begin Window TableWindow
       Italic          =   False
       Left            =   20
       LockBottom      =   True
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   True
       LockRight       =   False
       LockTop         =   False
       Multiline       =   False
-      Scope           =   0
+      Scope           =   2
       Selectable      =   False
       TabIndex        =   4
       TabPanelIndex   =   0
       TabStop         =   True
       Text            =   "Field Name:"
       TextAlign       =   0
-      TextColor       =   
+      TextColor       =   &c00000000
       TextFont        =   "SmallSystem"
       TextSize        =   0.0
       TextUnit        =   0
       Top             =   357
-      Transparent     =   True
+      Transparent     =   False
       Underline       =   False
       Visible         =   True
       Width           =   89
    End
-   Begin ComboBox ComboBox1
+   Begin BetterComboBox ComboBox1
       AutoComplete    =   False
       AutoDeactivate  =   True
       Bold            =   False
@@ -359,11 +359,11 @@ Begin Window TableWindow
       Left            =   381
       ListIndex       =   -1
       LockBottom      =   True
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   False
       LockRight       =   True
       LockTop         =   False
-      Scope           =   0
+      Scope           =   2
       TabIndex        =   6
       TabPanelIndex   =   0
       TabStop         =   True
@@ -390,34 +390,34 @@ Begin Window TableWindow
       Italic          =   False
       Left            =   20
       LockBottom      =   True
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   True
       LockRight       =   False
       LockTop         =   False
       Multiline       =   False
-      Scope           =   0
+      Scope           =   2
       Selectable      =   False
       TabIndex        =   7
       TabPanelIndex   =   0
       TabStop         =   True
       Text            =   "Default Value:"
       TextAlign       =   0
-      TextColor       =   
+      TextColor       =   &c00000000
       TextFont        =   "SmallSystem"
       TextSize        =   0.0
       TextUnit        =   0
       Top             =   387
-      Transparent     =   True
+      Transparent     =   False
       Underline       =   False
       Visible         =   True
       Width           =   89
    End
-   Begin TextField FieldDefault
+   Begin BetterTextField FieldDefault
       AcceptTabs      =   False
       Alignment       =   0
       AutoDeactivate  =   True
       AutomaticallyCheckSpelling=   False
-      BackColor       =   
+      BackColor       =   &cFFFFFF00
       Bold            =   False
       Border          =   True
       CueText         =   ""
@@ -433,19 +433,19 @@ Begin Window TableWindow
       Left            =   121
       LimitText       =   0
       LockBottom      =   True
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   True
       LockRight       =   True
       LockTop         =   False
       Mask            =   ""
       Password        =   False
       ReadOnly        =   False
-      Scope           =   0
+      Scope           =   2
       TabIndex        =   8
       TabPanelIndex   =   0
       TabStop         =   True
       Text            =   ""
-      TextColor       =   
+      TextColor       =   &c00000000
       TextFont        =   "SmallSystem"
       TextSize        =   0.0
       TextUnit        =   0
@@ -456,7 +456,7 @@ Begin Window TableWindow
       Visible         =   True
       Width           =   248
    End
-   Begin ComboBox ComboBox2
+   Begin BetterComboBox ComboBox2
       AutoComplete    =   False
       AutoDeactivate  =   True
       Bold            =   False
@@ -471,11 +471,11 @@ Begin Window TableWindow
       Left            =   381
       ListIndex       =   -1
       LockBottom      =   True
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   False
       LockRight       =   True
       LockTop         =   False
-      Scope           =   0
+      Scope           =   2
       TabIndex        =   9
       TabPanelIndex   =   0
       TabStop         =   True
@@ -504,11 +504,11 @@ Begin Window TableWindow
       Italic          =   False
       Left            =   449
       LockBottom      =   True
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   False
       LockRight       =   True
       LockTop         =   False
-      Scope           =   0
+      Scope           =   2
       TabIndex        =   12
       TabPanelIndex   =   0
       TabStop         =   True
@@ -536,11 +536,11 @@ Begin Window TableWindow
       Italic          =   False
       Left            =   225
       LockBottom      =   True
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   False
       LockRight       =   True
       LockTop         =   False
-      Scope           =   0
+      Scope           =   2
       TabIndex        =   10
       TabPanelIndex   =   0
       TabStop         =   True
@@ -568,11 +568,11 @@ Begin Window TableWindow
       Italic          =   False
       Left            =   337
       LockBottom      =   True
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   False
       LockRight       =   True
       LockTop         =   False
-      Scope           =   0
+      Scope           =   2
       TabIndex        =   11
       TabPanelIndex   =   0
       TabStop         =   True
@@ -829,14 +829,6 @@ End
 		End Function
 	#tag EndEvent
 	#tag Event
-		Sub Open()
-		  #If TargetLinux
-		    me.TextSize = 10
-		  #endif
-		  
-		End Sub
-	#tag EndEvent
-	#tag Event
 		Sub Change()
 		  DropFieldButton.Enabled = (not isAlter) and (me.ListIndex <> -1)
 		  ChangeFieldButton.Enabled = (not isAlter) and (me.ListIndex <> -1)
@@ -857,26 +849,6 @@ End
 		    DropFieldButton.Enabled = true
 		    ChangeFieldButton.Enabled = true
 		  end if
-		End Sub
-	#tag EndEvent
-#tag EndEvents
-#tag Events ComboBox1
-	#tag Event
-		Sub Open()
-		  #If TargetLinux
-		    me.Height = me.Height + 4
-		    me.TextSize = 10
-		  #endif
-		End Sub
-	#tag EndEvent
-#tag EndEvents
-#tag Events ComboBox2
-	#tag Event
-		Sub Open()
-		  #If TargetLinux
-		    me.Height = me.Height + 4
-		    me.TextSize = 10
-		  #endif
 		End Sub
 	#tag EndEvent
 #tag EndEvents

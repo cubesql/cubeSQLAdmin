@@ -39,14 +39,14 @@ Begin Window AboutBoxWindow
       Italic          =   False
       Left            =   186
       LockBottom      =   False
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   False
       LockRight       =   False
       LockTop         =   False
       Multiline       =   False
-      Scope           =   0
+      Scope           =   2
       Selectable      =   False
-      TabIndex        =   0
+      TabIndex        =   1
       TabPanelIndex   =   0
       TabStop         =   True
       Text            =   "cubeSQL Admin"
@@ -56,16 +56,16 @@ Begin Window AboutBoxWindow
       TextSize        =   0.0
       TextUnit        =   0
       Top             =   14
-      Transparent     =   True
+      Transparent     =   False
       Underline       =   False
       Visible         =   True
       Width           =   182
    End
-   Begin Canvas Canvas1
+   Begin Canvas IconCanvas
       AcceptFocus     =   False
       AcceptTabs      =   False
       AutoDeactivate  =   True
-      Backdrop        =   15517095
+      Backdrop        =   0
       DoubleBuffer    =   False
       Enabled         =   True
       EraseBackground =   True
@@ -75,16 +75,16 @@ Begin Window AboutBoxWindow
       InitialParent   =   ""
       Left            =   20
       LockBottom      =   False
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   False
       LockRight       =   False
       LockTop         =   False
-      Scope           =   0
-      TabIndex        =   1
+      Scope           =   2
+      TabIndex        =   0
       TabPanelIndex   =   0
       TabStop         =   True
       Top             =   14
-      Transparent     =   True
+      Transparent     =   False
       UseFocusRing    =   True
       Visible         =   True
       Width           =   128
@@ -102,12 +102,12 @@ Begin Window AboutBoxWindow
       Italic          =   False
       Left            =   186
       LockBottom      =   False
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   False
       LockRight       =   False
       LockTop         =   False
       Multiline       =   False
-      Scope           =   0
+      Scope           =   2
       Selectable      =   False
       TabIndex        =   2
       TabPanelIndex   =   0
@@ -119,7 +119,7 @@ Begin Window AboutBoxWindow
       TextSize        =   0.0
       TextUnit        =   0
       Top             =   35
-      Transparent     =   True
+      Transparent     =   False
       Underline       =   False
       Visible         =   True
       Width           =   241
@@ -137,14 +137,14 @@ Begin Window AboutBoxWindow
       Italic          =   False
       Left            =   20
       LockBottom      =   False
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   False
       LockRight       =   False
       LockTop         =   False
       Multiline       =   False
-      Scope           =   0
+      Scope           =   2
       Selectable      =   False
-      TabIndex        =   3
+      TabIndex        =   6
       TabPanelIndex   =   0
       TabStop         =   True
       Text            =   "Copyright © 2006-2018 SQLabs, All Rights Reserved."
@@ -154,7 +154,7 @@ Begin Window AboutBoxWindow
       TextSize        =   0.0
       TextUnit        =   0
       Top             =   181
-      Transparent     =   True
+      Transparent     =   False
       Underline       =   False
       Visible         =   True
       Width           =   407
@@ -168,16 +168,16 @@ Begin Window AboutBoxWindow
       InitialParent   =   ""
       Left            =   20
       LockBottom      =   False
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   True
       LockRight       =   False
       LockTop         =   True
-      Scope           =   0
-      TabIndex        =   4
+      Scope           =   2
+      TabIndex        =   5
       TabPanelIndex   =   0
       TabStop         =   True
       Top             =   166
-      Transparent     =   True
+      Transparent     =   False
       Visible         =   True
       Width           =   407
    End
@@ -194,14 +194,14 @@ Begin Window AboutBoxWindow
       Italic          =   False
       Left            =   186
       LockBottom      =   False
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   False
       LockRight       =   False
       LockTop         =   False
       Multiline       =   False
-      Scope           =   0
+      Scope           =   2
       Selectable      =   False
-      TabIndex        =   5
+      TabIndex        =   3
       TabPanelIndex   =   0
       TabStop         =   True
       Text            =   "Coded by:"
@@ -211,7 +211,7 @@ Begin Window AboutBoxWindow
       TextSize        =   0.0
       TextUnit        =   0
       Top             =   104
-      Transparent     =   True
+      Transparent     =   False
       Underline       =   False
       Visible         =   True
       Width           =   182
@@ -229,14 +229,14 @@ Begin Window AboutBoxWindow
       Italic          =   False
       Left            =   186
       LockBottom      =   False
-      LockedInPosition=   False
+      LockedInPosition=   True
       LockLeft        =   False
       LockRight       =   False
       LockTop         =   False
       Multiline       =   False
-      Scope           =   0
+      Scope           =   2
       Selectable      =   False
-      TabIndex        =   6
+      TabIndex        =   4
       TabPanelIndex   =   0
       TabStop         =   True
       Text            =   "https://www.sqlabs.com/"
@@ -246,7 +246,7 @@ Begin Window AboutBoxWindow
       TextSize        =   0.0
       TextUnit        =   0
       Top             =   122
-      Transparent     =   True
+      Transparent     =   False
       Underline       =   False
       Visible         =   True
       Width           =   182
@@ -255,22 +255,18 @@ End
 #tag EndWindow
 
 #tag WindowCode
-	#tag Event
-		Sub Paint(g As Graphics, areas() As REALbasic.Rect)
-		  if IsDarkMode then
-		    g.ForeColor = FillColor
-		  else
-		    g.ForeColor = &cFFFFFF
-		  end if
-		  
-		  g.FillRect(0, 0, g.Width, g.Height)
-		  
-		End Sub
-	#tag EndEvent
-
-
 #tag EndWindowCode
 
+#tag Events IconCanvas
+	#tag Event
+		Sub Paint(g As Graphics, areas() As REALbasic.Rect)
+		  g.ForeColor = FillColor
+		  g.FillRect(0, 0, g.Width, g.Height)
+		  
+		  g.DrawPicture(icon, (g.Width-icon.Width)/2, (g.Height-icon.Height)/2)
+		End Sub
+	#tag EndEvent
+#tag EndEvents
 #tag Events StaticText2
 	#tag Event
 		Sub Open()

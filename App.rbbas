@@ -18,6 +18,8 @@ Inherits Application
 
 	#tag Event
 		Sub Open()
+		  Controls.GTK3_GlobalStyleCSS()
+		  
 		  call Prefs.Open
 		  SSLStartupCheck
 		End Sub
@@ -101,7 +103,7 @@ Inherits Application
 		  #if TargetMacOS
 		    SSLLib = "libssl.dylib"
 		    CryptoLib = "libcrypto.dylib"
-		  #elseif TargetWin32
+		  #elseif TargetWindows
 		    SSLLib = "libssl32.dll"
 		    CryptoLib = "libeay32.dll"
 		  #else

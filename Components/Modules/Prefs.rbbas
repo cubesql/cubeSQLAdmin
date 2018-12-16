@@ -40,7 +40,7 @@ Protected Module Prefs
 		    return GetFolderItem(EngineDefaultPath, FolderItem.PathTypeShell)
 		  #endif
 		  
-		  #if TargetWin32
+		  #if TargetWindows
 		    Dim f As FolderItem = SpecialFolder.Applications.Child("CubeSQL")
 		    if (f <> nil) then return f.Child("cubesql.exe")
 		    return nil
@@ -58,7 +58,7 @@ Protected Module Prefs
 		    return "/opt/sqlabs/cubesql/cubesql"
 		  #endif
 		  
-		  #if TargetWin32
+		  #if TargetWindows
 		    Dim f As FolderItem = SpecialFolder.Applications.Child("cubesql")
 		    if (f <> nil) then
 		      f = f.Child("cubesql.exe")
@@ -106,7 +106,6 @@ Protected Module Prefs
 		  
 		  Dim f As FolderItem = SpecialFolder.Preferences.Child(filename)
 		  if (f = nil) then return false
-		  Dim exists As Boolean = f.Exists
 		  
 		  db.DatabaseFile = f
 		  if (f.Exists) then

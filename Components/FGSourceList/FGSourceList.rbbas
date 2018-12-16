@@ -5,7 +5,7 @@ Inherits Listbox
 		Function CellBackgroundPaint(g As Graphics, row As Integer, column As Integer) As Boolean
 		  Dim bIsNavigationList As Boolean = (me.Name = "NavigationList")
 		  // Set the background colour
-		  if bIsNavigationList and (me.Active = false or me.Enabled = false) then ' the control is on an inactive window
+		  if bIsNavigationList and ((me.Active = false and TargetMacOS) or me.Enabled = false) then ' the control is on an inactive window
 		    g.ForeColor = kColorSourceListBackgroundInactive
 		    if IsDarkMode then g.ForeColor = &c131314
 		  else
@@ -41,6 +41,14 @@ Inherits Listbox
 		        end if
 		      else
 		        // Call our CellBackgroundPaint event
+		        #if TargetLinux then
+		          if me.Active = false then
+		            g.ForeColor = Color.LightGray
+		            g.FillRect(0, 0, g.Width, g.Height)
+		            CellBackgroundPaint(g, row, column)
+		            return true
+		          end if
+		        #endif
 		        CellBackgroundPaint(g, row, column)
 		        return false 'let Xojo handle the Selection Colors
 		        'if me.Active then
@@ -1049,7 +1057,7 @@ Inherits Listbox
 		  
 		  #pragma DisableBackgroundTasks
 		  
-		  #if TargetWin32
+		  #if TargetWindows
 		    dim UseGDIPlusTemp as Boolean = App.UseGDIPlus
 		    App.UseGDIPlus = True
 		  #endif
@@ -1068,7 +1076,7 @@ Inherits Listbox
 		  end if
 		  
 		  if numberToDraw = 0 then
-		    #if TargetWin32
+		    #if TargetWindows
 		      App.UseGDIPlus = UseGDIPlusTemp
 		    #endif
 		    return ' nothing to draw
@@ -1159,7 +1167,7 @@ Inherits Listbox
 		  // ############################ Draw the bubble onto the passed Graphics object ##################### \\
 		  g.DrawPicture( bubble, g.Width - bubble.Width - 5, (g.Height / 2) - (bubble.Height / 2) )
 		  
-		  #if TargetWin32
+		  #if TargetWindows
 		    App.UseGDIPlus = UseGDIPlusTemp
 		  #endif
 		End Sub

@@ -1,11 +1,18 @@
 #tag Class
-Protected Class BetterPopupMenu
-Inherits PopupMenu
+Protected Class BetterComboBox
+Inherits ComboBox
 	#tag Event
 		Sub Open()
+		  #if TargetLinux and (XojoVersion >= 2017.02) then
+		    me.InitControl_GTK3()
+		  #endif
+		  
 		  #If TargetLinux
-		    me.Height = me.Height + 4
-		    me.TextSize = 10
+		    Controls.InitControl_Height(me) = 26
+		  #endif
+		  
+		  #If TargetWindows
+		    Controls.InitControl_Height(me) = 22
 		  #endif
 		  
 		  Open
@@ -20,19 +27,39 @@ Inherits PopupMenu
 
 	#tag ViewBehavior
 		#tag ViewProperty
+			Name="UseFocusRing"
+			Visible=true
+			Group="Appearance"
+			InitialValue="True"
+			Type="Boolean"
+		#tag EndViewProperty
+		#tag ViewProperty
+			Name="AutoComplete"
+			Visible=true
+			Group="Behavior"
+			InitialValue="False"
+			Type="Boolean"
+		#tag EndViewProperty
+		#tag ViewProperty
+			Name="Transparent"
+			Visible=true
+			Group="Appearance"
+			InitialValue="False"
+			Type="Boolean"
+			EditorType="Boolean"
+		#tag EndViewProperty
+		#tag ViewProperty
 			Name="AutoDeactivate"
 			Visible=true
 			Group="Appearance"
 			InitialValue="True"
 			Type="Boolean"
-			InheritedFrom="PopupMenu"
 		#tag EndViewProperty
 		#tag ViewProperty
 			Name="Bold"
 			Visible=true
 			Group="Font"
 			Type="Boolean"
-			InheritedFrom="PopupMenu"
 		#tag EndViewProperty
 		#tag ViewProperty
 			Name="DataField"
@@ -40,7 +67,6 @@ Inherits PopupMenu
 			Group="Database Binding"
 			Type="String"
 			EditorType="DataField"
-			InheritedFrom="PopupMenu"
 		#tag EndViewProperty
 		#tag ViewProperty
 			Name="DataSource"
@@ -48,7 +74,6 @@ Inherits PopupMenu
 			Group="Database Binding"
 			Type="String"
 			EditorType="DataSource"
-			InheritedFrom="PopupMenu"
 		#tag EndViewProperty
 		#tag ViewProperty
 			Name="Enabled"
@@ -56,7 +81,6 @@ Inherits PopupMenu
 			Group="Appearance"
 			InitialValue="True"
 			Type="Boolean"
-			InheritedFrom="PopupMenu"
 		#tag EndViewProperty
 		#tag ViewProperty
 			Name="Height"
@@ -64,7 +88,6 @@ Inherits PopupMenu
 			Group="Position"
 			InitialValue="20"
 			Type="Integer"
-			InheritedFrom="PopupMenu"
 		#tag EndViewProperty
 		#tag ViewProperty
 			Name="HelpTag"
@@ -72,18 +95,13 @@ Inherits PopupMenu
 			Group="Appearance"
 			Type="String"
 			EditorType="MultiLineEditor"
-			InheritedFrom="PopupMenu"
 		#tag EndViewProperty
 		#tag ViewProperty
 			Name="Index"
 			Visible=true
 			Group="ID"
 			Type="Integer"
-			InheritedFrom="PopupMenu"
-		#tag EndViewProperty
-		#tag ViewProperty
-			Name="InitialParent"
-			InheritedFrom="PopupMenu"
+			EditorType="Integer"
 		#tag EndViewProperty
 		#tag ViewProperty
 			Name="InitialValue"
@@ -91,21 +109,18 @@ Inherits PopupMenu
 			Group="Appearance"
 			Type="String"
 			EditorType="MultiLineEditor"
-			InheritedFrom="PopupMenu"
 		#tag EndViewProperty
 		#tag ViewProperty
 			Name="Italic"
 			Visible=true
 			Group="Font"
 			Type="Boolean"
-			InheritedFrom="PopupMenu"
 		#tag EndViewProperty
 		#tag ViewProperty
 			Name="Left"
 			Visible=true
 			Group="Position"
 			Type="Integer"
-			InheritedFrom="PopupMenu"
 		#tag EndViewProperty
 		#tag ViewProperty
 			Name="ListIndex"
@@ -113,48 +128,44 @@ Inherits PopupMenu
 			Group="Appearance"
 			InitialValue="0"
 			Type="Integer"
-			InheritedFrom="PopupMenu"
 		#tag EndViewProperty
 		#tag ViewProperty
 			Name="LockBottom"
 			Visible=true
 			Group="Position"
 			Type="Boolean"
-			InheritedFrom="PopupMenu"
 		#tag EndViewProperty
 		#tag ViewProperty
 			Name="LockLeft"
 			Visible=true
 			Group="Position"
 			Type="Boolean"
-			InheritedFrom="PopupMenu"
 		#tag EndViewProperty
 		#tag ViewProperty
 			Name="LockRight"
 			Visible=true
 			Group="Position"
 			Type="Boolean"
-			InheritedFrom="PopupMenu"
 		#tag EndViewProperty
 		#tag ViewProperty
 			Name="LockTop"
 			Visible=true
 			Group="Position"
 			Type="Boolean"
-			InheritedFrom="PopupMenu"
 		#tag EndViewProperty
 		#tag ViewProperty
 			Name="Name"
 			Visible=true
 			Group="ID"
 			Type="String"
-			InheritedFrom="PopupMenu"
+			EditorType="String"
 		#tag EndViewProperty
 		#tag ViewProperty
 			Name="Super"
 			Visible=true
 			Group="ID"
-			InheritedFrom="PopupMenu"
+			Type="String"
+			EditorType="String"
 		#tag EndViewProperty
 		#tag ViewProperty
 			Name="TabIndex"
@@ -162,14 +173,12 @@ Inherits PopupMenu
 			Group="Position"
 			InitialValue="0"
 			Type="Integer"
-			InheritedFrom="PopupMenu"
 		#tag EndViewProperty
 		#tag ViewProperty
 			Name="TabPanelIndex"
 			Group="Position"
 			InitialValue="0"
 			Type="Integer"
-			InheritedFrom="PopupMenu"
 		#tag EndViewProperty
 		#tag ViewProperty
 			Name="TabStop"
@@ -177,7 +186,6 @@ Inherits PopupMenu
 			Group="Position"
 			InitialValue="True"
 			Type="Boolean"
-			InheritedFrom="PopupMenu"
 		#tag EndViewProperty
 		#tag ViewProperty
 			Name="TextFont"
@@ -185,15 +193,13 @@ Inherits PopupMenu
 			Group="Font"
 			InitialValue="System"
 			Type="String"
-			InheritedFrom="PopupMenu"
 		#tag EndViewProperty
 		#tag ViewProperty
 			Name="TextSize"
 			Visible=true
 			Group="Font"
 			InitialValue="0"
-			Type="Integer"
-			InheritedFrom="PopupMenu"
+			Type="Single"
 		#tag EndViewProperty
 		#tag ViewProperty
 			Name="TextUnit"
@@ -202,7 +208,6 @@ Inherits PopupMenu
 			InitialValue="0"
 			Type="FontUnits"
 			EditorType="Enum"
-			InheritedFrom="PopupMenu"
 			#tag EnumValues
 				"0 - Default"
 				"1 - Pixel"
@@ -216,14 +221,12 @@ Inherits PopupMenu
 			Visible=true
 			Group="Position"
 			Type="Integer"
-			InheritedFrom="PopupMenu"
 		#tag EndViewProperty
 		#tag ViewProperty
 			Name="Underline"
 			Visible=true
 			Group="Font"
 			Type="Boolean"
-			InheritedFrom="PopupMenu"
 		#tag EndViewProperty
 		#tag ViewProperty
 			Name="Visible"
@@ -231,7 +234,6 @@ Inherits PopupMenu
 			Group="Appearance"
 			InitialValue="True"
 			Type="Boolean"
-			InheritedFrom="PopupMenu"
 		#tag EndViewProperty
 		#tag ViewProperty
 			Name="Width"
@@ -239,7 +241,6 @@ Inherits PopupMenu
 			Group="Position"
 			InitialValue="80"
 			Type="Integer"
-			InheritedFrom="PopupMenu"
 		#tag EndViewProperty
 	#tag EndViewBehavior
 End Class

@@ -1,42 +1,38 @@
 #tag Class
-Protected Class RectCanvas
-Inherits Canvas
+Protected Class BetterPushButton
+Inherits PushButton
 	#tag Event
-		Sub Paint(g As Graphics, areas() As REALbasic.Rect)
-		  g.ForeColor = FillColor
-		  g.FillRect(0, 0, g.Width, g.Height)
+		Sub Open()
+		  #if TargetLinux and (XojoVersion >= 2017.02) then
+		    me.InitControl_GTK3()
+		  #endif
 		  
-		  if TargetWindows or (TargetMacOS and IsDarkMode) then
-		    g.PenWidth = 1 / self.ScaleFactor
-		    g.PenHeight = 1 / self.ScaleFactor
-		  end if
+		  #If TargetLinux
+		    Controls.InitControl_Height(me) = 26
+		  #endif
 		  
-		  g.ForeColor = Colors.TitleField_Frame
-		  g.DrawRect(0 ,0 , g.Width, g.Height)
+		  #If TargetWindows
+		    Controls.InitControl_Height(me) = 22
+		  #endif
+		  
+		  Open
 		End Sub
 	#tag EndEvent
+
+
+	#tag Hook, Flags = &h0
+		Event Open()
+	#tag EndHook
 
 
 	#tag ViewBehavior
 		#tag ViewProperty
 			Name="Transparent"
 			Visible=true
-			Group="Behavior"
-			InitialValue="True"
+			Group="Appearance"
+			InitialValue="False"
 			Type="Boolean"
 			EditorType="Boolean"
-		#tag EndViewProperty
-		#tag ViewProperty
-			Name="AcceptFocus"
-			Visible=true
-			Group="Behavior"
-			Type="Boolean"
-		#tag EndViewProperty
-		#tag ViewProperty
-			Name="AcceptTabs"
-			Visible=true
-			Group="Behavior"
-			Type="Boolean"
 		#tag EndViewProperty
 		#tag ViewProperty
 			Name="AutoDeactivate"
@@ -46,17 +42,48 @@ Inherits Canvas
 			Type="Boolean"
 		#tag EndViewProperty
 		#tag ViewProperty
-			Name="Backdrop"
+			Name="Bold"
 			Visible=true
-			Group="Appearance"
-			Type="Picture"
-			EditorType="Picture"
+			Group="Font"
+			Type="Boolean"
 		#tag EndViewProperty
 		#tag ViewProperty
-			Name="DoubleBuffer"
+			Name="ButtonStyle"
 			Visible=true
-			Group="Behavior"
-			InitialValue="False"
+			Group="Appearance"
+			InitialValue="0"
+			Type="ButtonFrameStyle"
+			EditorType="Enum"
+			#tag EnumValues
+				"0 - Push"
+				"1 - Gradient"
+				"2 - Rounded"
+				"3 - Recessed"
+				"4 - Textured"
+				"5 - Rounded Textured"
+				"6 - Square"
+				"7 - Bevel"
+				"8 - Round"
+				"9 - Help"
+			#tag EndEnumValues
+		#tag EndViewProperty
+		#tag ViewProperty
+			Name="Cancel"
+			Visible=true
+			Group="Appearance"
+			Type="Boolean"
+		#tag EndViewProperty
+		#tag ViewProperty
+			Name="Caption"
+			Visible=true
+			Group="Appearance"
+			InitialValue="Untitled"
+			Type="String"
+		#tag EndViewProperty
+		#tag ViewProperty
+			Name="Default"
+			Visible=true
+			Group="Appearance"
 			Type="Boolean"
 		#tag EndViewProperty
 		#tag ViewProperty
@@ -67,18 +94,10 @@ Inherits Canvas
 			Type="Boolean"
 		#tag EndViewProperty
 		#tag ViewProperty
-			Name="EraseBackground"
-			Visible=true
-			Group="Behavior"
-			InitialValue="True"
-			Type="Boolean"
-			EditorType="Boolean"
-		#tag EndViewProperty
-		#tag ViewProperty
 			Name="Height"
 			Visible=true
 			Group="Position"
-			InitialValue="100"
+			InitialValue="20"
 			Type="Integer"
 		#tag EndViewProperty
 		#tag ViewProperty
@@ -98,6 +117,12 @@ Inherits Canvas
 		#tag ViewProperty
 			Name="InitialParent"
 			Type="String"
+		#tag EndViewProperty
+		#tag ViewProperty
+			Name="Italic"
+			Visible=true
+			Group="Font"
+			Type="Boolean"
 		#tag EndViewProperty
 		#tag ViewProperty
 			Name="Left"
@@ -164,16 +189,44 @@ Inherits Canvas
 			Type="Boolean"
 		#tag EndViewProperty
 		#tag ViewProperty
+			Name="TextFont"
+			Visible=true
+			Group="Font"
+			InitialValue="System"
+			Type="String"
+		#tag EndViewProperty
+		#tag ViewProperty
+			Name="TextSize"
+			Visible=true
+			Group="Font"
+			InitialValue="0"
+			Type="Single"
+		#tag EndViewProperty
+		#tag ViewProperty
+			Name="TextUnit"
+			Visible=true
+			Group="Font"
+			InitialValue="0"
+			Type="FontUnits"
+			EditorType="Enum"
+			#tag EnumValues
+				"0 - Default"
+				"1 - Pixel"
+				"2 - Point"
+				"3 - Inch"
+				"4 - Millimeter"
+			#tag EndEnumValues
+		#tag EndViewProperty
+		#tag ViewProperty
 			Name="Top"
 			Visible=true
 			Group="Position"
 			Type="Integer"
 		#tag EndViewProperty
 		#tag ViewProperty
-			Name="UseFocusRing"
+			Name="Underline"
 			Visible=true
-			Group="Appearance"
-			InitialValue="True"
+			Group="Font"
 			Type="Boolean"
 		#tag EndViewProperty
 		#tag ViewProperty
@@ -187,7 +240,7 @@ Inherits Canvas
 			Name="Width"
 			Visible=true
 			Group="Position"
-			InitialValue="100"
+			InitialValue="80"
 			Type="Integer"
 		#tag EndViewProperty
 	#tag EndViewBehavior

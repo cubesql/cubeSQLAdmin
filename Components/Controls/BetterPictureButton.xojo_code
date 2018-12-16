@@ -13,12 +13,13 @@ Inherits Canvas
 		Sub MouseExit()
 		  ebMouseDown = false
 		  me.Invalidate(false)
+		  
 		End Sub
 	#tag EndEvent
 
 	#tag Event
 		Sub MouseUp(X As Integer, Y As Integer)
-		  Dim bDoAction As Boolean = ebMouseDown
+		  Dim bDoAction As Boolean = ebMouseDown and (x>=0 and x<me.Width and y>=0 and y<me.Height)
 		  ebMouseDown = false
 		  me.Invalidate(false)
 		  if bDoAction then Action
@@ -29,13 +30,28 @@ Inherits Canvas
 	#tag Event
 		Sub Paint(g As Graphics, areas() As REALbasic.Rect)
 		  g.ForeColor = FillColor
+		  #if TargetLinux then
+		    g.FillRect(0, 0, g.Width, g.Height)
+		  #endif
 		  if ebMouseDown then g.ForeColor = Colors.PictureButton_MouseDown
-		  g.FillRect(0, 0, g.Width, g.Height)
+		  #if TargetLinux then
+		    if ebMouseDown then g.FillRoundRect(0, 0, g.Width, g.Height, 8, 8)
+		  #else
+		    g.FillRect(0, 0, g.Width, g.Height)
+		  #endif
 		  
 		  g.ForeColor = DarkBevelColor
 		  if IsDarkMode then g.ForeColor = FrameColor
 		  
-		  g.DrawRect(0, 0, g.Width, g.Height)
+		  #if TargetLinux then
+		    g.DrawRoundRect(0, 0, g.Width, g.Height, 8, 8)
+		  #else
+		    #if TargetWindows or TargetMacOS then
+		      g.PenWidth = 1 / self.ScaleFactor
+		      g.PenHeight = 1 / self.ScaleFactor
+		    #endif
+		    g.DrawRect(0, 0, g.Width, g.Height)
+		  #endif
 		  
 		  if (me.Icon <> nil) then
 		    g.DrawPicture(me.Icon, (me.Width - me.Icon.Width)/2, (me.Height - me.Icon.Height)/2)
