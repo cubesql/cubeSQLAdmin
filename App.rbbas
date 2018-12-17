@@ -57,7 +57,7 @@ Inherits Application
 
 	#tag MenuHandler
 		Function ServerGetaDeveloperKey() As Boolean Handles ServerGetaDeveloperKey.Action
-			ShowURL "http://www.sqlabs.com/cubesql_devkey.php"
+			ShowURL "https://www.sqlabs.com/cubesql_devkey.php"
 			Return True
 			
 		End Function

@@ -130,6 +130,7 @@ Begin Window ServerWindow
       Scope           =   2
       TabIndex        =   1
       TabPanelIndex   =   0
+      TabStop         =   True
       Top             =   0
       Transparent     =   False
       Value           =   0
@@ -8275,7 +8276,7 @@ End
 		  #endif
 		  
 		  if (MainPagePanel.Value <> 17) then MainPagePanel.Value = 17
-		  HTMLViewer1.LoadURL("http://www.sqlabs.com/cubesql_news.php?isadmin=1")
+		  HTMLViewer1.LoadURL("https://www.sqlabs.com/cubesql_news.php?isadmin=1")
 		End Sub
 	#tag EndMethod
 
@@ -10206,7 +10207,7 @@ End
 	#tag Event
 		Sub Action()
 		  Dim email As String = BugField3.Text
-		  Dim url As String = "http://www.sqlabs.com/code/cubesqlbug.php"
+		  Dim url As String = "https://www.sqlabs.com/code/cubesqlbug.php"
 		  Dim is_valid As Boolean = ((CountFields(email, "@") = 2) and (CountFields(email, ".") >= 2))
 		  if (is_valid = false) then email = "cubesqlbug@sqlabs.com"
 		  
@@ -10561,7 +10562,7 @@ End
 	#tag EndEvent
 	#tag Event
 		Sub MouseUp(X As Integer, Y As Integer)
-		  if (x>=0 and x<=me.Width and y>=0 and y <= me.Height) then ShowURL("http://www.iana.org/assignments/port-numbers")
+		  if (x>=0 and x<=me.Width and y>=0 and y <= me.Height) then ShowURL("https://www.iana.org/assignments/port-numbers")
 		  
 		End Sub
 	#tag EndEvent

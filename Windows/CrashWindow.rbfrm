@@ -293,7 +293,7 @@ End
 	#tag Method, Flags = &h21
 		Private Sub SendReport()
 		  Dim email As String = "cubesqlbug@sqlabs.com"
-		  Dim url As String = "http://www.sqlabs.com/code/cubesqlbug.php"
+		  Dim url As String = "https://www.sqlabs.com/code/cubesqlbug.php"
 		  
 		  Dim field1 As String = mInfo
 		  Dim field2 As String = EditField1.Text
