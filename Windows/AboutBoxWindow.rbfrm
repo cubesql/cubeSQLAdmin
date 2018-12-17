@@ -255,24 +255,26 @@ End
 #tag EndWindow
 
 #tag WindowCode
-	#tag Event
-		Sub Paint(g As Graphics, areas() As REALbasic.Rect)
-		  g.ForeColor = FillColor
-		  g.FillRect(0, 0, g.Width, g.Height)
-		  
-		End Sub
-	#tag EndEvent
-
-
 #tag EndWindowCode
 
 #tag Events IconCanvas
 	#tag Event
 		Sub Paint(g As Graphics, areas() As REALbasic.Rect)
-		  g.ForeColor = FillColor
-		  g.FillRect(0, 0, g.Width, g.Height)
+		  #if TargetMacOS then
+		    'Canvas is Transparent
+		  #else
+		    g.ForeColor = FillColor
+		    g.FillRect(0, 0, g.Width, g.Height)
+		  #endif
 		  
 		  g.DrawPicture(icon, (g.Width-icon.Width)/2, (g.Height-icon.Height)/2)
+		End Sub
+	#tag EndEvent
+	#tag Event
+		Sub Open()
+		  #if TargetMacOS then
+		    me.Transparent = true
+		  #endif
 		End Sub
 	#tag EndEvent
 #tag EndEvents

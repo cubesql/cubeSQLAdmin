@@ -130,7 +130,6 @@ Begin Window ServerWindow
       Scope           =   2
       TabIndex        =   1
       TabPanelIndex   =   0
-      TabStop         =   True
       Top             =   0
       Transparent     =   False
       Value           =   0
@@ -10322,16 +10321,28 @@ End
 #tag Events GroupsTips
 	#tag Event
 		Sub Paint(g As Graphics, areas() As REALbasic.Rect)
-		  g.ForeColor = FillColor
-		  g.FillRect(0, 0, g.Width, g.Height)
+		  #if TargetMacOS then
+		    'Canvas is Transparent
+		  #else
+		    g.ForeColor = FillColor
+		    g.FillRect(0, 0, g.Width, g.Height)
+		  #endif
 		  
 		  g.DrawPicture(tips, (g.Width-tips.Width)/2, (g.Height-tips.Height)/2)
+		End Sub
+	#tag EndEvent
+	#tag Event
+		Sub Open()
+		  #if TargetMacOS then
+		    me.Transparent = true
+		  #endif
 		End Sub
 	#tag EndEvent
 #tag EndEvents
 #tag Events StatusIcon
 	#tag Event
 		Sub Paint(g As Graphics, areas() As REALbasic.Rect)
+		  'Icon is on a RectCanvas which has FillColor as background
 		  g.ForeColor = FillColor
 		  g.FillRect(0, 0, g.Width, g.Height)
 		  
