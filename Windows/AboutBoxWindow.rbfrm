@@ -255,6 +255,15 @@ End
 #tag EndWindow
 
 #tag WindowCode
+	#tag Event
+		Sub Paint(g As Graphics, areas() As REALbasic.Rect)
+		  g.ForeColor = FillColor
+		  g.FillRect(0, 0, g.Width, g.Height)
+		  
+		End Sub
+	#tag EndEvent
+
+
 #tag EndWindowCode
 
 #tag Events IconCanvas
