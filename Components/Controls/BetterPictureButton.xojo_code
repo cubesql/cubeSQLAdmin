@@ -28,6 +28,17 @@ Inherits Canvas
 	#tag EndEvent
 
 	#tag Event
+		Sub Open()
+		  Open
+		  
+		  #if TargetMacOS then
+		    me.Transparent = true
+		  #endif
+		  
+		End Sub
+	#tag EndEvent
+
+	#tag Event
 		Sub Paint(g As Graphics, areas() As REALbasic.Rect)
 		  g.ForeColor = FillColor
 		  #if TargetLinux then
@@ -36,6 +47,9 @@ Inherits Canvas
 		  if ebMouseDown then g.ForeColor = Colors.PictureButton_MouseDown
 		  #if TargetLinux then
 		    if ebMouseDown then g.FillRoundRect(0, 0, g.Width, g.Height, 8, 8)
+		  #elseif TargetMacOS then
+		    'Canvas is Transparent
+		    if ebMouseDown then g.FillRect(0, 0, g.Width, g.Height)
 		  #else
 		    g.FillRect(0, 0, g.Width, g.Height)
 		  #endif
@@ -63,6 +77,10 @@ Inherits Canvas
 
 	#tag Hook, Flags = &h0
 		Event Action()
+	#tag EndHook
+
+	#tag Hook, Flags = &h0
+		Event Open()
 	#tag EndHook
 
 
