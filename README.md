@@ -4,20 +4,20 @@
 
 ## Build from sources
 In order to build cubeSQL Admin application, Xojo and the latest cubeSQL Xojo plugin are required.
-* Xojo can be obtained from: http://xojo.com/
+* Xojo can be obtained from: [http://xojo.com/](http://xojo.com/)
 * Latest cubeSQL Xojo plugin can be found inside the Plugins folder
 
 If you fix any issue or improve the application please share your changes!
 
 ## Ready to use executables
 In the Executables folder you can find ready to use binaries for all supported platforms:
-* Windows 64bit
-* Windows 32bit
-* Linux 64 bit
-* Linux 32 bit
-* MacOS 32bit (for MacOS version 10.7 to 10.9)
-* MacOS 64bit (for MacOS 10.10 or higher)
-* Linux ARM 32bit (Raspberry Pi)
+* [Windows 64bit](https://github.com/cubesql/cubeSQLAdmin/blob/master/Executables/Windows_64bit.zip) (Windows 7sp1/8.1/10)
+* [Windows 32bit](https://github.com/cubesql/cubeSQLAdmin/blob/master/Executables/Windows_32bit.zip) (Windows 7sp1/8.1/10)
+* [Linux 64 bit](https://github.com/cubesql/cubeSQLAdmin/blob/master/Executables/Linux_64bit.zip)
+* [Linux 32 bit](https://github.com/cubesql/cubeSQLAdmin/blob/master/Executables/Linux_32bit.zip)
+* [MacOS 32bit](https://github.com/cubesql/cubeSQLAdmin/blob/master/Executables/MacOS_32bit.zip) (for MacOS version 10.7 to 10.9)
+* [MacOS 64bit](https://github.com/cubesql/cubeSQLAdmin/blob/master/Executables/MacOS_64bit.zip) (for MacOS 10.10.5 or higher)
+* [Linux ARM 32bit](https://github.com/cubesql/cubeSQLAdmin/blob/master/Executables/RaspberryPi.zip) (Raspberry Pi2 and Pi3)
 
 ## Contact
 Marco Bambini (marco@sqlabs.com)
