@@ -4,7 +4,7 @@
 
 ## Build from sources
 In order to build cubeSQL Admin application, Xojo and the latest cubeSQL Xojo plugin are required.
-* Xojo can be obtained from: [http://xojo.com/](http://xojo.com/)
+* Xojo can be obtained from: [https://xojo.com/](https://xojo.com/)
 * Latest cubeSQL Xojo plugin can be found inside the Plugins folder
 
 If you fix any issue or improve the application please share your changes!
