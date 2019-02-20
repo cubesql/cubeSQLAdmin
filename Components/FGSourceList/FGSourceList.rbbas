@@ -7,12 +7,12 @@ Inherits Listbox
 		  // Set the background colour
 		  if bIsNavigationList and ((me.Active = false and TargetMacOS) or me.Enabled = false) then ' the control is on an inactive window
 		    g.ForeColor = kColorSourceListBackgroundInactive
-		    if IsDarkMode then g.ForeColor = &c131314
+		    if Utils.IsMacOSDarkMode then g.ForeColor = &c131314
 		  else
 		    g.ForeColor = Colors.Listbox_RowAlternate_1
 		    if bIsNavigationList then g.ForeColor = kColorSourceListBackground
 		    
-		    if IsDarkMode then
+		    if Utils.IsMacOSDarkMode then
 		      g.ForeColor = Colors.Listbox_RowAlternate_1
 		      if bIsNavigationList then g.ForeColor = Colors.BottomBar_Fill
 		    end if
@@ -28,12 +28,12 @@ Inherits Listbox
 		    if (b) then
 		      
 		      if bIsNavigationList then
-		        if IsDarkMode then
+		        if Utils.IsMacOSDarkMode then
 		          if me.Active then
 		            g.ForeColor = kColorSectionItunes
 		          else
 		            g.ForeColor = Color.LightGray
-		            if IsDarkMode then g.ForeColor = Color.DarkGray
+		            if Utils.IsMacOSDarkMode then g.ForeColor = Color.DarkGray
 		          end if
 		          g.FillRect(0, 0, g.Width, g.Height)
 		        else
@@ -55,7 +55,7 @@ Inherits Listbox
 		        'g.ForeColor = HighlightColor
 		        'else
 		        'g.ForeColor = Color.LightGray
-		        'if IsDarkMode then g.ForeColor = Color.DarkGray
+		        'if Utils.IsMacOSDarkMode then g.ForeColor = Color.DarkGray
 		        'end if
 		        'g.FillRect(0, 0, g.Width, g.Height)
 		      end if
@@ -1543,7 +1543,7 @@ Inherits Listbox
 		    
 		    g.Bold = true
 		    g.ForeColor = kColorSectionItunes
-		    if IsDarkMode then g.ForeColor = &c909090
+		    if Utils.IsMacOSDarkMode then g.ForeColor = &c909090
 		    g.TextSize = 11
 		    g.DrawString( section.Name, 1, g.TextHeight + 2 )
 		    
@@ -1580,7 +1580,7 @@ Inherits Listbox
 		    // Draw the section's name
 		    g.Bold = true
 		    g.ForeColor = kColorSectionItunes
-		    if IsDarkMode then g.ForeColor = &c909090
+		    if Utils.IsMacOSDarkMode then g.ForeColor = &c909090
 		    g.TextSize = 11
 		    g.DrawString( section.Name, 1 + indent, g.TextHeight + 1 )
 		    

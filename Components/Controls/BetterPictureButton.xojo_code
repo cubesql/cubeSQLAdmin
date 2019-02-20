@@ -55,7 +55,7 @@ Inherits Canvas
 		  #endif
 		  
 		  g.ForeColor = DarkBevelColor
-		  if IsDarkMode then g.ForeColor = FrameColor
+		  if Utils.IsMacOSDarkMode then g.ForeColor = FrameColor
 		  
 		  #if TargetLinux then
 		    g.DrawRoundRect(0, 0, g.Width, g.Height, 8, 8)

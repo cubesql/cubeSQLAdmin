@@ -2,7 +2,7 @@
 Protected Module Colors
 	#tag Method, Flags = &h0
 		Function BottomBar_Fill() As Color
-		  if IsDarkMode then return &c191A1B
+		  if Utils.IsMacOSDarkMode then return &c191A1B
 		  return &cBCBCBC
 		  
 		End Function
@@ -10,7 +10,7 @@ Protected Module Colors
 
 	#tag Method, Flags = &h0
 		Function BottomBar_Frame() As Color
-		  if IsDarkMode then return FrameColor
+		  if Utils.IsMacOSDarkMode then return FrameColor
 		  return &c696969
 		  
 		End Function
@@ -44,7 +44,7 @@ Protected Module Colors
 		  'g.ForeColor = HighlightColor
 		  'else
 		  'g.ForeColor = Color.LightGray
-		  'if IsDarkMode then g.ForeColor = Color.DarkGray
+		  'if Utils.IsMacOSDarkMode then g.ForeColor = Color.DarkGray
 		  'end if
 		  'end if
 		  
@@ -56,7 +56,7 @@ Protected Module Colors
 
 	#tag Method, Flags = &h0
 		Function LinkLabel() As Color
-		  if IsDarkMode then return RGB(25,130,210)
+		  if Utils.IsMacOSDarkMode then return RGB(25,130,210)
 		  return RGB(15,79,130)
 		  
 		End Function
@@ -64,7 +64,7 @@ Protected Module Colors
 
 	#tag Method, Flags = &h0
 		Function Listbox_RowAlternate_1() As Color
-		  if IsDarkMode then return &c1D1D1C
+		  if Utils.IsMacOSDarkMode then return &c1D1D1C
 		  return RGB(237, 243, 254)
 		  
 		  
@@ -73,21 +73,21 @@ Protected Module Colors
 
 	#tag Method, Flags = &h0
 		Function Listbox_RowAlternate_2() As Color
-		  if IsDarkMode then return &c272728
+		  if Utils.IsMacOSDarkMode then return &c272728
 		  return Color.White
 		End Function
 	#tag EndMethod
 
 	#tag Method, Flags = &h0
 		Function PictureButton_MouseDown() As Color
-		  if IsDarkMode then return &c505050
+		  if Utils.IsMacOSDarkMode then return &c505050
 		  return &c909090
 		End Function
 	#tag EndMethod
 
 	#tag Method, Flags = &h0
 		Function TitleField_Fill() As Color
-		  if IsDarkMode then return &c404040
+		  if Utils.IsMacOSDarkMode then return &c404040
 		  return &cCCCCCC
 		  
 		End Function
@@ -95,7 +95,7 @@ Protected Module Colors
 
 	#tag Method, Flags = &h0
 		Function TitleField_Frame() As Color
-		  if IsDarkMode then return FrameColor
+		  if Utils.IsMacOSDarkMode then return FrameColor
 		  #if TargetWindows then
 		    return DarkBevelColor
 		  #endif
@@ -106,7 +106,7 @@ Protected Module Colors
 
 	#tag Method, Flags = &h0
 		Function TitleField_Text() As Color
-		  if IsDarkMode then return &cDDDDDD
+		  if Utils.IsMacOSDarkMode then return &cDDDDDD
 		  return &c333333
 		  
 		End Function

@@ -227,6 +227,21 @@ Protected Module Utils
 	#tag EndMethod
 
 
+	#tag ComputedProperty, Flags = &h0
+		#tag Getter
+			Get
+			  // https://blog.xojo.com/2018/10/23/following-the-dark-path/
+			  #If XojoVersion >= 2018.3 Then
+			    return isDarkMode
+			  #else
+			    return false
+			  #endif
+			End Get
+		#tag EndGetter
+		isMacOSDarkMode As Boolean
+	#tag EndComputedProperty
+
+
 	#tag Constant, Name = kBackup, Type = Double, Dynamic = False, Default = \"7", Scope = Protected
 	#tag EndConstant
 

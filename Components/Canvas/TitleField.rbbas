@@ -6,7 +6,7 @@ Inherits Canvas
 		  g.ForeColor = Colors.TitleField_Fill
 		  g.FillRect(0, 0, g.Width, g.Height)
 		  
-		  if TargetWindows or (TargetMacOS and IsDarkMode) then
+		  if TargetWindows or (TargetMacOS and Utils.IsMacOSDarkMode) then
 		    g.PenWidth = 1 / self.ScaleFactor
 		    g.PenHeight = 1 / self.ScaleFactor
 		  end if
