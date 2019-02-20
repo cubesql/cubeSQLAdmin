@@ -5,12 +5,19 @@
 ## Build from sources
 In order to build cubeSQL Admin application, Xojo and the latest cubeSQL Xojo plugin are required.
 * Xojo can be obtained from: http://xojo.com/
-* cubeSQL plugin can be freely downloaded from: [http://sqlabs.com](http://www.sqlabs.com/download/cubesql/CubeSQLPlugin.xojo_plugin.zip)
+* Latest cubeSQL Xojo plugin can be found inside the Plugins folder
 
 If you fix any issue or improve the application please share your changes!
 
 ## Ready to use executables
-In the Executables folder you can find ready to use binaries for all supported platforms.
+In the Executables folder you can find ready to use binaries for all supported platforms:
+* Windows 64bit
+* Windows 32bit
+* Linux 64 bit
+* Linux 32 bit
+* MacOS 32bit (for MacOS version 10.7 to 10.9)
+* MacOS 64bit (for MacOS 10.10 or higher)
+* Linux ARM 32bit (Raspberry Pi)
 
 ## Contact
 Marco Bambini (marco@sqlabs.com)
@@ -19,7 +26,7 @@ Marco Bambini (marco@sqlabs.com)
 ```
 The MIT License (MIT)
 
-Copyright (c) 2015 SQLabs
+Copyright (c) 2019 SQLabs
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
