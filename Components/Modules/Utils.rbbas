@@ -231,7 +231,7 @@ Protected Module Utils
 		#tag Getter
 			Get
 			  // https://blog.xojo.com/2018/10/23/following-the-dark-path/
-			  #If XojoVersion >= 2018.3 Then
+			  #If (XojoVersion >= 2018.03) Then
 			    return isDarkMode
 			  #else
 			    return false
@@ -312,6 +312,11 @@ Protected Module Utils
 			Group="Position"
 			InitialValue="0"
 			Type="Integer"
+		#tag EndViewProperty
+		#tag ViewProperty
+			Name="isMacOSDarkMode"
+			Group="Behavior"
+			Type="Boolean"
 		#tag EndViewProperty
 	#tag EndViewBehavior
 End Module
