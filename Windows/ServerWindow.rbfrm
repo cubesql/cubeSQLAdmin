@@ -132,7 +132,7 @@ Begin Window ServerWindow
       TabPanelIndex   =   0
       Top             =   0
       Transparent     =   False
-      Value           =   0
+      Value           =   10
       Visible         =   True
       Width           =   766
       Begin Listbox StatusListbox
@@ -1692,9 +1692,9 @@ Begin Window ServerWindow
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
          Italic          =   False
-         Left            =   716
+         Left            =   634
          LockBottom      =   True
-         LockedInPosition=   True
+         LockedInPosition=   False
          LockLeft        =   False
          LockRight       =   True
          LockTop         =   False
@@ -1734,10 +1734,10 @@ Begin Window ServerWindow
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
          Italic          =   False
-         Left            =   897
+         Left            =   815
          LimitText       =   0
          LockBottom      =   True
-         LockedInPosition=   True
+         LockedInPosition=   False
          LockLeft        =   False
          LockRight       =   True
          LockTop         =   False
@@ -1753,7 +1753,7 @@ Begin Window ServerWindow
          TextFont        =   "SmallSystem"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   584
+         Top             =   585
          Transparent     =   False
          Underline       =   False
          UseFocusRing    =   True
@@ -7718,6 +7718,70 @@ Begin Window ServerWindow
          Visible         =   True
          Width           =   112
       End
+      Begin BetterPushButton ClientsRefresh
+         AutoDeactivate  =   True
+         Bold            =   False
+         ButtonStyle     =   "0"
+         Cancel          =   False
+         Caption         =   "Refresh"
+         Default         =   False
+         Enabled         =   True
+         Height          =   20
+         HelpTag         =   ""
+         Index           =   -2147483648
+         InitialParent   =   "MainPagePanel"
+         Italic          =   False
+         Left            =   763
+         LockBottom      =   True
+         LockedInPosition=   False
+         LockLeft        =   False
+         LockRight       =   True
+         LockTop         =   False
+         Scope           =   2
+         TabIndex        =   3
+         TabPanelIndex   =   4
+         TabStop         =   True
+         TextFont        =   "SmallSystem"
+         TextSize        =   0.0
+         TextUnit        =   0
+         Top             =   579
+         Transparent     =   False
+         Underline       =   False
+         Visible         =   True
+         Width           =   70
+      End
+      Begin BetterPushButton ClientsRefresh1
+         AutoDeactivate  =   True
+         Bold            =   False
+         ButtonStyle     =   "0"
+         Cancel          =   False
+         Caption         =   "Refresh"
+         Default         =   False
+         Enabled         =   True
+         Height          =   20
+         HelpTag         =   ""
+         Index           =   -2147483648
+         InitialParent   =   "MainPagePanel"
+         Italic          =   False
+         Left            =   871
+         LockBottom      =   True
+         LockedInPosition=   False
+         LockLeft        =   False
+         LockRight       =   True
+         LockTop         =   False
+         Scope           =   2
+         TabIndex        =   5
+         TabPanelIndex   =   11
+         TabStop         =   True
+         TextFont        =   "SmallSystem"
+         TextSize        =   0.0
+         TextUnit        =   0
+         Top             =   585
+         Transparent     =   False
+         Underline       =   False
+         Visible         =   True
+         Width           =   70
+      End
    End
 End
 #tag EndWindow
@@ -10731,6 +10795,21 @@ End
 		  Dim w As New DownloadDBWindow(db, f, dbName, DBListbox.Window, timeStamp)
 		  w = nil
 		  
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events ClientsRefresh
+	#tag Event
+		Sub Action()
+		  DoPanelClients
+		  
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events ClientsRefresh1
+	#tag Event
+		Sub Action()
+		  DoPanelLog
 		End Sub
 	#tag EndEvent
 #tag EndEvents
