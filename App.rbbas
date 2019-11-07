@@ -145,9 +145,11 @@ Inherits Application
 	#tag ViewBehavior
 		#tag ViewProperty
 			Name="ignoreCrash"
+			Visible=false
 			Group="Behavior"
 			InitialValue="false"
 			Type="Boolean"
+			EditorType=""
 		#tag EndViewProperty
 	#tag EndViewBehavior
 End Class

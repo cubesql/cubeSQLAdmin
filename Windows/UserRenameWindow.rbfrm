@@ -3,7 +3,6 @@ Begin Window UserRenameWindow
    BackColor       =   &cFFFFFF00
    Backdrop        =   0
    CloseButton     =   True
-   Compatibility   =   ""
    Composite       =   True
    Frame           =   8
    FullScreen      =   False
@@ -11,7 +10,7 @@ Begin Window UserRenameWindow
    HasBackColor    =   False
    Height          =   240
    ImplicitInstance=   True
-   LiveResize      =   True
+   LiveResize      =   "True"
    MacProcID       =   0
    MaxHeight       =   32000
    MaximizeButton  =   False
@@ -130,7 +129,7 @@ Begin Window UserRenameWindow
    Begin BetterPushButton SaveButton
       AutoDeactivate  =   True
       Bold            =   False
-      ButtonStyle     =   "0"
+      ButtonStyle     =   0
       Cancel          =   False
       Caption         =   "Save"
       Default         =   True
@@ -162,7 +161,7 @@ Begin Window UserRenameWindow
    Begin BetterPushButton CancelButton
       AutoDeactivate  =   True
       Bold            =   False
-      ButtonStyle     =   "0"
+      ButtonStyle     =   0
       Cancel          =   True
       Caption         =   "Cancel"
       Default         =   False

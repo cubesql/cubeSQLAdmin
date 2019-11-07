@@ -3,7 +3,6 @@ Begin Window ServerWindow
    BackColor       =   &cFFFFFF00
    Backdrop        =   0
    CloseButton     =   True
-   Compatibility   =   ""
    Composite       =   True
    Frame           =   0
    FullScreen      =   False
@@ -11,7 +10,7 @@ Begin Window ServerWindow
    HasBackColor    =   False
    Height          =   640
    ImplicitInstance=   True
-   LiveResize      =   True
+   LiveResize      =   "True"
    MacProcID       =   0
    MaxHeight       =   32000
    MaximizeButton  =   True
@@ -91,7 +90,7 @@ Begin Window ServerWindow
       Backdrop        =   1847110277
       DoubleBuffer    =   False
       Enabled         =   False
-      EraseBackground =   False
+      EraseBackground =   "False"
       Height          =   30
       HelpTag         =   ""
       Index           =   -2147483648
@@ -130,6 +129,7 @@ Begin Window ServerWindow
       Scope           =   2
       TabIndex        =   1
       TabPanelIndex   =   0
+      TabStop         =   True
       Top             =   0
       Transparent     =   False
       Value           =   10
@@ -194,7 +194,7 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   False
+         EraseBackground =   "False"
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
@@ -223,7 +223,7 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   False
+         EraseBackground =   "False"
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
@@ -304,7 +304,7 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   False
+         EraseBackground =   "False"
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
@@ -434,7 +434,7 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   False
+         EraseBackground =   "False"
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
@@ -764,7 +764,7 @@ Begin Window ServerWindow
          Begin BetterPushButton DBCreateButton
             AutoDeactivate  =   True
             Bold            =   False
-            ButtonStyle     =   "0"
+            ButtonStyle     =   0
             Cancel          =   False
             Caption         =   "Create"
             Default         =   False
@@ -797,7 +797,7 @@ Begin Window ServerWindow
       Begin BetterPushButton DBDropButton
          AutoDeactivate  =   True
          Bold            =   False
-         ButtonStyle     =   "0"
+         ButtonStyle     =   0
          Cancel          =   False
          Caption         =   "Drop"
          Default         =   False
@@ -829,7 +829,7 @@ Begin Window ServerWindow
       Begin BetterPushButton ConsoleButton
          AutoDeactivate  =   True
          Bold            =   False
-         ButtonStyle     =   "0"
+         ButtonStyle     =   0
          Cancel          =   False
          Caption         =   "Execute"
          Default         =   True
@@ -861,7 +861,7 @@ Begin Window ServerWindow
       Begin BetterPushButton ClientsDisconnect
          AutoDeactivate  =   True
          Bold            =   False
-         ButtonStyle     =   "0"
+         ButtonStyle     =   0
          Cancel          =   False
          Caption         =   "Disconnect"
          Default         =   False
@@ -897,7 +897,7 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   False
+         EraseBackground =   "False"
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
@@ -980,7 +980,7 @@ Begin Window ServerWindow
       Begin BetterPushButton GroupsButtonDrop
          AutoDeactivate  =   True
          Bold            =   False
-         ButtonStyle     =   "0"
+         ButtonStyle     =   0
          Cancel          =   False
          Caption         =   "Drop User"
          Default         =   False
@@ -1012,7 +1012,7 @@ Begin Window ServerWindow
       Begin BetterPushButton GroupsButtonRemove
          AutoDeactivate  =   True
          Bold            =   False
-         ButtonStyle     =   "0"
+         ButtonStyle     =   0
          Cancel          =   False
          Caption         =   "Remove User"
          Default         =   False
@@ -1376,7 +1376,7 @@ Begin Window ServerWindow
          Begin BetterPushButton GroupsCreateUserButton
             AutoDeactivate  =   True
             Bold            =   False
-            ButtonStyle     =   "0"
+            ButtonStyle     =   0
             Cancel          =   False
             Caption         =   "Create User"
             Default         =   False
@@ -1408,7 +1408,7 @@ Begin Window ServerWindow
          Begin BetterPushButton GroupsCreateGroupButton
             AutoDeactivate  =   True
             Bold            =   False
-            ButtonStyle     =   "0"
+            ButtonStyle     =   0
             Cancel          =   False
             Caption         =   "Create Group"
             Default         =   False
@@ -1445,7 +1445,7 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   False
+         EraseBackground =   "False"
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
@@ -1522,7 +1522,7 @@ Begin Window ServerWindow
       Begin BetterPushButton PluginsDisable
          AutoDeactivate  =   True
          Bold            =   False
-         ButtonStyle     =   "0"
+         ButtonStyle     =   0
          Cancel          =   False
          Caption         =   "Disable"
          Default         =   False
@@ -1607,7 +1607,7 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   False
+         EraseBackground =   "False"
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
@@ -1854,7 +1854,7 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   False
+         EraseBackground =   "False"
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
@@ -1883,7 +1883,7 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   False
+         EraseBackground =   "False"
          Height          =   45
          HelpTag         =   ""
          Index           =   -2147483648
@@ -1973,7 +1973,7 @@ Begin Window ServerWindow
          Begin BetterPushButton RestoreShowLogButton
             AutoDeactivate  =   True
             Bold            =   False
-            ButtonStyle     =   "0"
+            ButtonStyle     =   0
             Cancel          =   False
             Caption         =   "Show Log"
             Default         =   False
@@ -2005,7 +2005,7 @@ Begin Window ServerWindow
          Begin BetterPushButton RestoreEnableButton
             AutoDeactivate  =   True
             Bold            =   False
-            ButtonStyle     =   "0"
+            ButtonStyle     =   0
             Cancel          =   False
             Caption         =   "Enable RESTORE"
             Default         =   False
@@ -2038,7 +2038,7 @@ Begin Window ServerWindow
       Begin BetterPushButton RestoreButton
          AutoDeactivate  =   True
          Bold            =   False
-         ButtonStyle     =   "0"
+         ButtonStyle     =   0
          Cancel          =   False
          Caption         =   "Restore"
          Default         =   False
@@ -2126,7 +2126,7 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   False
+         EraseBackground =   "False"
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
@@ -2155,7 +2155,7 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   False
+         EraseBackground =   "False"
          Height          =   45
          HelpTag         =   ""
          Index           =   -2147483648
@@ -2245,7 +2245,7 @@ Begin Window ServerWindow
          Begin BetterPushButton BackupShowButton
             AutoDeactivate  =   True
             Bold            =   False
-            ButtonStyle     =   "0"
+            ButtonStyle     =   0
             Cancel          =   False
             Caption         =   "Show Backups"
             Default         =   False
@@ -2277,7 +2277,7 @@ Begin Window ServerWindow
          Begin BetterPushButton BackupNowButton
             AutoDeactivate  =   True
             Bold            =   False
-            ButtonStyle     =   "0"
+            ButtonStyle     =   0
             Cancel          =   False
             Caption         =   "Backup NOW"
             Default         =   False
@@ -2310,7 +2310,7 @@ Begin Window ServerWindow
       Begin BetterPushButton BackupRestoreButton
          AutoDeactivate  =   True
          Bold            =   False
-         ButtonStyle     =   "0"
+         ButtonStyle     =   0
          Cancel          =   False
          Caption         =   "Restore Backup"
          Default         =   False
@@ -2342,7 +2342,7 @@ Begin Window ServerWindow
       Begin BetterPushButton BackupDeleteButton
          AutoDeactivate  =   True
          Bold            =   False
-         ButtonStyle     =   "0"
+         ButtonStyle     =   0
          Cancel          =   False
          Caption         =   "Delete Backups"
          Default         =   False
@@ -2374,7 +2374,7 @@ Begin Window ServerWindow
       Begin BetterPushButton PrivRevokeButton
          AutoDeactivate  =   True
          Bold            =   False
-         ButtonStyle     =   "0"
+         ButtonStyle     =   0
          Cancel          =   False
          Caption         =   "Revoke"
          Default         =   False
@@ -2410,7 +2410,7 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   False
+         EraseBackground =   "False"
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
@@ -2658,7 +2658,7 @@ Begin Window ServerWindow
          Begin BetterPushButton PrivGrantButton
             AutoDeactivate  =   True
             Bold            =   False
-            ButtonStyle     =   "0"
+            ButtonStyle     =   0
             Cancel          =   False
             Caption         =   "Grant"
             Default         =   False
@@ -2826,7 +2826,7 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   False
+         EraseBackground =   "False"
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
@@ -2907,7 +2907,7 @@ Begin Window ServerWindow
          Backdrop        =   1867245016
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   True
+         EraseBackground =   "True"
          Height          =   16
          HelpTag         =   ""
          Index           =   -2147483648
@@ -2987,7 +2987,7 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   False
+         EraseBackground =   "False"
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
@@ -3056,7 +3056,7 @@ Begin Window ServerWindow
       Begin BetterPushButton ClientsSend1
          AutoDeactivate  =   True
          Bold            =   False
-         ButtonStyle     =   "0"
+         ButtonStyle     =   0
          Cancel          =   False
          Caption         =   "Send"
          Default         =   False
@@ -3120,7 +3120,7 @@ Begin Window ServerWindow
       Begin BetterPushButton DBStartStopButton
          AutoDeactivate  =   True
          Bold            =   False
-         ButtonStyle     =   "0"
+         ButtonStyle     =   0
          Cancel          =   False
          Caption         =   "Stop"
          Default         =   False
@@ -3156,7 +3156,7 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   False
+         EraseBackground =   "False"
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
@@ -3185,7 +3185,7 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   False
+         EraseBackground =   "False"
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
@@ -3210,7 +3210,7 @@ Begin Window ServerWindow
       Begin BetterPushButton SettingsSaveButton
          AutoDeactivate  =   True
          Bold            =   False
-         ButtonStyle     =   "0"
+         ButtonStyle     =   0
          Cancel          =   False
          Caption         =   "Save"
          Default         =   False
@@ -3246,7 +3246,7 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   False
+         EraseBackground =   "False"
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
@@ -3324,7 +3324,7 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   False
+         EraseBackground =   "False"
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
@@ -3398,7 +3398,7 @@ Begin Window ServerWindow
       Begin BetterPushButton BugSend
          AutoDeactivate  =   True
          Bold            =   False
-         ButtonStyle     =   "0"
+         ButtonStyle     =   0
          Cancel          =   False
          Caption         =   "Send"
          Default         =   False
@@ -3535,7 +3535,7 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   False
+         EraseBackground =   "False"
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
@@ -3612,7 +3612,7 @@ Begin Window ServerWindow
       Begin BetterPushButton SchedDropButton
          AutoDeactivate  =   True
          Bold            =   False
-         ButtonStyle     =   "0"
+         ButtonStyle     =   0
          Cancel          =   False
          Caption         =   "Drop"
          Default         =   False
@@ -3777,7 +3777,7 @@ Begin Window ServerWindow
          Begin BetterPushButton SchedAddButton
             AutoDeactivate  =   True
             Bold            =   False
-            ButtonStyle     =   "0"
+            ButtonStyle     =   0
             Cancel          =   False
             Caption         =   "Add"
             Default         =   False
@@ -4525,7 +4525,7 @@ Begin Window ServerWindow
             Top             =   559
             Transparent     =   False
             Underline       =   False
-            Value           =   False
+            Value           =   "False"
             Visible         =   True
             Width           =   211
          End
@@ -4718,7 +4718,7 @@ Begin Window ServerWindow
          Top             =   453
          Transparent     =   False
          Underline       =   False
-         Value           =   False
+         Value           =   "False"
          Visible         =   True
          Width           =   303
       End
@@ -4764,7 +4764,7 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   True
+         EraseBackground =   "True"
          Height          =   22
          HelpTag         =   ""
          Index           =   -2147483648
@@ -4792,7 +4792,7 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   False
+         EraseBackground =   "False"
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
@@ -4821,7 +4821,7 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   True
+         EraseBackground =   "True"
          Height          =   185
          HelpTag         =   ""
          Index           =   -2147483648
@@ -4848,7 +4848,7 @@ Begin Window ServerWindow
             Backdrop        =   0
             DoubleBuffer    =   False
             Enabled         =   True
-            EraseBackground =   True
+            EraseBackground =   "True"
             Height          =   128
             HelpTag         =   ""
             Index           =   -2147483648
@@ -5069,7 +5069,7 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   False
+         EraseBackground =   "False"
          Height          =   45
          HelpTag         =   ""
          Index           =   -2147483648
@@ -5164,7 +5164,7 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   False
+         EraseBackground =   "False"
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
@@ -5189,7 +5189,7 @@ Begin Window ServerWindow
       Begin BetterPushButton StructAddIndexButton
          AutoDeactivate  =   True
          Bold            =   False
-         ButtonStyle     =   "0"
+         ButtonStyle     =   0
          Cancel          =   False
          Caption         =   "Add Index"
          Default         =   False
@@ -5221,7 +5221,7 @@ Begin Window ServerWindow
       Begin BetterPushButton StructAddTableButton
          AutoDeactivate  =   True
          Bold            =   False
-         ButtonStyle     =   "0"
+         ButtonStyle     =   0
          Cancel          =   False
          Caption         =   "Add Table"
          Default         =   False
@@ -5253,7 +5253,7 @@ Begin Window ServerWindow
       Begin BetterPushButton StructDropButton
          AutoDeactivate  =   True
          Bold            =   False
-         ButtonStyle     =   "0"
+         ButtonStyle     =   0
          Cancel          =   False
          Caption         =   "Drop"
          Default         =   False
@@ -5285,7 +5285,7 @@ Begin Window ServerWindow
       Begin BetterPushButton StructAlterTableButton
          AutoDeactivate  =   True
          Bold            =   False
-         ButtonStyle     =   "0"
+         ButtonStyle     =   0
          Cancel          =   False
          Caption         =   "Alter Table"
          Default         =   False
@@ -5388,7 +5388,7 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   False
+         EraseBackground =   "False"
          Height          =   562
          HelpTag         =   ""
          Index           =   -2147483648
@@ -5415,7 +5415,7 @@ Begin Window ServerWindow
             Backdrop        =   1636657646
             DoubleBuffer    =   False
             Enabled         =   True
-            EraseBackground =   True
+            EraseBackground =   "True"
             Height          =   48
             HelpTag         =   ""
             Index           =   -2147483648
@@ -5721,7 +5721,7 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   False
+         EraseBackground =   "False"
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
@@ -5750,7 +5750,7 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   False
+         EraseBackground =   "False"
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
@@ -5779,7 +5779,7 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   False
+         EraseBackground =   "False"
          Height          =   562
          HelpTag         =   ""
          Index           =   -2147483648
@@ -5829,7 +5829,7 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   False
+         EraseBackground =   "False"
          Height          =   530
          HelpTag         =   ""
          Index           =   -2147483648
@@ -5958,7 +5958,7 @@ Begin Window ServerWindow
             Backdrop        =   729536276
             DoubleBuffer    =   False
             Enabled         =   True
-            EraseBackground =   True
+            EraseBackground =   "True"
             Height          =   48
             HelpTag         =   ""
             Index           =   -2147483648
@@ -6022,7 +6022,7 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   False
+         EraseBackground =   "False"
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
@@ -6047,7 +6047,7 @@ Begin Window ServerWindow
       Begin BetterPushButton WebSaveButton
          AutoDeactivate  =   True
          Bold            =   False
-         ButtonStyle     =   "0"
+         ButtonStyle     =   0
          Cancel          =   False
          Caption         =   "Save"
          Default         =   False
@@ -6083,7 +6083,7 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   False
+         EraseBackground =   "False"
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
@@ -6112,7 +6112,7 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   False
+         EraseBackground =   "False"
          Height          =   453
          HelpTag         =   ""
          Index           =   -2147483648
@@ -6329,7 +6329,7 @@ Begin Window ServerWindow
          Begin BetterPushButton SettingsSetChunkButton
             AutoDeactivate  =   True
             Bold            =   False
-            ButtonStyle     =   "0"
+            ButtonStyle     =   0
             Cancel          =   False
             Caption         =   "Set"
             Default         =   False
@@ -6396,7 +6396,7 @@ Begin Window ServerWindow
          Begin BetterPushButton SettingsSetLockDBButton
             AutoDeactivate  =   True
             Bold            =   False
-            ButtonStyle     =   "0"
+            ButtonStyle     =   0
             Cancel          =   False
             Caption         =   "Set"
             Default         =   False
@@ -6684,7 +6684,7 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   False
+         EraseBackground =   "False"
          Height          =   248
          HelpTag         =   ""
          Index           =   -2147483648
@@ -7082,7 +7082,7 @@ Begin Window ServerWindow
             Top             =   397
             Transparent     =   False
             Underline       =   False
-            Value           =   False
+            Value           =   "False"
             Visible         =   True
             Width           =   113
          End
@@ -7253,7 +7253,7 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   False
+         EraseBackground =   "False"
          Height          =   139
          HelpTag         =   ""
          Index           =   -2147483648
@@ -7513,7 +7513,7 @@ Begin Window ServerWindow
          Begin BetterPushButton SettingsOpenFolderButton1
             AutoDeactivate  =   True
             Bold            =   False
-            ButtonStyle     =   "0"
+            ButtonStyle     =   0
             Cancel          =   False
             Caption         =   "Open"
             Default         =   False
@@ -7545,7 +7545,7 @@ Begin Window ServerWindow
          Begin BetterPushButton SettingsOpenFolderButton2
             AutoDeactivate  =   True
             Bold            =   False
-            ButtonStyle     =   "0"
+            ButtonStyle     =   0
             Cancel          =   False
             Caption         =   "Open"
             Default         =   False
@@ -7577,7 +7577,7 @@ Begin Window ServerWindow
          Begin BetterPushButton SettingsOpenFolderButton3
             AutoDeactivate  =   True
             Bold            =   False
-            ButtonStyle     =   "0"
+            ButtonStyle     =   0
             Cancel          =   False
             Caption         =   "Open"
             Default         =   False
@@ -7689,7 +7689,7 @@ Begin Window ServerWindow
       Begin BetterPushButton BackupDownloadButton
          AutoDeactivate  =   True
          Bold            =   False
-         ButtonStyle     =   "0"
+         ButtonStyle     =   0
          Cancel          =   False
          Caption         =   "Download Backup"
          Default         =   False
@@ -7721,7 +7721,7 @@ Begin Window ServerWindow
       Begin BetterPushButton ClientsRefresh
          AutoDeactivate  =   True
          Bold            =   False
-         ButtonStyle     =   "0"
+         ButtonStyle     =   0
          Cancel          =   False
          Caption         =   "Refresh"
          Default         =   False
@@ -7753,7 +7753,7 @@ Begin Window ServerWindow
       Begin BetterPushButton ClientsRefresh1
          AutoDeactivate  =   True
          Bold            =   False
-         ButtonStyle     =   "0"
+         ButtonStyle     =   0
          Cancel          =   False
          Caption         =   "Refresh"
          Default         =   False
@@ -10815,40 +10815,43 @@ End
 #tag EndEvents
 #tag ViewBehavior
 	#tag ViewProperty
-		Name="BackColor"
+		Name="MinimumWidth"
 		Visible=true
-		Group="Appearance"
-		InitialValue="&hFFFFFF"
-		Type="Color"
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="Backdrop"
-		Visible=true
-		Group="Appearance"
-		Type="Picture"
-		EditorType="Picture"
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="CloseButton"
-		Visible=true
-		Group="Appearance"
-		InitialValue="True"
-		Type="Boolean"
-		EditorType="Boolean"
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="Composite"
-		Visible=true
-		Group="Appearance"
-		InitialValue="False"
-		Type="Boolean"
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="Frame"
-		Visible=true
-		Group="Appearance"
-		InitialValue="0"
+		Group="Size"
+		InitialValue="64"
 		Type="Integer"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="MinimumHeight"
+		Visible=true
+		Group="Size"
+		InitialValue="64"
+		Type="Integer"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="MaximumWidth"
+		Visible=true
+		Group="Size"
+		InitialValue="32000"
+		Type="Integer"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="MaximumHeight"
+		Visible=true
+		Group="Size"
+		InitialValue="32000"
+		Type="Integer"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="Type"
+		Visible=true
+		Group="Frame"
+		InitialValue="0"
+		Type="Types"
 		EditorType="Enum"
 		#tag EnumValues
 			"0 - Document"
@@ -10865,135 +10868,43 @@ End
 		#tag EndEnumValues
 	#tag EndViewProperty
 	#tag ViewProperty
-		Name="FullScreen"
-		Group="Appearance"
-		InitialValue="False"
-		Type="Boolean"
-		EditorType="Boolean"
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="FullScreenButton"
+		Name="HasCloseButton"
 		Visible=true
-		Group="Appearance"
-		InitialValue="False"
-		Type="Boolean"
-		EditorType="Boolean"
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="HasBackColor"
-		Visible=true
-		Group="Appearance"
-		InitialValue="False"
-		Type="Boolean"
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="Height"
-		Visible=true
-		Group="Position"
-		InitialValue="400"
-		Type="Integer"
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="ImplicitInstance"
-		Visible=true
-		Group="Appearance"
+		Group="Frame"
 		InitialValue="True"
 		Type="Boolean"
-		EditorType="Boolean"
+		EditorType=""
 	#tag EndViewProperty
 	#tag ViewProperty
-		Name="Interfaces"
+		Name="HasMaximizeButton"
 		Visible=true
-		Group="ID"
-		Type="String"
-		EditorType="String"
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="LiveResize"
-		Visible=true
-		Group="Appearance"
+		Group="Frame"
 		InitialValue="True"
 		Type="Boolean"
-		EditorType="Boolean"
+		EditorType=""
 	#tag EndViewProperty
 	#tag ViewProperty
-		Name="MacProcID"
+		Name="HasMinimizeButton"
 		Visible=true
-		Group="Appearance"
+		Group="Frame"
+		InitialValue="True"
+		Type="Boolean"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="HasFullScreenButton"
+		Visible=true
+		Group="Frame"
+		InitialValue="False"
+		Type="Boolean"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="DefaultLocation"
+		Visible=true
+		Group="Behavior"
 		InitialValue="0"
-		Type="Integer"
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="MaxHeight"
-		Visible=true
-		Group="Position"
-		InitialValue="32000"
-		Type="Integer"
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="MaximizeButton"
-		Visible=true
-		Group="Appearance"
-		InitialValue="True"
-		Type="Boolean"
-		EditorType="Boolean"
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="MaxWidth"
-		Visible=true
-		Group="Position"
-		InitialValue="32000"
-		Type="Integer"
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="MenuBar"
-		Visible=true
-		Group="Appearance"
-		Type="MenuBar"
-		EditorType="MenuBar"
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="MenuBarVisible"
-		Group="Appearance"
-		InitialValue="True"
-		Type="Boolean"
-		EditorType="Boolean"
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="MinHeight"
-		Visible=true
-		Group="Position"
-		InitialValue="64"
-		Type="Integer"
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="MinimizeButton"
-		Visible=true
-		Group="Appearance"
-		InitialValue="True"
-		Type="Boolean"
-		EditorType="Boolean"
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="MinWidth"
-		Visible=true
-		Group="Position"
-		InitialValue="64"
-		Type="Integer"
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="Name"
-		Visible=true
-		Group="ID"
-		Type="String"
-		EditorType="String"
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="Placement"
-		Visible=true
-		Group="Position"
-		InitialValue="0"
-		Type="Integer"
+		Type="Locations"
 		EditorType="Enum"
 		#tag EnumValues
 			"0 - Default"
@@ -11004,19 +10915,116 @@ End
 		#tag EndEnumValues
 	#tag EndViewProperty
 	#tag ViewProperty
+		Name="HasBackgroundColor"
+		Visible=true
+		Group="Background"
+		InitialValue="False"
+		Type="Boolean"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="BackgroundColor"
+		Visible=true
+		Group="Background"
+		InitialValue="&hFFFFFF"
+		Type="Color"
+		EditorType="Color"
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="Backdrop"
+		Visible=true
+		Group="Appearance"
+		InitialValue=""
+		Type="Picture"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="Composite"
+		Visible=true
+		Group="Appearance"
+		InitialValue="False"
+		Type="Boolean"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="FullScreen"
+		Visible=false
+		Group="Appearance"
+		InitialValue="False"
+		Type="Boolean"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="Height"
+		Visible=true
+		Group="Position"
+		InitialValue="400"
+		Type="Integer"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="ImplicitInstance"
+		Visible=true
+		Group="Appearance"
+		InitialValue="True"
+		Type="Boolean"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="Interfaces"
+		Visible=true
+		Group="ID"
+		InitialValue=""
+		Type="String"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="MacProcID"
+		Visible=true
+		Group="Appearance"
+		InitialValue="0"
+		Type="Integer"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="MenuBar"
+		Visible=true
+		Group="Appearance"
+		InitialValue=""
+		Type="MenuBar"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="MenuBarVisible"
+		Visible=false
+		Group="Appearance"
+		InitialValue="True"
+		Type="Boolean"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="Name"
+		Visible=true
+		Group="ID"
+		InitialValue=""
+		Type="String"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
 		Name="Resizeable"
 		Visible=true
 		Group="Appearance"
 		InitialValue="True"
 		Type="Boolean"
-		EditorType="Boolean"
+		EditorType=""
 	#tag EndViewProperty
 	#tag ViewProperty
 		Name="Super"
 		Visible=true
 		Group="ID"
+		InitialValue=""
 		Type="String"
-		EditorType="String"
+		EditorType=""
 	#tag EndViewProperty
 	#tag ViewProperty
 		Name="Title"
@@ -11024,6 +11032,7 @@ End
 		Group="Appearance"
 		InitialValue="Untitled"
 		Type="String"
+		EditorType=""
 	#tag EndViewProperty
 	#tag ViewProperty
 		Name="Visible"
@@ -11031,7 +11040,7 @@ End
 		Group="Appearance"
 		InitialValue="True"
 		Type="Boolean"
-		EditorType="Boolean"
+		EditorType=""
 	#tag EndViewProperty
 	#tag ViewProperty
 		Name="Width"
@@ -11039,5 +11048,6 @@ End
 		Group="Position"
 		InitialValue="600"
 		Type="Integer"
+		EditorType=""
 	#tag EndViewProperty
 #tag EndViewBehavior

@@ -3,7 +3,6 @@ Begin Window UploadDBWindow
    BackColor       =   &cFFFFFF00
    Backdrop        =   0
    CloseButton     =   False
-   Compatibility   =   ""
    Composite       =   True
    Frame           =   8
    FullScreen      =   False
@@ -11,7 +10,7 @@ Begin Window UploadDBWindow
    HasBackColor    =   False
    Height          =   222
    ImplicitInstance=   True
-   LiveResize      =   True
+   LiveResize      =   "True"
    MacProcID       =   0
    MaxHeight       =   32000
    MaximizeButton  =   False
@@ -64,7 +63,7 @@ Begin Window UploadDBWindow
    Begin BetterPushButton CancelButton
       AutoDeactivate  =   True
       Bold            =   False
-      ButtonStyle     =   "0"
+      ButtonStyle     =   0
       Cancel          =   True
       Caption         =   "Cancel"
       Default         =   False
@@ -98,6 +97,7 @@ Begin Window UploadDBWindow
       Enabled         =   True
       Height          =   20
       HelpTag         =   ""
+      Indeterminate   =   False
       Index           =   -2147483648
       InitialParent   =   ""
       Left            =   20
@@ -110,9 +110,10 @@ Begin Window UploadDBWindow
       Scope           =   2
       TabIndex        =   4
       TabPanelIndex   =   0
+      TabStop         =   True
       Top             =   134
       Transparent     =   False
-      Value           =   0
+      Value           =   0.0
       Visible         =   True
       Width           =   431
    End
@@ -264,7 +265,7 @@ Begin Window UploadDBWindow
    Begin BetterPushButton UploadButton
       AutoDeactivate  =   True
       Bold            =   False
-      ButtonStyle     =   "0"
+      ButtonStyle     =   0
       Cancel          =   False
       Caption         =   "Upload"
       Default         =   True

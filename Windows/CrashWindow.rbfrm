@@ -3,7 +3,6 @@ Begin Window CrashWindow
    BackColor       =   &cFFFFFF00
    Backdrop        =   0
    CloseButton     =   True
-   Compatibility   =   ""
    Composite       =   True
    Frame           =   0
    FullScreen      =   False
@@ -11,7 +10,7 @@ Begin Window CrashWindow
    HasBackColor    =   False
    Height          =   362
    ImplicitInstance=   True
-   LiveResize      =   True
+   LiveResize      =   "True"
    MacProcID       =   0
    MaxHeight       =   32000
    MaximizeButton  =   False
@@ -68,7 +67,7 @@ Begin Window CrashWindow
       Backdrop        =   1630274971
       DoubleBuffer    =   False
       Enabled         =   True
-      EraseBackground =   True
+      EraseBackground =   "True"
       Height          =   48
       HelpTag         =   ""
       Index           =   -2147483648
@@ -176,7 +175,7 @@ Begin Window CrashWindow
    Begin BetterPushButton SendReportButton
       AutoDeactivate  =   True
       Bold            =   False
-      ButtonStyle     =   "0"
+      ButtonStyle     =   0
       Cancel          =   False
       Caption         =   "Report"
       Default         =   True
@@ -208,7 +207,7 @@ Begin Window CrashWindow
    Begin BetterPushButton CloseReportButton
       AutoDeactivate  =   True
       Bold            =   False
-      ButtonStyle     =   "0"
+      ButtonStyle     =   0
       Cancel          =   True
       Caption         =   "Ignore"
       Default         =   False
