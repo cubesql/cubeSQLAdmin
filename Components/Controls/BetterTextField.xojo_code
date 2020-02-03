@@ -160,14 +160,6 @@ Inherits TextField
 			EditorType=""
 		#tag EndViewProperty
 		#tag ViewProperty
-			Name="Border"
-			Visible=true
-			Group="Appearance"
-			InitialValue="True"
-			Type="Boolean"
-			EditorType=""
-		#tag EndViewProperty
-		#tag ViewProperty
 			Name="Password"
 			Visible=true
 			Group="Appearance"

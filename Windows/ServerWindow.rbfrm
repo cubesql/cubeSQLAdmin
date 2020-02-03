@@ -129,7 +129,7 @@ Begin Window ServerWindow
       Scope           =   2
       TabIndex        =   1
       TabPanelIndex   =   0
-      TabStop         =   True
+      TabStop         =   "True"
       Top             =   0
       Transparent     =   False
       Value           =   10
@@ -4047,7 +4047,7 @@ Begin Window ServerWindow
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
-            MenuValue       =   0
+            MenuValue       =   "0"
             Scope           =   2
             TabIndex        =   8
             TabPanelIndex   =   9
@@ -4092,7 +4092,7 @@ Begin Window ServerWindow
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
-            MenuValue       =   0
+            MenuValue       =   "0"
             Scope           =   2
             TabIndex        =   9
             TabPanelIndex   =   9
@@ -4137,7 +4137,7 @@ Begin Window ServerWindow
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
-            MenuValue       =   0
+            MenuValue       =   "0"
             Scope           =   2
             TabIndex        =   10
             TabPanelIndex   =   9
@@ -4182,7 +4182,7 @@ Begin Window ServerWindow
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
-            MenuValue       =   0
+            MenuValue       =   "0"
             Scope           =   2
             TabIndex        =   11
             TabPanelIndex   =   9
@@ -4227,7 +4227,7 @@ Begin Window ServerWindow
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
-            MenuValue       =   0
+            MenuValue       =   "0"
             Scope           =   2
             TabIndex        =   12
             TabPanelIndex   =   9
@@ -4272,7 +4272,7 @@ Begin Window ServerWindow
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
-            MenuValue       =   0
+            MenuValue       =   "0"
             Scope           =   2
             TabIndex        =   13
             TabPanelIndex   =   9
@@ -4317,7 +4317,7 @@ Begin Window ServerWindow
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
-            MenuValue       =   0
+            MenuValue       =   "0"
             Scope           =   2
             TabIndex        =   14
             TabPanelIndex   =   9
@@ -4525,7 +4525,7 @@ Begin Window ServerWindow
             Top             =   559
             Transparent     =   False
             Underline       =   False
-            Value           =   "False"
+            Value           =   False
             Visible         =   True
             Width           =   211
          End
@@ -4718,7 +4718,7 @@ Begin Window ServerWindow
          Top             =   453
          Transparent     =   False
          Underline       =   False
-         Value           =   "False"
+         Value           =   False
          Visible         =   True
          Width           =   303
       End
@@ -5697,7 +5697,7 @@ Begin Window ServerWindow
             LockLeft        =   True
             LockRight       =   False
             LockTop         =   True
-            MenuValue       =   0
+            MenuValue       =   "0"
             Scope           =   2
             TabIndex        =   2
             TabPanelIndex   =   17
@@ -5900,7 +5900,7 @@ Begin Window ServerWindow
             LockLeft        =   True
             LockRight       =   False
             LockTop         =   True
-            MenuValue       =   0
+            MenuValue       =   "0"
             Scope           =   2
             TabIndex        =   2
             TabPanelIndex   =   19
@@ -6161,7 +6161,7 @@ Begin Window ServerWindow
             LockLeft        =   True
             LockRight       =   False
             LockTop         =   True
-            MenuValue       =   0
+            MenuValue       =   "0"
             Scope           =   2
             TabIndex        =   1
             TabPanelIndex   =   20
@@ -6625,7 +6625,7 @@ Begin Window ServerWindow
             LockLeft        =   True
             LockRight       =   False
             LockTop         =   True
-            MenuValue       =   0
+            MenuValue       =   "0"
             Scope           =   2
             TabIndex        =   4
             TabPanelIndex   =   20
@@ -7082,7 +7082,7 @@ Begin Window ServerWindow
             Top             =   397
             Transparent     =   False
             Underline       =   False
-            Value           =   "False"
+            Value           =   False
             Visible         =   True
             Width           =   113
          End
@@ -7983,7 +7983,7 @@ End
 		  Dim s As String
 		  
 		  #if TargetWindows
-		    s = f.AbsolutePath
+		    s = f.NativePath
 		  #else
 		    s = f.ShellPath.ReplaceAll("\\", chr(1))
 		    s = s.ReplaceAll("\", "")

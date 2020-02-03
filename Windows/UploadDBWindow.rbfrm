@@ -110,7 +110,7 @@ Begin Window UploadDBWindow
       Scope           =   2
       TabIndex        =   4
       TabPanelIndex   =   0
-      TabStop         =   True
+      TabStop         =   "True"
       Top             =   134
       Transparent     =   False
       Value           =   0.0
