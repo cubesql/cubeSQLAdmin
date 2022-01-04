@@ -93,31 +93,113 @@ Inherits Application
 	#tag EndMethod
 
 	#tag Method, Flags = &h21
+		Private Function GetLinuxLibrary(psName As String) As FolderItem
+		  #If TargetLinux Then
+		    Dim systemLibs_Folders() As String
+		    Dim systemLibs_Filenames() As String
+		    
+		    systemLibs_Filenames.Append(psName + ".so.1.1")
+		    systemLibs_Filenames.Append(psName + ".so.1.0.2")
+		    systemLibs_Filenames.Append(psName + ".so.1.0.0")
+		    systemLibs_Filenames.Append(psName + ".so.0.9.8")
+		    systemLibs_Filenames.Append(psName + ".so") 'is usually a symlink, but might point to non supported version by CubeSQLPlugin
+		    
+		    #If Target32Bit Then
+		      #If TargetARM Then
+		        systemLibs_Folders.Append("/lib/arm-linux-gnueabihf/")
+		        systemLibs_Folders.Append("/usr/lib/arm-linux-gnueabihf/")
+		      #EndIf
+		      systemLibs_Folders.Append("/lib/i386-linux-gnu/")
+		      systemLibs_Folders.Append("/usr/lib/i386-linux-gnu/")
+		      systemLibs_Folders.Append("/lib32/")
+		      systemLibs_Folders.Append("/usr/lib32/")
+		    #EndIf
+		    #If Target64Bit Then
+		      #If TargetARM Then
+		        #Pragma Error "SSL Library locations has not been implemented yet for this BuildTarget"
+		      #EndIf
+		      systemLibs_Folders.Append("/lib/x86_64-linux-gnu/")
+		      systemLibs_Folders.Append("/usr/lib/x86_64-linux-gnu/")
+		      systemLibs_Folders.Append("/lib64/")
+		      systemLibs_Folders.Append("/usr/lib64/")
+		    #EndIf
+		    
+		    systemLibs_Folders.Append("/lib/")
+		    systemLibs_Folders.Append("/usr/lib/")
+		    
+		    Dim oFile As FolderItem
+		    For Each sSystemLibsFolder As String In systemLibs_Folders
+		      For Each sSystemLibsFilename As String In systemLibs_Filenames
+		        oFile = GetFolderItem(sSystemLibsFolder + sSystemLibsFilename, FolderItem.PathTypeShell)
+		        If (oFile <> Nil) And (Not oFile.Directory) And oFile.Exists Then Return oFile
+		      Next
+		    Next
+		    
+		  #EndIf
+		  
+		  Return Nil
+		  
+		End Function
+	#tag EndMethod
+
+	#tag Method, Flags = &h21
 		Private Sub SSLStartupCheck()
-		  Dim f As FolderItem = Prefs.SSLAdminPath
-		  if (f = nil) then return
+		  Dim SSLLibFile As FolderItem
+		  Dim CryptoLibFile As FolderItem
 		  
-		  Dim SSLLib As String
-		  Dim CryptoLib As String
+		  #If TargetMacOS Then
+		    'SSL Library is included in CubeSQLPlugin
+		    return
+		    
+		  #ElseIf TargetWindows Then
+		    'Try to locate the SSL Library in these folders
+		    Dim locateSSLLibsInFolders() As FolderItem = Array(Prefs.SSLAdminPath)
+		    locateSSLLibsInFolders.Append(App.ExecutableFile.Parent)
+		    
+		    Dim libsFoldername As String = App.ExecutableFile.Name 'remove .exe
+		    libsFoldername = Left(libsFoldername, Len(libsFoldername) - 4) + " Libs"
+		    locateSSLLibsInFolders.Append(App.ExecutableFile.Parent.Child(libsFoldername))
+		    locateSSLLibsInFolders.Append(App.ExecutableFile.Parent.Child("Libs"))
+		    
+		    Dim SSLLib As String
+		    Dim CryptoLib As String
+		    
+		    #If Target64Bit Then
+		      SSLLib = "libssl-1_1-x64.dll"
+		      CryptoLib = "libcrypto-1_1-x64.dll"
+		    #Else
+		      SSLLib = "libssl-1_1.dll"
+		      CryptoLib = "libcrypto-1_1.dll"
+		    #EndIf
+		    
+		    For Each folder As FolderItem In locateSSLLibsInFolders
+		      If (folder = Nil) Or (Not folder.Exists) Or (Not folder.Directory) Then Continue
+		      
+		      SSLLibFile = folder.Child(SSLLib)
+		      CryptoLibFile = folder.Child(CryptoLib)
+		      
+		      If (SSLLibFile = Nil) Or (CryptoLibFile = Nil) Then Continue
+		      If (Not SSLLibFile.Exists) Or (Not CryptoLibFile.Exists) Then Continue
+		      
+		      'Libs found
+		      Exit 'Loop
+		    Next
+		    
+		  #ElseIf TargetLinux Then
+		    SSLLibFile = Me.GetLinuxLibrary("libssl")
+		    CryptoLibFile = Me.GetLinuxLibrary("libcrypto")
+		    
+		  #Else
+		    #Pragma Error "SSL Library locations has not been implemented yet for this BuildTarget"
+		  #EndIf
 		  
-		  #if TargetMacOS
-		    SSLLib = "libssl.dylib"
-		    CryptoLib = "libcrypto.dylib"
-		  #elseif TargetWindows
-		    SSLLib = "libssl32.dll"
-		    CryptoLib = "libeay32.dll"
-		  #else
-		    SSLLib = "libssl.so"
-		    CryptoLib = "libcrypto.so"
-		  #endif
+		  If (SSLLibFile = Nil) Or (CryptoLibFile = Nil) Then Return
+		  If (Not SSLLibFile.Exists) Or (Not CryptoLibFile.Exists) Then Return
 		  
-		  Dim SSLLibPath As FolderItem = f.Child(SSLLib)
-		  Dim CryptoLibPath As FolderItem = f.Child(CryptoLib)
-		  if (SSLLibPath = nil) or (CryptoLibPath = nil) then return
-		  if (SSLLibPath.Exists = false) or (CryptoLibPath.Exists = False) then return
+		  'set SSL Library for CubeSQLPlugin
+		  CubeSQLPlugin.SSLLibrary = SSLLibFile
+		  CubeSQLPlugin.CryptoLibrary = CryptoLibFile
 		  
-		  CubeSQLPlugin.SSLLibrary = SSLLibPath
-		  CubeSQLPlugin.CryptoLibrary = CryptoLibPath
 		End Sub
 	#tag EndMethod
 
