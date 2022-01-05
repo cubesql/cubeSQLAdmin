@@ -57,7 +57,7 @@ Begin Window ConnectWindow
       Visible         =   True
       Width           =   80
    End
-   Begin Label StaticText1
+   Begin Label LabelHostname
       AutoDeactivate  =   True
       Bold            =   True
       DataField       =   ""
@@ -92,7 +92,7 @@ Begin Window ConnectWindow
       Visible         =   True
       Width           =   80
    End
-   Begin Label StaticText2
+   Begin Label LabelUsername
       AutoDeactivate  =   True
       Bold            =   True
       DataField       =   ""
@@ -127,7 +127,7 @@ Begin Window ConnectWindow
       Visible         =   True
       Width           =   80
    End
-   Begin Label StaticText3
+   Begin Label LabelPassword
       AutoDeactivate  =   True
       Bold            =   True
       DataField       =   ""
@@ -294,7 +294,7 @@ Begin Window ConnectWindow
       Visible         =   True
       Width           =   289
    End
-   Begin Label StaticText4
+   Begin Label LabelEncryption
       AutoDeactivate  =   True
       Bold            =   True
       DataField       =   ""
@@ -383,7 +383,7 @@ Begin Window ConnectWindow
       Visible         =   True
       Width           =   381
    End
-   Begin Label StaticText5
+   Begin Label LabelPort
       AutoDeactivate  =   True
       Bold            =   True
       DataField       =   ""
@@ -506,7 +506,7 @@ Begin Window ConnectWindow
       Visible         =   True
       Width           =   66
    End
-   Begin Label StaticText6
+   Begin Label LabelTimeout
       AutoDeactivate  =   True
       Bold            =   True
       DataField       =   ""
@@ -548,7 +548,6 @@ Begin Window ConnectWindow
       Backdrop        =   0
       DoubleBuffer    =   False
       Enabled         =   True
-      EraseBackground =   "True"
       Height          =   24
       HelpTag         =   "Choose a Favorite"
       Icon            =   739430882
@@ -577,7 +576,6 @@ Begin Window ConnectWindow
       Backdrop        =   0
       DoubleBuffer    =   False
       Enabled         =   True
-      EraseBackground =   "True"
       Height          =   24
       HelpTag         =   "Remove from Favorites"
       Icon            =   126985391
@@ -606,7 +604,6 @@ Begin Window ConnectWindow
       Backdrop        =   0
       DoubleBuffer    =   False
       Enabled         =   True
-      EraseBackground =   "True"
       Height          =   24
       HelpTag         =   "Add to Favorites"
       Icon            =   1618674496
@@ -835,7 +832,17 @@ End
 #tag Events EncryptionPopup
 	#tag Event
 		Sub Change()
-		  PEMPassword.Visible = (me.ListIndex = 3)
+		  Dim isSSL As Boolean = (Me.ListIndex = 3)
+		  
+		  PEMPassword.Visible = isSSL
+		  If isSSL Then
+		    LabelEncryption.HelpTag = CubeSQLPlugin.OpenSSLVersion
+		    me.HelpTag = CubeSQLPlugin.OpenSSLVersion
+		  Else
+		    LabelEncryption.HelpTag = ""
+		    me.HelpTag = ""
+		  End If
+		  
 		End Sub
 	#tag EndEvent
 #tag EndEvents
