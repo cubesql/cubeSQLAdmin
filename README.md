@@ -16,7 +16,7 @@ In the Executables folder you can find ready to use binaries for all supported p
 * [Linux 64 bit](https://github.com/cubesql/cubeSQLAdmin/blob/master/Executables/Linux_64bit.zip)
 * [Linux 32 bit](https://github.com/cubesql/cubeSQLAdmin/blob/master/Executables/Linux_32bit.zip)
 * [MacOS 32bit](https://github.com/cubesql/cubeSQLAdmin/blob/master/Executables/MacOS_32bit.zip) (for MacOS version 10.7 to 10.9)
-* [MacOS 64bit](https://github.com/cubesql/cubeSQLAdmin/blob/master/Executables/MacOS_64bit.zip) (for MacOS 10.10.5 or higher)
+* [MacOS 64bit Intel/ARM](https://github.com/cubesql/cubeSQLAdmin/blob/master/Executables/MacOS_64bit.zip) (for MacOS 10.10.5 or higher)
 * [Linux ARM 32bit](https://github.com/cubesql/cubeSQLAdmin/blob/master/Executables/RaspberryPi.zip) (Raspberry Pi2 and Pi3)
 
 ## Contact
