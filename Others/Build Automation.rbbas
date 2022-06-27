@@ -6,9 +6,12 @@
 			Begin BuildStepList Mac OS X
 				Begin BuildProjectStep Build
 				End
+				Begin SignProjectStep Sign
+				  DeveloperID=
+				End
 			End
 			Begin BuildStepList Windows
-				Begin IDEScriptBuildStep CopySSLLibs_Windows_Setup , AppliesTo = 0, Architecture = 0
+				Begin IDEScriptBuildStep CopySSLLibs_Windows_Setup , AppliesTo = 0, Architecture = 0, Target = 0
 					Select Case CurrentBuildTarget
 					
 					Case 3  'Windows 32Bit
@@ -26,6 +29,7 @@
 				Begin CopyFilesBuildStep CopySSLLibs_Windows_32Bit
 					AppliesTo = 3
 					Architecture = 0
+					Target = 0
 					Destination = 2
 					Subdirectory = 
 					FolderItem = Li4vUmVzb3VyY2VzL1NTTC1MaWJyYXJpZXMvV2luZG93c18zMkJpdC9saWJjcnlwdG8tMV8xLmRsbA==
@@ -34,12 +38,13 @@
 				Begin CopyFilesBuildStep CopySSLLibs_Windows_64Bit
 					AppliesTo = 3
 					Architecture = 0
+					Target = 0
 					Destination = 0
 					Subdirectory = 
 					FolderItem = Li4vUmVzb3VyY2VzL1NTTC1MaWJyYXJpZXMvV2luZG93c182NEJpdC9saWJjcnlwdG8tMV8xLXg2NC5kbGw=
 					FolderItem = Li4vUmVzb3VyY2VzL1NTTC1MaWJyYXJpZXMvV2luZG93c182NEJpdC9saWJzc2wtMV8xLXg2NC5kbGw=
 				End
-				Begin IDEScriptBuildStep CopySSLLibs_Windows_Reset , AppliesTo = 0, Architecture = 0
+				Begin IDEScriptBuildStep CopySSLLibs_Windows_Reset , AppliesTo = 0, Architecture = 0, Target = 0
 					PropertyValue("CopySSLLibs_Windows_32Bit.Applies To") = "3" 'None
 					PropertyValue("CopySSLLibs_Windows_64Bit.Applies To") = "3" 'None
 					
