@@ -129,7 +129,7 @@ Begin Window ServerWindow
       Scope           =   2
       TabIndex        =   1
       TabPanelIndex   =   0
-      TabStop         =   "True"
+      TabStop         =   True
       Top             =   0
       Transparent     =   False
       Value           =   10
@@ -371,6 +371,7 @@ Begin Window ServerWindow
          Top             =   37
          Transparent     =   False
          Underline       =   False
+         UnicodeMode     =   0
          UseFocusRing    =   False
          Visible         =   True
          Width           =   734
@@ -1596,6 +1597,7 @@ Begin Window ServerWindow
          Top             =   532
          Transparent     =   False
          Underline       =   False
+         UnicodeMode     =   0
          UseFocusRing    =   False
          Visible         =   True
          Width           =   734
@@ -3313,6 +3315,7 @@ Begin Window ServerWindow
          Top             =   36
          Transparent     =   False
          Underline       =   False
+         UnicodeMode     =   0
          UseFocusRing    =   False
          Visible         =   True
          Width           =   734
@@ -3391,6 +3394,7 @@ Begin Window ServerWindow
          Top             =   264
          Transparent     =   False
          Underline       =   False
+         UnicodeMode     =   0
          UseFocusRing    =   False
          Visible         =   True
          Width           =   734
@@ -7845,95 +7849,95 @@ End
 
 	#tag MenuHandler
 		Function ServerDownloadDatabase() As Boolean Handles ServerDownloadDatabase.Action
-			mSelectedDatabase = DBListbox.Cell(DBListbox.ListIndex, 1)
-			
-			Dim f As FolderItem =SelectFolder()
-			if (f = nil) then return True
-			
-			// New final parameter is for timestamp, which is needed for downloading a backup file,
-			// but not needed here for a server file, so it's left as "".
-			Dim w As New DownloadDBWindow(db, f, mSelectedDatabase, DBListbox.Window, "")
-			w = nil
-			
-			Return True
-			
+		  mSelectedDatabase = DBListbox.Cell(DBListbox.ListIndex, 1)
+		  
+		  Dim f As FolderItem =SelectFolder()
+		  if (f = nil) then return True
+		  
+		  // New final parameter is for timestamp, which is needed for downloading a backup file,
+		  // but not needed here for a server file, so it's left as "".
+		  Dim w As New DownloadDBWindow(db, f, mSelectedDatabase, DBListbox.Window, "")
+		  w = nil
+		  
+		  Return True
+		  
 		End Function
 	#tag EndMenuHandler
 
 	#tag MenuHandler
 		Function ServerManageSchedules() As Boolean Handles ServerManageSchedules.Action
-			Dim dbname As String = DBListbox.Cell(DBListbox.ListIndex, 1)
-			Dim w As New SchedulesWindow(db, dbname, self)
-			w = nil
-			Return True
-			
+		  Dim dbname As String = DBListbox.Cell(DBListbox.ListIndex, 1)
+		  Dim w As New SchedulesWindow(db, dbname, self)
+		  w = nil
+		  Return True
+		  
 		End Function
 	#tag EndMenuHandler
 
 	#tag MenuHandler
 		Function ServerQuit() As Boolean Handles ServerQuit.Action
-			if (ShowQuestion("Are you sure you want to quit cubeSQL Server?") = false) then return true
-			
-			Dim b As Boolean = DoSQLExecute("QUIT SERVER")
-			if (b) then me.Close
-			Return True
-			
+		  if (ShowQuestion("Are you sure you want to quit cubeSQL Server?") = false) then return true
+		  
+		  Dim b As Boolean = DoSQLExecute("QUIT SERVER")
+		  if (b) then me.Close
+		  Return True
+		  
 		End Function
 	#tag EndMenuHandler
 
 	#tag MenuHandler
 		Function ServerRegisterServer() As Boolean Handles ServerRegisterServer.Action
-			Dim wasStatusPanel As Boolean = false
-			Dim row As FGSourceListItem = NavigationList.SelectedItem
-			If (row <> nil) and (row.Tag = "Status") then wasStatusPanel = true
-			
-			Dim w As New RegistrationWindow(db, self)
-			w = nil
-			If (wasStatusPanel) then DoPanelStatus
-			
-			Return True
-			
+		  Dim wasStatusPanel As Boolean = false
+		  Dim row As FGSourceListItem = NavigationList.SelectedItem
+		  If (row <> nil) and (row.Tag = "Status") then wasStatusPanel = true
+		  
+		  Dim w As New RegistrationWindow(db, self)
+		  w = nil
+		  If (wasStatusPanel) then DoPanelStatus
+		  
+		  Return True
+		  
 		End Function
 	#tag EndMenuHandler
 
 	#tag MenuHandler
 		Function ServerResetAdminpassword() As Boolean Handles ServerResetAdminpassword.Action
-			if (ShowQuestion("Are you sure you want to reset Admin password to default?") = false) then return true
-			
-			// "SET", "HASH", "PASSWORD", "%", "FOR", "USER", "%"
-			call DoSQLExecute("SET HASH PASSWORD 'Ss/jICpf9c9GeJj8WKqx1hUClEE=' FOR USER 'admin';")
-			Return True
-			
+		  if (ShowQuestion("Are you sure you want to reset Admin password to default?") = false) then return true
+		  
+		  // "SET", "HASH", "PASSWORD", "%", "FOR", "USER", "%"
+		  call DoSQLExecute("SET HASH PASSWORD 'Ss/jICpf9c9GeJj8WKqx1hUClEE=' FOR USER 'admin';")
+		  Return True
+		  
 		End Function
 	#tag EndMenuHandler
 
 	#tag MenuHandler
 		Function ServerSetDatabaseKey() As Boolean Handles ServerSetDatabaseKey.Action
-			Dim dbname As String = DBListbox.Cell(DBListbox.ListIndex, 1)
-			Dim w As New SetKeyDBWindow(db, dbname, self)
-			w = nil
-			DoPanelDatabases
-			Return True
-			
+		  Dim dbname As String = DBListbox.Cell(DBListbox.ListIndex, 1)
+		  Dim w As New SetKeyDBWindow(db, dbname, self)
+		  w = nil
+		  DoPanelDatabases
+		  Return True
+		  
 		End Function
 	#tag EndMenuHandler
 
 	#tag MenuHandler
 		Function ServerUploadDatabase() As Boolean Handles ServerUploadDatabase.Action
-			dim f as FolderItem
-			#if TargetLinux
-			f = GetOpenFolderItem("????")
-			#else
-			f = GetOpenFolderItem(FileTypes.Any)
-			#endif
-			if (f = nil) then return true
-			
-			Dim w As New UploadDBWindow(db, f, DBListbox.Window)
-			w = nil
-			DoPanelDatabases
-			
-			Return True
-			
+		  dim f as FolderItem
+		  #if TargetLinux
+		    f = GetOpenFolderItem("????")
+		  #else
+		    f = GetOpenFolderItem(FileTypes.Any)
+		  #endif
+		  if (f = nil) then return true
+		  
+		  Dim w As New UploadDBWindow(db, f, DBListbox.Window)
+		  w = nil
+		  DoPanelDatabases
+		  
+		  Return True
+		  
 		End Function
 	#tag EndMenuHandler
 
@@ -8157,7 +8161,16 @@ End
 		Private Sub DoPanelClients()
 		  if (MainPagePanel.Value <> 3) then MainPagePanel.Value = 3
 		  Utils.DisplayRecordSet(DoSQLSelect("SHOW CONNECTIONS"), ClientsListbox, Utils.kClients, nrec)
-		  'if (nrec <> -1) then NavigationList.GetSelectedRow.NumberOfNewItems = nrec
+		  
+		  select case nrec
+		  case 1
+		    ShowMsg(Str(nrec) + " Connection")
+		  case is > 1
+		    ShowMsg(Str(nrec) + " Connections")
+		  else
+		    ShowMsg("")
+		  end select
+		  
 		End Sub
 	#tag EndMethod
 
