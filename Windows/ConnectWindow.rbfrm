@@ -817,6 +817,8 @@ End
 		    return
 		  end if
 		  
+		  call db.SQLExecute("SET CLIENT TYPE TO 'cubeSQLAdmin " + App.ShortVersion + " [CubeSQLPlugin " + CubeSQLPlugin.Version + " | Xojo " + XojoVersionString + "]'")
+		  
 		  if (db.UserName.Lowercase <> "admin") then
 		    if (CheckAdmin(db) = false) then
 		      MsgBox "This application requires Admin privileges in order to function properly."
