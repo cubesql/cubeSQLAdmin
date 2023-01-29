@@ -90,7 +90,6 @@ Begin Window ServerWindow
       Backdrop        =   1847110277
       DoubleBuffer    =   False
       Enabled         =   False
-      EraseBackground =   "False"
       Height          =   30
       HelpTag         =   ""
       Index           =   -2147483648
@@ -132,7 +131,7 @@ Begin Window ServerWindow
       TabStop         =   True
       Top             =   0
       Transparent     =   False
-      Value           =   10
+      Value           =   0
       Visible         =   True
       Width           =   766
       Begin Listbox StatusListbox
@@ -194,7 +193,6 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   "False"
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
@@ -223,7 +221,6 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   "False"
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
@@ -304,7 +301,6 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   "False"
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
@@ -435,7 +431,6 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   "False"
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
@@ -898,7 +893,6 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   "False"
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
@@ -1446,7 +1440,6 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   "False"
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
@@ -1609,7 +1602,6 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   "False"
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
@@ -1694,9 +1686,9 @@ Begin Window ServerWindow
          Index           =   -2147483648
          InitialParent   =   "MainPagePanel"
          Italic          =   False
-         Left            =   634
+         Left            =   695
          LockBottom      =   True
-         LockedInPosition=   False
+         LockedInPosition=   True
          LockLeft        =   False
          LockRight       =   True
          LockTop         =   False
@@ -1716,7 +1708,7 @@ Begin Window ServerWindow
          Transparent     =   False
          Underline       =   False
          Visible         =   True
-         Width           =   176
+         Width           =   115
       End
       Begin BetterTextField LogField
          AcceptTabs      =   False
@@ -1739,7 +1731,7 @@ Begin Window ServerWindow
          Left            =   815
          LimitText       =   0
          LockBottom      =   True
-         LockedInPosition=   False
+         LockedInPosition=   True
          LockLeft        =   False
          LockRight       =   True
          LockTop         =   False
@@ -1795,7 +1787,7 @@ Begin Window ServerWindow
          Transparent     =   False
          Underline       =   False
          Visible         =   True
-         Width           =   584
+         Width           =   485
       End
       Begin Listbox RestoreListbox
          AutoDeactivate  =   True
@@ -1856,7 +1848,6 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   "False"
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
@@ -1885,7 +1876,6 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   "False"
          Height          =   45
          HelpTag         =   ""
          Index           =   -2147483648
@@ -2128,7 +2118,6 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   "False"
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
@@ -2157,7 +2146,6 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   "False"
          Height          =   45
          HelpTag         =   ""
          Index           =   -2147483648
@@ -2412,7 +2400,6 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   "False"
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
@@ -2828,7 +2815,6 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   "False"
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
@@ -2909,7 +2895,6 @@ Begin Window ServerWindow
          Backdrop        =   1867245016
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   "True"
          Height          =   16
          HelpTag         =   ""
          Index           =   -2147483648
@@ -2989,7 +2974,6 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   "False"
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
@@ -3158,7 +3142,6 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   "False"
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
@@ -3187,7 +3170,6 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   "False"
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
@@ -3248,7 +3230,6 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   "False"
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
@@ -3327,7 +3308,6 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   "False"
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
@@ -3539,7 +3519,6 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   "False"
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
@@ -4051,7 +4030,6 @@ Begin Window ServerWindow
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
-            MenuValue       =   "0"
             Scope           =   2
             TabIndex        =   8
             TabPanelIndex   =   9
@@ -4096,7 +4074,6 @@ Begin Window ServerWindow
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
-            MenuValue       =   "0"
             Scope           =   2
             TabIndex        =   9
             TabPanelIndex   =   9
@@ -4141,7 +4118,6 @@ Begin Window ServerWindow
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
-            MenuValue       =   "0"
             Scope           =   2
             TabIndex        =   10
             TabPanelIndex   =   9
@@ -4186,7 +4162,6 @@ Begin Window ServerWindow
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
-            MenuValue       =   "0"
             Scope           =   2
             TabIndex        =   11
             TabPanelIndex   =   9
@@ -4231,7 +4206,6 @@ Begin Window ServerWindow
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
-            MenuValue       =   "0"
             Scope           =   2
             TabIndex        =   12
             TabPanelIndex   =   9
@@ -4276,7 +4250,6 @@ Begin Window ServerWindow
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
-            MenuValue       =   "0"
             Scope           =   2
             TabIndex        =   13
             TabPanelIndex   =   9
@@ -4321,7 +4294,6 @@ Begin Window ServerWindow
             LockLeft        =   False
             LockRight       =   False
             LockTop         =   False
-            MenuValue       =   "0"
             Scope           =   2
             TabIndex        =   14
             TabPanelIndex   =   9
@@ -4768,7 +4740,6 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   "True"
          Height          =   22
          HelpTag         =   ""
          Index           =   -2147483648
@@ -4796,7 +4767,6 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   "False"
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
@@ -4825,7 +4795,6 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   "True"
          Height          =   185
          HelpTag         =   ""
          Index           =   -2147483648
@@ -4852,7 +4821,6 @@ Begin Window ServerWindow
             Backdrop        =   0
             DoubleBuffer    =   False
             Enabled         =   True
-            EraseBackground =   "True"
             Height          =   128
             HelpTag         =   ""
             Index           =   -2147483648
@@ -5073,7 +5041,6 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   "False"
          Height          =   45
          HelpTag         =   ""
          Index           =   -2147483648
@@ -5168,7 +5135,6 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   "False"
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
@@ -5392,7 +5358,6 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   "False"
          Height          =   562
          HelpTag         =   ""
          Index           =   -2147483648
@@ -5419,7 +5384,6 @@ Begin Window ServerWindow
             Backdrop        =   1636657646
             DoubleBuffer    =   False
             Enabled         =   True
-            EraseBackground =   "True"
             Height          =   48
             HelpTag         =   ""
             Index           =   -2147483648
@@ -5701,7 +5665,6 @@ Begin Window ServerWindow
             LockLeft        =   True
             LockRight       =   False
             LockTop         =   True
-            MenuValue       =   "0"
             Scope           =   2
             TabIndex        =   2
             TabPanelIndex   =   17
@@ -5725,7 +5688,6 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   "False"
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
@@ -5754,7 +5716,6 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   "False"
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
@@ -5783,7 +5744,6 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   "False"
          Height          =   562
          HelpTag         =   ""
          Index           =   -2147483648
@@ -5833,7 +5793,6 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   "False"
          Height          =   530
          HelpTag         =   ""
          Index           =   -2147483648
@@ -5904,7 +5863,6 @@ Begin Window ServerWindow
             LockLeft        =   True
             LockRight       =   False
             LockTop         =   True
-            MenuValue       =   "0"
             Scope           =   2
             TabIndex        =   2
             TabPanelIndex   =   19
@@ -5962,7 +5920,6 @@ Begin Window ServerWindow
             Backdrop        =   729536276
             DoubleBuffer    =   False
             Enabled         =   True
-            EraseBackground =   "True"
             Height          =   48
             HelpTag         =   ""
             Index           =   -2147483648
@@ -6026,7 +5983,6 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   "False"
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
@@ -6087,7 +6043,6 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   "False"
          Height          =   24
          HelpTag         =   ""
          Index           =   -2147483648
@@ -6116,7 +6071,6 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   "False"
          Height          =   453
          HelpTag         =   ""
          Index           =   -2147483648
@@ -6165,7 +6119,6 @@ Begin Window ServerWindow
             LockLeft        =   True
             LockRight       =   False
             LockTop         =   True
-            MenuValue       =   "0"
             Scope           =   2
             TabIndex        =   1
             TabPanelIndex   =   20
@@ -6629,7 +6582,6 @@ Begin Window ServerWindow
             LockLeft        =   True
             LockRight       =   False
             LockTop         =   True
-            MenuValue       =   "0"
             Scope           =   2
             TabIndex        =   4
             TabPanelIndex   =   20
@@ -6688,7 +6640,6 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   "False"
          Height          =   248
          HelpTag         =   ""
          Index           =   -2147483648
@@ -7257,7 +7208,6 @@ Begin Window ServerWindow
          Backdrop        =   0
          DoubleBuffer    =   False
          Enabled         =   True
-         EraseBackground =   "False"
          Height          =   139
          HelpTag         =   ""
          Index           =   -2147483648
@@ -7769,7 +7719,7 @@ Begin Window ServerWindow
          Italic          =   False
          Left            =   871
          LockBottom      =   True
-         LockedInPosition=   False
+         LockedInPosition=   True
          LockLeft        =   False
          LockRight       =   True
          LockTop         =   False
