@@ -114,6 +114,32 @@ Protected Module Controls
 	#tag EndMethod
 
 	#tag Method, Flags = &h0, CompatibilityFlags = TargetHasGUI
+		Sub SetWindowIcon_Linux(Extends poWindow As Window, Assigns poIcon As Picture)
+		  'Set Icon for a Window
+		  'in order to show the Icon in the 'Launch Bar'
+		  
+		  #If TargetLinux And TargetDesktop Then 'GTK3
+		    If (poIcon = Nil) Then Return
+		    
+		    Declare Sub gtk_window_set_icon Lib "libgtk-3" (windowHandle As Integer, icon As Ptr)
+		    Declare Sub g_object_unref Lib "libgtk-3" (Object As Ptr)
+		    
+		    Try
+		      Dim ptrToIcon As Ptr = poIcon.CopyOSHandle(Picture.HandleType.LinuxGdkPixbuf)
+		      If (ptrToIcon <> Nil) Then
+		        gtk_window_set_icon(poWindow.Handle, ptrToIcon)
+		        g_object_unref(ptrToIcon)
+		      End If
+		    Catch err As RuntimeException
+		      'ignore
+		    End Try
+		    
+		  #EndIf
+		  
+		End Sub
+	#tag EndMethod
+
+	#tag Method, Flags = &h0, CompatibilityFlags = TargetHasGUI
 		Sub WM_SendMessage(piHwnd as Integer, piMsg as UInt32, piWParam as Integer, piLParam as Integer)
 		  #if TargetWindows then
 		    const CB_SETDROPPEDWIDTH = 352
@@ -150,7 +176,9 @@ Protected Module Controls
 			Name="Name"
 			Visible=true
 			Group="ID"
+			InitialValue=""
 			Type="String"
+			EditorType=""
 		#tag EndViewProperty
 		#tag ViewProperty
 			Name="Index"
@@ -158,12 +186,15 @@ Protected Module Controls
 			Group="ID"
 			InitialValue="-2147483648"
 			Type="Integer"
+			EditorType=""
 		#tag EndViewProperty
 		#tag ViewProperty
 			Name="Super"
 			Visible=true
 			Group="ID"
+			InitialValue=""
 			Type="String"
+			EditorType=""
 		#tag EndViewProperty
 		#tag ViewProperty
 			Name="Left"
@@ -171,6 +202,7 @@ Protected Module Controls
 			Group="Position"
 			InitialValue="0"
 			Type="Integer"
+			EditorType=""
 		#tag EndViewProperty
 		#tag ViewProperty
 			Name="Top"
@@ -178,6 +210,7 @@ Protected Module Controls
 			Group="Position"
 			InitialValue="0"
 			Type="Integer"
+			EditorType=""
 		#tag EndViewProperty
 	#tag EndViewBehavior
 End Module
