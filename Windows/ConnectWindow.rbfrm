@@ -699,6 +699,17 @@ End
 		End Function
 	#tag EndMethod
 
+	#tag Method, Flags = &h0
+		Sub Constructor()
+		  Super.Constructor
+		  
+		  #If TargetLinux And TargetDesktop Then 'GTK3
+		    Dim oIcon As Picture = icon.BestRepresentation(128, 128, 1.0)
+		    If (oIcon <> Nil) Then Self.SetWindowIcon_Linux = oIcon
+		  #EndIf
+		End Sub
+	#tag EndMethod
+
 	#tag Method, Flags = &h21
 		Private Function GetSSLCertificate() As FolderItem
 		  Dim f As FolderItem
@@ -816,6 +827,8 @@ End
 		    MsgBox "Error connecting to server " + HostField.Text + "."+ EndOfLine + EndOfLine + db.ErrorMessage
 		    return
 		  end if
+		  
+		  call db.SQLExecute("SET CLIENT TYPE TO 'cubeSQLAdmin " + App.ShortVersion + " [CubeSQLPlugin " + CubeSQLPlugin.Version + " | Xojo " + XojoVersionString + "]'")
 		  
 		  if (db.UserName.Lowercase <> "admin") then
 		    if (CheckAdmin(db) = false) then
