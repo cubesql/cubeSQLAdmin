@@ -41,52 +41,52 @@ Inherits Application
 
 	#tag MenuHandler
 		Function AboutBox() As Boolean Handles AboutBox.Action
-			AboutBoxWindow.Show
-			Return True
-			
+		  AboutBoxWindow.Show
+		  Return True
+		  
 		End Function
 	#tag EndMenuHandler
 
 	#tag MenuHandler
 		Function ServerConnect() As Boolean Handles ServerConnect.Action
-			ConnectWindow.Show
-			Return True
-			
+		  ConnectWindow.Show
+		  Return True
+		  
 		End Function
 	#tag EndMenuHandler
 
 	#tag MenuHandler
 		Function ServerGetaDeveloperKey() As Boolean Handles ServerGetaDeveloperKey.Action
-			ShowURL "https://www.sqlabs.com/cubesql_devkey.php"
-			Return True
-			
+		  ShowURL "https://www.sqlabs.com/cubesql_devkey.php"
+		  Return True
+		  
 		End Function
 	#tag EndMenuHandler
 
 
 	#tag Method, Flags = &h21
 		Private Function GetErrorDesc(err As RuntimeException) As String
-		  If err IsA NilObjectException then
-		    return "Nil Object Exception"
-		  elseif err IsA OutOfBoundsException then
-		    return "Out of Bounds"
-		  elseif err IsA TypeMismatchException then
-		    return "Type Mismatch"
-		  elseif err IsA illegalCastException then
-		    return "llegal Cast"
-		  elseif err IsA InvalidParentException then
-		    return "Invalid Parent"
-		  elseif err IsA KeyNotFoundException then
-		    return "Key Not Found Exception"
-		  elseif err IsA OutOfMemoryException then
-		    return "Out Of Memory"
-		  elseif err IsA StackOverflowException then
-		    return "Stack Overflow"
-		  elseif err IsA ThreadAlreadyRunningException then
-		    return "Thread Already Running"
-		  else
-		    return "Unknown error"
-		  end if
+		  If err IsA NilObjectException Then
+		    Return "Nil Object Exception"
+		  ElseIf err IsA OutOfBoundsException Then
+		    Return "Out of Bounds"
+		  ElseIf err IsA TypeMismatchException Then
+		    Return "Type Mismatch"
+		  ElseIf err IsA illegalCastException Then
+		    Return "llegal Cast"
+		  ElseIf err IsA InvalidParentException Then
+		    Return "Invalid Parent"
+		  ElseIf err IsA KeyNotFoundException Then
+		    Return "Key Not Found Exception"
+		  ElseIf err IsA OutOfMemoryException Then
+		    Return "Out Of Memory"
+		  ElseIf err IsA StackOverflowException Then
+		    Return "Stack Overflow"
+		  ElseIf err IsA ThreadAlreadyRunningException Then
+		    Return "Thread Already Running"
+		  Else
+		    Return "Unknown error"
+		  End If
 		  
 		  
 		End Function
@@ -95,43 +95,67 @@ Inherits Application
 	#tag Method, Flags = &h21
 		Private Function GetLinuxLibrary(psName As String) As FolderItem
 		  #If TargetLinux Then
-		    Dim systemLibs_Folders() As String
-		    Dim systemLibs_Filenames() As String
+		    Dim sLibraryFolders() As String
+		    Dim sLibraryFilenames() As String
 		    
-		    systemLibs_Filenames.Append(psName + ".so.1.1")
-		    systemLibs_Filenames.Append(psName + ".so.1.0.2")
-		    systemLibs_Filenames.Append(psName + ".so.1.0.0")
-		    systemLibs_Filenames.Append(psName + ".so.0.9.8")
-		    systemLibs_Filenames.Append(psName + ".so") 'is usually a symlink, but might point to non supported version by CubeSQLPlugin
+		    'OpenSSL Versions: CubeSQLPlugin supports OpenSSL 1.1 and older
+		    '1st: try to find OpenSSL 1.1 from the system
+		    sLibraryFilenames.Append(psName + ".so.1.1")
+		    '2nd: try to find older OpenSSL versions from the system
+		    sLibraryFilenames.Append(psName + ".so.1.0.2")
+		    sLibraryFilenames.Append(psName + ".so.1.0.0")
+		    sLibraryFilenames.Append(psName + ".so.0.9.8")
+		    '3rd: this is usually a symlink and might point to a version not supported by CubeSQLPlugin
+		    sLibraryFilenames.Append(psName + ".so")
 		    
+		    'OpenSSL Library location
+		    Try
+		      '1st: try OpenSSL manually added to this application
+		      Dim oSSLAdminPath As FolderItem = Prefs.SSLAdminPath
+		      If (oSSLAdminPath <> Nil) And oSSLAdminPath.Exists And oSSLAdminPath.Directory Then
+		        sLibraryFolders.Append(oSSLAdminPath.NativePath)
+		      End If
+		      
+		      '2nd: try OpenSSL bundled with this application
+		      sLibraryFolders.Append(App.ExecutableFile.Parent.Child(App.ExecutableFile.Name + " Libs").NativePath)
+		      sLibraryFolders.Append(App.ExecutableFile.Parent.NativePath)
+		    Catch err As RuntimeException
+		      'ignore and continue
+		    End Try
+		    
+		    '3rd: try to find OpenSSL on the system
 		    #If Target32Bit Then
 		      #If TargetARM Then
-		        systemLibs_Folders.Append("/lib/arm-linux-gnueabihf/")
-		        systemLibs_Folders.Append("/usr/lib/arm-linux-gnueabihf/")
+		        sLibraryFolders.Append("/lib/arm-linux-gnueabihf/")
+		        sLibraryFolders.Append("/usr/lib/arm-linux-gnueabihf/")
 		      #EndIf
-		      systemLibs_Folders.Append("/lib/i386-linux-gnu/")
-		      systemLibs_Folders.Append("/usr/lib/i386-linux-gnu/")
-		      systemLibs_Folders.Append("/lib32/")
-		      systemLibs_Folders.Append("/usr/lib32/")
+		      sLibraryFolders.Append("/lib/i386-linux-gnu/")
+		      sLibraryFolders.Append("/usr/lib/i386-linux-gnu/")
+		      sLibraryFolders.Append("/lib32/")
+		      sLibraryFolders.Append("/usr/lib32/")
 		    #EndIf
 		    #If Target64Bit Then
 		      #If TargetARM Then
 		        #Pragma Error "SSL Library locations has not been implemented yet for this BuildTarget"
 		      #EndIf
-		      systemLibs_Folders.Append("/lib/x86_64-linux-gnu/")
-		      systemLibs_Folders.Append("/usr/lib/x86_64-linux-gnu/")
-		      systemLibs_Folders.Append("/lib64/")
-		      systemLibs_Folders.Append("/usr/lib64/")
+		      sLibraryFolders.Append("/lib/x86_64-linux-gnu/")
+		      sLibraryFolders.Append("/usr/lib/x86_64-linux-gnu/")
+		      sLibraryFolders.Append("/lib64/")
+		      sLibraryFolders.Append("/usr/lib64/")
 		    #EndIf
 		    
-		    systemLibs_Folders.Append("/lib/")
-		    systemLibs_Folders.Append("/usr/lib/")
+		    sLibraryFolders.Append("/lib/")
+		    sLibraryFolders.Append("/usr/lib/")
 		    
 		    Dim oFile As FolderItem
-		    For Each sSystemLibsFolder As String In systemLibs_Folders
-		      For Each sSystemLibsFilename As String In systemLibs_Filenames
-		        oFile = GetFolderItem(sSystemLibsFolder + sSystemLibsFilename, FolderItem.PathTypeShell)
-		        If (oFile <> Nil) And (Not oFile.Directory) And oFile.Exists Then Return oFile
+		    For Each sSystemLibsFolder As String In sLibraryFolders
+		      For Each sSystemLibsFilename As String In sLibraryFilenames
+		        Try
+		          oFile = GetFolderItem(sSystemLibsFolder + sSystemLibsFilename, FolderItem.PathTypeShell)
+		          If (oFile <> Nil) And (Not oFile.Directory) And oFile.Exists Then Return oFile
+		        Catch err As RuntimeException
+		          'ignore and continue
+		        End Try
 		      Next
 		    Next
 		    
@@ -149,7 +173,7 @@ Inherits Application
 		  
 		  #If TargetMacOS Then
 		    'SSL Library is included in CubeSQLPlugin
-		    return
+		    Return
 		    
 		  #ElseIf TargetWindows Then
 		    'Try to locate the SSL Library in these folders
@@ -194,6 +218,7 @@ Inherits Application
 		  #EndIf
 		  
 		  If (SSLLibFile = Nil) Or (CryptoLibFile = Nil) Then Return
+		  If SSLLibFile.Directory Or CryptoLibFile.Directory Then Return
 		  If (Not SSLLibFile.Exists) Or (Not CryptoLibFile.Exists) Then Return
 		  
 		  'set SSL Library for CubeSQLPlugin
