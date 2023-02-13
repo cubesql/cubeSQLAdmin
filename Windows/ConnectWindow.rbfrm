@@ -633,7 +633,7 @@ Begin Window ConnectWindow
       BackColor       =   &cFFFFFF00
       Bold            =   False
       Border          =   True
-      CueText         =   ""
+      CueText         =   "SSL Cert: PEM Pwd"
       DataField       =   ""
       DataSource      =   ""
       Enabled         =   True

@@ -153,15 +153,15 @@ Protected Module Prefs
 		Protected Function SSLAdminPath() As FolderItem
 		  // first check for a SSL folder next to executable
 		  Dim f As FolderItem = GetFolderItem("")
-		  if (f <> nil) then f = f.Child("SSL")
-		  if (f <> nil) and (f.Exists) then return f
+		  If (f <> Nil) Then f = f.Child("SSL")
+		  If (f <> Nil) And f.Directory And f.Exists Then Return f
 		  
 		  // then lookup in ApplicationData folder
 		  f = SpecialFolder.ApplicationData
-		  if (f <> nil) then f = f.Child("cubeSQLAdmin SSL")
-		  if (f <> nil) and (f.Exists) then return f
+		  If (f <> Nil) Then f = f.Child("cubeSQLAdmin SSL")
+		  If (f <> Nil) And f.Directory And f.Exists Then Return f
 		  
-		  return nil
+		  Return Nil
 		  
 		End Function
 	#tag EndMethod
@@ -213,6 +213,7 @@ Protected Module Prefs
 			Group="ID"
 			InitialValue="2147483648"
 			Type="Integer"
+			EditorType=""
 		#tag EndViewProperty
 		#tag ViewProperty
 			Name="Left"
@@ -220,18 +221,23 @@ Protected Module Prefs
 			Group="Position"
 			InitialValue="0"
 			Type="Integer"
+			EditorType=""
 		#tag EndViewProperty
 		#tag ViewProperty
 			Name="Name"
 			Visible=true
 			Group="ID"
+			InitialValue=""
 			Type="String"
+			EditorType=""
 		#tag EndViewProperty
 		#tag ViewProperty
 			Name="Super"
 			Visible=true
 			Group="ID"
+			InitialValue=""
 			Type="String"
+			EditorType=""
 		#tag EndViewProperty
 		#tag ViewProperty
 			Name="Top"
@@ -239,6 +245,7 @@ Protected Module Prefs
 			Group="Position"
 			InitialValue="0"
 			Type="Integer"
+			EditorType=""
 		#tag EndViewProperty
 	#tag EndViewBehavior
 End Module
