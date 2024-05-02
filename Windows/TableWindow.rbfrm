@@ -670,7 +670,7 @@ End
 		  next
 		  
 		  if (isMulti) then
-		    uniqueFields = " UNIQUE ("
+		    uniqueFields = ", UNIQUE ("
 		    for i=0 to count
 		      // name
 		      constraint = TableListbox.Cell(i, 4).Uppercase
