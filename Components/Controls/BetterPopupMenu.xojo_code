@@ -3,17 +3,13 @@ Protected Class BetterPopupMenu
 Inherits PopupMenu
 	#tag Event
 		Sub Open()
-		  #if TargetLinux and (XojoVersion >= 2017.02) then
-		    me.InitControl_GTK3()
-		  #endif
-		  
 		  #If TargetLinux
-		    Controls.InitControl_Height(me) = 26
-		  #endif
+		    Controls.InitControl_Height(Me) = 26
+		  #EndIf
 		  
 		  #If TargetWindows
-		    Controls.InitControl_Height(me) = 22
-		  #endif
+		    Controls.InitControl_Height(Me) = 22
+		  #EndIf
 		  
 		  Open
 		End Sub
