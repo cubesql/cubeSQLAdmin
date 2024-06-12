@@ -18,8 +18,6 @@ Inherits Application
 
 	#tag Event
 		Sub Open()
-		  Controls.GTK3_GlobalStyleCSS()
-		  
 		  call Prefs.Open
 		  SSLStartupCheck
 		End Sub

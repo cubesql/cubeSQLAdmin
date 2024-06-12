@@ -3,17 +3,13 @@ Protected Class BetterTextField
 Inherits TextField
 	#tag Event
 		Sub Open()
-		  #if TargetLinux and (XojoVersion >= 2017.02) then
-		    me.InitControl_GTK3()
-		  #endif
-		  
 		  #If TargetLinux
-		    Controls.InitControl_Height(me) = 26
-		  #endif
+		    Controls.InitControl_Height(Me) = 26
+		  #EndIf
 		  
 		  #If TargetWindows
-		    Controls.InitControl_Height(me) = 22
-		  #endif
+		    Controls.InitControl_Height(Me) = 22
+		  #EndIf
 		  
 		  Open
 		End Sub
@@ -26,6 +22,14 @@ Inherits TextField
 
 
 	#tag ViewBehavior
+		#tag ViewProperty
+			Name="Text"
+			Visible=true
+			Group="Initial State"
+			InitialValue=""
+			Type="String"
+			EditorType="MultiLineEditor"
+		#tag EndViewProperty
 		#tag ViewProperty
 			Name="AllowAutoDeactivate"
 			Visible=true
@@ -99,14 +103,6 @@ Inherits TextField
 		#tag EndViewProperty
 		#tag ViewProperty
 			Name="Hint"
-			Visible=true
-			Group="Initial State"
-			InitialValue=""
-			Type="String"
-			EditorType="MultiLineEditor"
-		#tag EndViewProperty
-		#tag ViewProperty
-			Name="Value"
 			Visible=true
 			Group="Initial State"
 			InitialValue=""
