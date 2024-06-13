@@ -3,14 +3,14 @@
 <img width="1072" alt="screenshot" src="https://user-images.githubusercontent.com/11838145/44573836-066d0900-a788-11e8-9322-60c326a8e9ab.png">
 
 ## Build from sources
-In order to build cubeSQL Admin application, Xojo and the latest cubeSQL Xojo plugin are required.
+In order to build the cubeSQL Admin application, Xojo, and the latest cubeSQL Xojo plugin are required.
 * Xojo can be obtained from: [https://xojo.com/](https://xojo.com/)
-* Latest cubeSQL Xojo plugin can be found inside the Plugins folder
+* Latest cubeSQL Xojo plugin can be found in: https://github.com/marcobambini/cubesqlplugin
 
-If you fix any issue or improve the application please share your changes!
+If you have fixed any issue or improved the application, please share your changes!
 
 ## Ready to use executables
-In the Executables folder you can find ready to use binaries for all supported platforms:
+In the Executables folder, you can find ready to use binaries for all supported platforms:
 * [Windows 64bit](https://github.com/cubesql/cubeSQLAdmin/blob/master/Executables/Windows_64bit.zip) (Windows 7sp1/8.1/10)
 * [Windows 32bit](https://github.com/cubesql/cubeSQLAdmin/blob/master/Executables/Windows_32bit.zip) (Windows 7sp1/8.1/10)
 * [Linux 64 bit](https://github.com/cubesql/cubeSQLAdmin/blob/master/Executables/Linux_64bit.zip)
