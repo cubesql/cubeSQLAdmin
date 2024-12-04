@@ -11,13 +11,14 @@ If you have fixed any issue or improved the application, please share your chang
 
 ## Ready to use executables
 In the Executables folder, you can find ready to use binaries for all supported platforms:
-* [Windows 64bit](https://github.com/cubesql/cubeSQLAdmin/blob/master/Executables/Windows_64bit.zip) (Windows 7sp1/8.1/10)
-* [Windows 32bit](https://github.com/cubesql/cubeSQLAdmin/blob/master/Executables/Windows_32bit.zip) (Windows 7sp1/8.1/10)
-* [Linux 64 bit](https://github.com/cubesql/cubeSQLAdmin/blob/master/Executables/Linux_64bit.zip)
-* [Linux 32 bit](https://github.com/cubesql/cubeSQLAdmin/blob/master/Executables/Linux_32bit.zip)
-* [MacOS 32bit](https://github.com/cubesql/cubeSQLAdmin/blob/master/Executables/MacOS_32bit.zip) (for MacOS version 10.7 to 10.9)
-* [MacOS 64bit Intel/ARM](https://github.com/cubesql/cubeSQLAdmin/blob/master/Executables/MacOS_64bit.zip) (for MacOS 10.10.5 or higher)
-* [Linux ARM 32bit](https://github.com/cubesql/cubeSQLAdmin/blob/master/Executables/RaspberryPi.zip) (Raspberry Pi2 and Pi3)
+* [Windows x86 64bit](https://github.com/cubesql/cubeSQLAdmin/blob/master/Executables/Windows_x86_64bit.zip) (Windows 8.1/11)
+* [Windows x86 32bit](https://github.com/cubesql/cubeSQLAdmin/blob/master/Executables/Windows_x86_32bit.zip) (Windows 8.1/11)
+* [Windows ARM 64bit](https://github.com/cubesql/cubeSQLAdmin/blob/master/Executables/Windows_ARM_64bit.zip) (Windows 8.1/11)
+* [Linux 64 bit](https://github.com/cubesql/cubeSQLAdmin/blob/master/Executables/Linux_x86_64bit.zip)
+* [Linux 32 bit](https://github.com/cubesql/cubeSQLAdmin/blob/master/Executables/Linux_x86_32bit.zip)
+* [MacOS Universal](https://github.com/cubesql/cubeSQLAdmin/blob/master/Executables/macOS_Universal.zip) (for MacOS 10.14 or higher)
+* [RaspberryPi 32bit](https://github.com/cubesql/cubeSQLAdmin/blob/master/Executables/RaspberryPi_32bit.zip) (Raspberry Pi2 and Pi3)
+* [RaspberryPi 64bit](https://github.com/cubesql/cubeSQLAdmin/blob/master/Executables/RaspberryPi_64bit.zip) (Raspberry Pi4 or higher)
 
 ## Contact
 Marco Bambini (marco@sqlabs.com)
