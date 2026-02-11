@@ -9,7 +9,7 @@ Begin Window RegistrationWindow
    FullScreenButton=   False
    HasBackColor    =   False
    Height          =   186
-   ImplicitInstance=   True
+   ImplicitInstance=   False
    LiveResize      =   "True"
    MacProcID       =   0
    MaxHeight       =   32000
@@ -25,7 +25,7 @@ Begin Window RegistrationWindow
    Title           =   "cubeSQL Registration"
    Visible         =   True
    Width           =   490
-   Begin Label RegistrationField1
+   Begin Label RegistrationTitle
       AutoDeactivate  =   True
       Bold            =   True
       DataField       =   ""
@@ -69,8 +69,6 @@ Begin Window RegistrationWindow
       Bold            =   False
       Border          =   True
       CueText         =   ""
-      DataField       =   ""
-      DataSource      =   ""
       Enabled         =   True
       Format          =   ""
       Height          =   22
@@ -221,8 +219,6 @@ Begin Window RegistrationWindow
       Bold            =   False
       Border          =   True
       CueText         =   ""
-      DataField       =   ""
-      DataSource      =   ""
       Enabled         =   True
       Format          =   ""
       Height          =   22
@@ -256,7 +252,7 @@ Begin Window RegistrationWindow
       Visible         =   True
       Width           =   381
    End
-   Begin Label RegistrationField11
+   Begin Label NameTitle
       AutoDeactivate  =   True
       Bold            =   True
       DataField       =   ""
@@ -291,7 +287,7 @@ Begin Window RegistrationWindow
       Visible         =   True
       Width           =   57
    End
-   Begin Label RegistrationField111
+   Begin Label KeyTitle
       AutoDeactivate  =   True
       Bold            =   True
       DataField       =   ""
@@ -330,11 +326,39 @@ End
 #tag EndWindow
 
 #tag WindowCode
+	#tag Event
+		Sub Open()
+		  If (mdb = Nil) Then Return
+		  
+		  Dim v As String
+		  
+		  Dim rs As RecordSet = mdb.SQLSelect("SHOW PREFERENCE KEY_NAME")
+		  If (rs<>Nil) And (rs.RecordCount = 1) And (rs.FieldCount >= 2) Then
+		    v = rs.IdxField(2).StringValue
+		    If (v = "0") Then v = ""
+		    
+		    NameField.Text = v
+		  End If
+		  
+		  rs = mdb.SQLSelect("SHOW PREFERENCE KEY_VALUE")
+		  If (rs<>Nil) And (rs.RecordCount = 1) And (rs.FieldCount >= 2) Then
+		    v = rs.IdxField(2).StringValue
+		    If (v = "0") Then v = ""
+		    
+		    KeyField.Text = v
+		  End If
+		  
+		End Sub
+	#tag EndEvent
+
+
 	#tag Method, Flags = &h0
 		Sub Constructor(db As CubeSQLServer, parentWindow as Window)
-		  Super.Window()
 		  mdb = db
-		  me.ShowModalWithin(parentWindow)
+		  
+		  Super.Window()
+		  
+		  Me.ShowModalWithin(parentWindow)
 		End Sub
 	#tag EndMethod
 
