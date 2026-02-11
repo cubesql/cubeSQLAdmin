@@ -145,7 +145,7 @@ Begin Window AboutBoxWindow
       TabIndex        =   6
       TabPanelIndex   =   0
       TabStop         =   True
-      Text            =   "Copyright © 2006-2024 SQLabs, All Rights Reserved."
+      Text            =   "Copyright © 2006-2026 SQLabs, All Rights Reserved."
       TextAlign       =   1
       TextColor       =   &c00000000
       TextFont        =   "SmallSystem"
