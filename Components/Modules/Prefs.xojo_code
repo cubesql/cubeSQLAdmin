@@ -101,7 +101,7 @@ Protected Module Prefs
 	#tag Method, Flags = &h1
 		Protected Function Open() As Boolean
 		  if (db <> nil) then return true
-		  db = New REALSQLDatabase
+		  db = New SQLiteDatabase
 		  if (db = nil) then return false
 		  
 		  Dim f As FolderItem = SpecialFolder.Preferences.Child(filename)
@@ -187,7 +187,7 @@ Protected Module Prefs
 
 
 	#tag Property, Flags = &h21
-		Private db As REALSQLDatabase
+		Private db As SQLiteDatabase
 	#tag EndProperty
 
 
