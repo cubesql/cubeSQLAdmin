@@ -11,14 +11,14 @@ If you have fixed any issue or improved the application, please share your chang
 
 ## Ready to use executables
 In the Executables folder, you can find ready to use binaries for all supported platforms:
+* [MacOS Universal](https://github.com/cubesql/cubeSQLAdmin/blob/master/Executables/macOS_Universal.zip) (for MacOS 10.14 or higher)
 * [Windows x86 64bit](https://github.com/cubesql/cubeSQLAdmin/blob/master/Executables/Windows_x86_64bit.zip) (Windows 8.1/11)
 * [Windows x86 32bit](https://github.com/cubesql/cubeSQLAdmin/blob/master/Executables/Windows_x86_32bit.zip) (Windows 8.1/11)
 * [Windows ARM 64bit](https://github.com/cubesql/cubeSQLAdmin/blob/master/Executables/Windows_ARM_64bit.zip) (Windows 8.1/11)
-* [Linux 64 bit](https://github.com/cubesql/cubeSQLAdmin/blob/master/Executables/Linux_x86_64bit.zip)
-* [Linux 32 bit](https://github.com/cubesql/cubeSQLAdmin/blob/master/Executables/Linux_x86_32bit.zip)
-* [MacOS Universal](https://github.com/cubesql/cubeSQLAdmin/blob/master/Executables/macOS_Universal.zip) (for MacOS 10.14 or higher)
-* [RaspberryPi 32bit](https://github.com/cubesql/cubeSQLAdmin/blob/master/Executables/RaspberryPi_32bit.zip) (Raspberry Pi2 and Pi3)
-* [RaspberryPi 64bit](https://github.com/cubesql/cubeSQLAdmin/blob/master/Executables/RaspberryPi_64bit.zip) (Raspberry Pi4 or higher)
+* [Linux x86 64bit](https://github.com/cubesql/cubeSQLAdmin/blob/master/Executables/Linux_x86_64bit.zip)
+* [Linux x86 32bit](https://github.com/cubesql/cubeSQLAdmin/blob/master/Executables/Linux_x86_32bit.zip)
+* [Linux ARM 64bit](https://github.com/cubesql/cubeSQLAdmin/blob/master/Executables/RaspberryPi_64bit.zip) (Raspberry Pi4 or higher)
+* [Linux ARM 32bit](https://github.com/cubesql/cubeSQLAdmin/blob/master/Executables/RaspberryPi_32bit.zip) (Raspberry Pi2 and Pi3)
 
 ## Contact
 Marco Bambini (marco@sqlabs.com)
@@ -27,7 +27,7 @@ Marco Bambini (marco@sqlabs.com)
 ```
 The MIT License (MIT)
 
-Copyright (c) 2023 SQLabs
+Copyright (c) SQLabs
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
