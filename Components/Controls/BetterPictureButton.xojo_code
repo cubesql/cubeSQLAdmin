@@ -57,13 +57,12 @@ Inherits Canvas
 		  g.ForeColor = DarkBevelColor
 		  if Utils.IsMacOSDarkMode then g.ForeColor = FrameColor
 		  
-		  #if TargetLinux then
+		  g.PenWidth = 1 / Self.ScaleFactor
+		  g.PenHeight = 1 / Self.ScaleFactor
+		  
+		  #if TargetLinux or TargetMacOS then
 		    g.DrawRoundRect(0, 0, g.Width, g.Height, 8, 8)
 		  #else
-		    #if TargetWindows or TargetMacOS then
-		      g.PenWidth = 1 / self.ScaleFactor
-		      g.PenHeight = 1 / self.ScaleFactor
-		    #endif
 		    g.DrawRect(0, 0, g.Width, g.Height)
 		  #endif
 		  
