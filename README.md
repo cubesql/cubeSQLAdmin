@@ -11,7 +11,7 @@ If you have fixed any issue or improved the application, please share your chang
 
 ## Ready to use executables
 In the Executables folder, you can find ready to use binaries for all supported platforms:
-* [MacOS Universal](https://github.com/cubesql/cubeSQLAdmin/blob/master/Executables/macOS_Universal.zip) (for MacOS 10.14 or higher)
+* [MacOS Universal](https://github.com/cubesql/cubeSQLAdmin/blob/master/Executables/macOS_Universal.zip) (macOS 10.14 or higher)
 * [Windows x86 64bit](https://github.com/cubesql/cubeSQLAdmin/blob/master/Executables/Windows_x86_64bit.zip) (Windows 8.1/11)
 * [Windows x86 32bit](https://github.com/cubesql/cubeSQLAdmin/blob/master/Executables/Windows_x86_32bit.zip) (Windows 8.1/11)
 * [Windows ARM 64bit](https://github.com/cubesql/cubeSQLAdmin/blob/master/Executables/Windows_ARM_64bit.zip) (Windows 8.1/11)

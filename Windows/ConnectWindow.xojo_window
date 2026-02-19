@@ -171,8 +171,6 @@ Begin Window ConnectWindow
       Bold            =   False
       Border          =   True
       CueText         =   ""
-      DataField       =   ""
-      DataSource      =   ""
       Enabled         =   True
       Format          =   ""
       Height          =   22
@@ -202,7 +200,7 @@ Begin Window ConnectWindow
       Top             =   13
       Transparent     =   False
       Underline       =   False
-      UseFocusRing    =   False
+      UseFocusRing    =   True
       Visible         =   True
       Width           =   243
    End
@@ -215,8 +213,6 @@ Begin Window ConnectWindow
       Bold            =   False
       Border          =   True
       CueText         =   ""
-      DataField       =   ""
-      DataSource      =   ""
       Enabled         =   True
       Format          =   ""
       Height          =   22
@@ -246,7 +242,7 @@ Begin Window ConnectWindow
       Top             =   44
       Transparent     =   False
       Underline       =   False
-      UseFocusRing    =   False
+      UseFocusRing    =   True
       Visible         =   True
       Width           =   289
    End
@@ -259,8 +255,6 @@ Begin Window ConnectWindow
       Bold            =   False
       Border          =   True
       CueText         =   ""
-      DataField       =   ""
-      DataSource      =   ""
       Enabled         =   True
       Format          =   ""
       Height          =   22
@@ -290,7 +284,7 @@ Begin Window ConnectWindow
       Top             =   77
       Transparent     =   False
       Underline       =   False
-      UseFocusRing    =   False
+      UseFocusRing    =   True
       Visible         =   True
       Width           =   289
    End
@@ -332,8 +326,6 @@ Begin Window ConnectWindow
    Begin BetterPopupMenu EncryptionPopup
       AutoDeactivate  =   True
       Bold            =   False
-      DataField       =   ""
-      DataSource      =   ""
       Enabled         =   True
       Height          =   20
       HelpTag         =   ""
@@ -427,8 +419,6 @@ Begin Window ConnectWindow
       Bold            =   False
       Border          =   True
       CueText         =   ""
-      DataField       =   ""
-      DataSource      =   ""
       Enabled         =   True
       Format          =   ""
       Height          =   22
@@ -458,7 +448,7 @@ Begin Window ConnectWindow
       Top             =   109
       Transparent     =   False
       Underline       =   False
-      UseFocusRing    =   False
+      UseFocusRing    =   True
       Visible         =   True
       Width           =   101
    End
@@ -471,8 +461,6 @@ Begin Window ConnectWindow
       Bold            =   False
       Border          =   True
       CueText         =   ""
-      DataField       =   ""
-      DataSource      =   ""
       Enabled         =   True
       Format          =   ""
       Height          =   22
@@ -502,7 +490,7 @@ Begin Window ConnectWindow
       Top             =   108
       Transparent     =   False
       Underline       =   False
-      UseFocusRing    =   False
+      UseFocusRing    =   True
       Visible         =   True
       Width           =   66
    End
@@ -634,8 +622,6 @@ Begin Window ConnectWindow
       Bold            =   False
       Border          =   True
       CueText         =   "SSL Cert: PEM Pwd"
-      DataField       =   ""
-      DataSource      =   ""
       Enabled         =   True
       Format          =   ""
       Height          =   22
@@ -664,7 +650,7 @@ Begin Window ConnectWindow
       Top             =   142
       Transparent     =   False
       Underline       =   False
-      UseFocusRing    =   False
+      UseFocusRing    =   True
       Visible         =   False
       Width           =   137
    End

@@ -6,8 +6,18 @@
 			Begin BuildStepList Mac OS X
 				Begin BuildProjectStep Build
 				End
+				Begin CopyFilesBuildStep AssetsCar
+					AppliesTo = 0
+					Architecture = 0
+					Target = 0
+					Destination = 1
+					Subdirectory = 
+					FolderItem = Li4vUmVzb3VyY2VzL0Fzc2V0cy5jYXI=
+					FolderItem = Li4vUmVzb3VyY2VzL0FwcC5pY25z
+				End
 				Begin SignProjectStep Sign
 				  DeveloperID=
+				  macOSEntitlements={"App Sandbox":"False","Hardened Runtime":"False","Notarize":"False","UserEntitlements":""}
 				End
 			End
 			Begin BuildStepList Windows
